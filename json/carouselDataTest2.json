@@ -1,0 +1,202 @@
+{
+    "mainHeader" : "Objekt overskrift figurer",
+    "instruction" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
+    "explanation" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
+    "slideData": [
+        {   
+            "carouselNo" : 0,
+            "status" : {"active": false, "answered": false},
+            "ctrlBtn" : "Diagram 0",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                        "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_black.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                        "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_black.png",
+                        "alt": "Eksternt billede..."
+                    },{
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_black.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_black.png",
+                        "alt": "Eksternt billede..."
+                    }
+                ]
+            }
+        },
+        {   
+            "carouselNo" : 1,
+            "status" : {"active": false, "answered": false},
+            "ctrlBtn" : "Diagram 1",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                        "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_green.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                        "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_green.png",
+                        "alt": "Eksternt billede..."
+                    },{
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_green.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_green.png",
+                        "alt": "Eksternt billede..."
+                    }
+                ]
+            }
+        },
+        {   
+            "carouselNo" : 2,
+            "status" : {"active": false, "answered": false},
+            "ctrlBtn" : "Diagram 2",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                        "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_red.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                        "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_red.png",
+                        "alt": "Eksternt billede..."
+                    },{
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_red.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_red.png",
+                        "alt": "Eksternt billede..."
+                    }
+                ]
+            }
+        },
+        {   
+            "carouselNo" : 3,
+            "status" : {"active": false, "answered": false},
+            "ctrlBtn" : "Diagram 3",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                        "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_blue.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                        "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_blue.png",
+                        "alt": "Eksternt billede..."
+                    },{
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_blue.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_blue.png",
+                        "alt": "Eksternt billede..."
+                    }
+                ]
+            }
+        },
+        {   
+            "carouselNo" : 4,
+            "status" : {"active": false, "answered": false},
+            "ctrlBtn" : "Diagram 4",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                        "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_white.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                        "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_white.png",
+                        "alt": "Eksternt billede..."
+                    },{
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_white.png",
+                        "alt": "Eksternt billede..."
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                        "type": "img",
+                        "src": "img/dummyImg_white.png",
+                        "alt": "Eksternt billede..."
+                    }
+                ]
+            }
+        }
+    ]
+}

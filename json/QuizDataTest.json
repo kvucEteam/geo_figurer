@@ -1,0 +1,734 @@
+{
+    "userInterface": {
+        "header": "Analyser kommunikation og selvfremstilling",
+        "subHeader": "Instruktioner til kursisten: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam... "
+    },
+    "qustions": [{
+            "name": "CASE 1",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_black.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4 - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsender?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [3,3,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilken meddelse?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_4a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket formål?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_5a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [4,4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_7a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruges mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [5, 5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_9a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [6],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er effekten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"},
+                        {"value": "Valgmulighed 6"}
+                    ]
+                }]
+            }]
+        }, {
+            "name": "CASE 2",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_red.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsender?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [3,3,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilken meddelse?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_4b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket formål?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_5b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [4,4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_7b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruges mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [5, 5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_9b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [6],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er effekten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"},
+                        {"value": "Valgmulighed 6"}
+                    ]
+                }]
+            }]
+        },{
+            "name": "CASE 3",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_black.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Afsender</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsender?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [3,3,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Meddelsen</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Formålet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Sproget</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilken meddelse?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_4c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket formål?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_5c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [4,4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Brugen af mediet</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_7c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruges mediet?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [5, 5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Adressaten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Modtageren</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_9c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [6],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Effekten</b> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er effekten?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"},
+                        {"value": "Valgmulighed 6"}
+                    ]
+                }]
+            }]
+        }],
+    "endSenario": {
+        "btnText" : "PERSPEKTIVERING",
+        "header" : "Komparativ analyse",
+        "subHeader": "Instruktioner til kursisten: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam... ",
+        "carousel": [
+            {   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "img",
+                "src": "img/Artboard1.png",
+                "alt": "Lokalt billede..."
+            }
+        ]
+    }
+}

@@ -1,0 +1,432 @@
+{
+    "userInterface": {
+        "header": "Politikeres brug af videomediet",
+        "subHeader": "Se begge cases og besvar spørgsmålene om kommunikationen. Når du har løst opgaven får du supplerende perspektiveringer."
+    },
+    "qustions": [{
+            "name": "CASE 1",
+            "sourceData": {
+                "type": "html",
+                "html": "<div id='fb-root'></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = '//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.3';  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class='fb-video' data-allowfullscreen='1' data-href='/531761723507375/videos/vb.531761723507375/1210678588949015/?type=3'><div class='fb-xfbml-parse-ignore'><blockquote cite='https://www.facebook.com/531761723507375/videos/1210678588949015/'><a href='https://www.facebook.com/531761723507375/videos/1210678588949015/'></a><p>Jeg var i frokostpausen på her dag 2 på vores sommergruppemøde i Skagen en tur forbi den lokale frisør. Det var blevet lidt langt:) Så nu helt klar til vores pressemøde i morgen kl. 13. Nu fortsætter vi de politiske drøftelser i folketingsgruppen</p>Opslået af <a href='https://www.facebook.com/Kristian-Thulesen-Dahl-531761723507375/'>Kristian Thulesen Dahl</a> på 4. august 2015</blockquote></div></div>"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>DFs formand Kristian Thulesen Dahl benytter en pause i partiets sommergruppemøde til at gå til frisøren.</p>", 
+                        "negative": "Det rigtige svar er, at DFs formand benytter en pause i partiets sommergruppemøde til at gå til frisøren."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen?"}, 
+                        {"value": "Kristian Thulesen Dahl er til frisøren"}, 
+                        {"value": "Dansk Folkepartis formand bruger pausen fra DF’s sommergruppemøde hos frisøren"}, 
+                        {"value": "En valgvideo i forbindelse med folketingsvalg"}, 
+                        {"value": "Privatoptagelser fra Kristian Thulesen Dahls privatliv"}, 
+                        {"value": "En videopræsentation af Dansk Folkepartis politiske mærkesager"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Afsender er både Kristian Thulesen Dahl og DF.</p>", 
+                        "negative": "Det rigtige svar er, at afsender er både Kristian Thulesen Dahl og DF."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_1a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsenderen?"}, 
+                        {"value": "Kristian Thulesen Dahl"}, 
+                        {"value": "Dansk Folkeparti"}, 
+                        {"value": "Kristian Thulesen Dahl og Dansk Folkeparti"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [1,1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelelsen</b> <p>Meddelelsen er, at der er fuld gang i sommermødet og Thulesen Dahl er blevet klippet.</p>", 
+                        "negative": "Det rigtige svar er, at der er fuld gang i sommermødet og Thulesen Dahl er blevet klippet."
+                    },{
+                        "posetive": "<b>Formålet</b> <p>Med sit besøg hos den lokale frisør forsøger Thulesen Dahl at fremstå folkelig, han skaber synlighed og fastholder dermed vælgere.</p>", 
+                        "negative": "Det rigtige svar er, at Thulesen Dahl dels ønsker at fremstå folkelig og usnobbet, dels vil skabe synlighed og dermed fastholde vælgere."
+                    },{
+                        "posetive": "<b>Sprog</b> <p>Sproget er umarkeret talesprog, også kaldet neutral stil.</p>", 
+                        "negative": "Det rigtige svar er umarkeret talesprog, også kaldet neutral stil."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelelsen?"}, 
+                        {"value": "Der er fuld gang i sommergruppemødet og jeg er blevet klippet"}, 
+                        {"value": "Jeg er et almindeligt menneske med almindelige ting at se til"}, 
+                        {"value": "Jeg reklamerer for et pressemøde"}, 
+                        {"value": "Jeg reklamerer for den lokale frisør"}
+                    ]
+                },{
+                    "id": "Dropdown_2b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At fremstå folkelig, skabe synlighed og tilfredsstille fans og derved fastholde vælgere"}, 
+                        {"value": "At præsentere Dansk Folkepartis politiske mærkesager"}, 
+                        {"value": "At argumentere for en ny lov"}, 
+                        {"value": "At overbevise nye vælgere"}
+                    ]
+                },{
+                    "id": "Dropdown_2c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Umarkeret talesprog, naturligt, neutral stil"}, 
+                        {"value": "Høj stil, mange fremmedord"}, 
+                        {"value": "Typisk abstrakt politikersprog"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Det rigtige svar er facebookvideo.</p>", 
+                        "negative": "Det rigtige svar er en facebookvideo."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Det håndholdte kamera, eventuelt en mobiltelefon, giver stilen et hverdagsligt og uformelt præg.</p>", 
+                        "negative": "Det rigtige svar er, at stilen er amatøragtigt og hverdagslig."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Facebookvideo"}, 
+                        {"value": "Twitter"}, 
+                        {"value": "Fjernsyn"}
+                    ]
+                },{
+                    "id": "Dropdown_3b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruger Kristian Thulesen Dahl mediet?"}, 
+                        {"value": "Håndholdt og uformelt"}, 
+                        {"value": "Lækkert design ­ en dyr og professionel produktion"}, 
+                        {"value": "Han har fået DR til at lave indslaget"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [1, 1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p>Meddelelsen er adresseret til partiets medlemmer, som følger partiet på de sociale medier..</p>", 
+                        "negative": "Det rigtige svar er, at meddelelsen er adresseret til partiets medlemmer, som følger partiet på de sociale medier."
+                    }, {
+                        "posetive": "<b>Modtager</b> <p>Dansk Folkepartis vælgere.</p>", 
+                        "negative": "Det rigtige svar er, at modtagerne er Dansk Folkepartis vælgere."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_4b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Medlemmer af Dansk Folkeparti"}, 
+                        {"value": "Den brede offentlighed"}, 
+                        {"value": "Politiske kommentatorer"}
+                    ]
+                }, {
+                    "id": "Dropdown_4a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "Dansk Folkepartis vælgere"}, 
+                        {"value": "Dansk Folkepartis politikere"}, 
+                        {"value": "Regeringen"}, 
+                        {"value": "Kristian Thulesen Dahl egen familie"}, 
+                        {"value": "Dansk Folkepartis politiske modstandere"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Kommunikationen lykkes, formålet er hverken at påvirke eller informere, men at fremstå folkelig og usnobbet, og den uformelle stil passer fint til de sociale medier.</p>", 
+                        "negative": "Kommunikationen lykkes, fordi Thulesen Dahl på sin facebookside ikke skal overbevise nogen, men ønsker at fremstå folkelig og usnobbet."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_5a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkes Kristian Thulesen Dahl med kommunikationen?"}, 
+                        {"value": "Ja, han har let spil, da han ikke skal overbevise nogen"}, 
+                        {"value": "Nej, budskabet er alt for kompliceret til at formidles på sociale medier"}
+                    ]
+                }]
+            }]
+        }, {
+            "name": "CASE 2",
+            "sourceData": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/VgXHGKC7DVI"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Der er tale om en valgvideo i forbindelse med et folketingsvalg.</p>", 
+                        "negative": "Det rigtige svar er, at der er tale om en valgvideo i forbindelse med et folketingsvalg."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen/anledningen?"}, 
+                        {"value": "En valgvideo i forbindelse med folketingsvalg"}, 
+                        {"value": "En politisk latterliggørelse af Mogens Jensen"}, 
+                        {"value": "En kritisk dokumentarudsendelse om den tidligere handels- og udviklingsminister"}, 
+                        {"value": "Udenlandske politikere kritiserer den danske politiker"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Afsenderen er politikeren Mogens Jensen.</p>", 
+                        "negative": "Det rigtige svar er, at afsenderen er politikeren Mogens Jensen."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_7a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsenderen?"}, 
+                        {"value": "Politikeren Mogens Jensen"}, 
+                        {"value": "Privatpersonen Mogens Jensen"}, 
+                        {"value": "En række udenlandske kritikere"}, 
+                        {"value": "Socialdemokratiet"}, 
+                        {"value": "Politikeren Mogens Jensen og Socialdemokratiet"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [4, 1, 1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelelsen</b> <p>Mogens Jensen har i sit politiske virke søgt at forbinde det lokale med det globale.</p>", 
+                        "negative": "Det rigtige svar er, at Mogens Jensen i sit politiske virke har forsøgt at forbinde det lokale med det globale."
+                    },{
+                        "posetive": "<b>Formål</b> <p>Mogens Jensen vil med videoen overbevise særligt vestjyske vælgere om at han varetager deres interesser i en global tidsalder.</p>", 
+                        "negative": "Det rigtige svar er, at Mogens Jensen vil overbevise særligt vestjyske vælgere om, at han varetager deres interesser i en global tidsalder."
+                    },{
+                        "posetive": "<b>Sprog</b> <p>Det primære sprog er engelsk.</p>", 
+                        "negative": "Det rigtige svar er, at det primære sprog er engelsk."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelelsen?"}, 
+                        {"value": "Mogens Jensen har tidligere lavet mange politiske bommerter"}, 
+                        {"value": "Mogens Jensen er fordrukken og har ikke styr på sin geografi"}, 
+                        {"value": "Mogens Jensen er en sjov politiker"}, 
+                        {"value": "Mogens Jensen har i sit politiske virke søgt at forbinde det lokale med det globale"}, 
+                        {"value": "Stem på Mogens Jensen. Han værner om det vestjyske og kæmper mod globaliseringen"}
+                    ]
+                },{
+                    "id": "Dropdown_8b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At overbevise især vestjyske vælgere om, at Mogens Jensen varetager deres interesser"}, 
+                        {"value": "At stille Mogens Jensen i et uheldigt lys"}, 
+                        {"value": "At gøre grin med udlandets blik på Danmark"}, 
+                        {"value": "At vise politikeren som en stålfast og målrettet type"}, 
+                        {"value": "At vise at politik faktisk er sjov og ballade"}
+                    ]
+                },{
+                    "id": "Dropdown_8c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Det primære sprog er engelsk"}, 
+                        {"value": "Det primære sprog er dansk"}, 
+                        {"value": "Arabisk"}, 
+                        {"value": "Det primære sprog er dansk, men engelsk i sammenspil med det danske"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Der er tale om en valgvideo</p>", 
+                        "negative": "Det rigtige svar er en valgvideo."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Mogens Jensen bruger humor og en professionel produktion til at vise, at han er den rigtige til at skabe bro mellem det lokale og det globale.</p>", 
+                        "negative": "Det rigtige svar er, at Mogens Jensen bruger humor og en professionel produktion til at vise, at han er den rigtige til at skabe bro mellem det lokale og det globale."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_9a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Valgvideo"}, 
+                        {"value": "Twitter"}, 
+                        {"value": "dokumentarfilm"}
+                    ]
+                },{
+                    "id": "Dropdown_9b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruger Mogens Jensen mediet?"}, 
+                        {"value": "Humor bruges til at vise, at han er den rette til at skabe bro mellem lokalt og globalt"}, 
+                        {"value": "Mogens Jensen bruger videoen til at iscenesætte sig selv som en actionhelt"}, 
+                        {"value": "Mogens Jensen bruger videomediet til særligt at nå unge vælgere"}, 
+                        {"value": "Mediet bruges til at vise, hvor svær kommunikationen kan være, når man rejser som politiker"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [1, 4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p>Mogens Jensen adresserer sin video til vælgerne i Vestjylland.</p>", 
+                        "negative": "Det rigtige svar er, at Mogens Jensen adresserer sin video til vælgerne i Vestjylland."
+                    },{
+                        "posetive": "<b>Modtager</b> <p>Modtagerne er vælgerne i det vestlige Jylland og resten af danmark.</p>", 
+                        "negative": "Det rigtige svar er at modtagerne er vælgerne i det vestlige Jylland og resten af Danmark."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Vælgerne i det vestlige Jylland og resten af Danmark"}, 
+                        {"value": "Udenlandske virksomheder"}, 
+                        {"value": "Vælgere fra den modsatte politiske fløj"}, 
+                        {"value": "Danske virksomhedsejere"}, 
+                        {"value": "Vælgere i hele Europa"}
+                    ]
+                },{
+                    "id": "Dropdown_10a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "De danske vælgere"}, 
+                        {"value": "De andre politiske partier på Christiansborg"}, 
+                        {"value": "Udenlandske virksomheder"}, 
+                        {"value": "Vælgerne i det vestlige Jylland og resten af Danmark"}, 
+                        {"value": "Vælgere i hele Europa"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Den underspillede humor passer til den vestjyske (og danske) selvforståelse, og videoens høje kvalitet vidner om, at Mogens Jensen samtidig er dybt professionel.</p>", 
+                        "negative": "Det rigtige svar er, den underspillede humor passer til den vestjyske (og danske) selvforståelse, og videoens høje kvalitet vidner om, at Mogens Jensen samtidig er dybt professionel."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_11a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkes Mogens Jensen med kommunikationen?"}, 
+                        {"value": "Ja, humoren passer til den vestjyske selvforståelse, og videoen viser ham som professionel"}, 
+                        {"value": "Nej, vestjyder har ingen humor, og videoen vidner om frås med skatteborgernes penge"}
+                    ]
+                }]
+            }]
+        }],
+    "endSenario": {
+        "btnText" : "PERSPEKTIVERING",
+        "header" : "Politikeres brug af videomediet",
+        "whyIconClass" : "glyphicon glyphicon-bookmark",
+        "whyText" : "Til eksamen skal du kunne perspektivere og løfte din analyse op på et højere niveau. Her har du fire helt centrale områder som kan hjælpe dig med at se den konkrete case i en større sammenhæng, nemlig forholdet mellem kommunikation og medier i en senmoderne verden.",
+        "subHeader": "Læs de supplerende perspektiveringer af de to cases.",
+        "carousel": [
+            {   
+                "header": "Selvfremstilling",
+                "type" : "text",
+                "text" : "<p>Politikere i dag er ikke bare formidlere af et politisk budskab, tværtimod indtager de konstant forskellige roller. De iscenesætter sig selv, fx som blød familiefar, en sindig jysk politiker med selvironi, som international verdensmand eller som hård forretningskvinde.</p> <p>Helle Thorning refererede ofte til sin ungdom i Ishøj og forsøgte dermed at fremstå som en pige rundet af arbejderklassen. Kristian Thulesen Dahl optræder i facebookvideoen som et helt almindeligt menneske, alle kan identificere sig med. Vi er langt væk fra Christiansborgs bonede gulve. Og det ligger der også et politisk budskab i.</p>"
+            },{   
+                "header": "Det senmoderne samfund",
+                "type" : "text",
+                "text" : "<p>Det senmoderne samfund er karakteriseret ved økonomisk, kulturel og politisk globalisering. Kort sagt er grænserne mere og mere flydende, hvilket i øvrigt også gælder for vores identitet, som vi konstant reflekterer over og iscenesætter i mange sammenhænge. Ikke mindst på de sociale medier.</p> <p>Identiteten er således ikke noget, som er givet, som er fastlagt en gang for alle, men er derimod noget, man skaber. Grænserne mellem ens privatliv og det offentlige rum opløses, når man lægger private billeder ud på nettet, eller når politikerne pludselig optræder i tv-programmer som “Her er dit liv” eller deltager i “Vild med dans”.</p>"
+            },{   
+                "header": "De nye medier",
+                "type" : "text",
+                "text" : "<p>De mange nye sociale medier har ikke bare gjort det muligt at kommunikere på nye måder (facebook, twitter, instagram, blogs etc.), de har til dels også ændret indholdet af vores kommunikation. Fx uploader mange politikere billeder af sig selv i private sammenhænge, så de fremstår som helt almindelige mennesker.</p> <p>Tidligere blev debatter i det offentlige rum ført i aviser, radio og tv, fokus lå på de store politiske problemer og konflikter, og det var for det meste veluddannede mennesker, som førte ordet. De sociale medier har ført til en demokratisering, alle kan komme til orde. Det betyder også, at kommunikationen i dag i høj grad “kommer nedefra”, dvs. at mange debatter først opstår på de sociale medier, hvorefter de senere bliver taget op af de trykte medier.</p> <p>Med de mange medier er det blevet sværere at tiltrække sig opmærksomhed, at være synlig, og derfor gælder det om at kommunikere via så mange platforme/medier som overhovedet muligt.</p>"
+            },{   
+                "header": "Magtdiskurser",
+                "type" : "text",
+                "text" : "<p>Industrisamfundets tydelige hierarkier er i det senmoderne samfund blevet afløst af mere usynlige magtdiskurser. Vi siger ikke længere De til de ældre, og vi letter ikke på hatten, når vi møder vores chef. De sociale medier har også været med til opløse skellet mellem det private og det offentlige.</p> <p>Men sprog er fortsat magt, og selvom magtudøvelse kan synes mere usynlig i dag, så er den fortsat virksom. Langt fra al kommunikation indeholder en magtdiskurs, men vi skal som borgere kunne navigere i den nye medievirkelighed, og her er der ikke meget, som er tilfældigt. Det ville være naivt at tro, at politikeres selviscenesættelse blot skal læses som udtryk for privatpersonens holdning til fx frisører i lokalmiljøet.</p>"
+            }
+        ]
+    }
+}

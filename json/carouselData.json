@@ -1,0 +1,72 @@
+{
+    "carouselData": {
+        "subHeader": "Øvrige objekter for faget Dansk...",
+        "slides": [
+            {
+                "slideLink": "https://www.vucdigital.dk/ks_tinder/problemformulering.html",
+                "overlay": "<h3>God eller dårlig?</h3><p class='hidden-xs'>Du skal bladre til højre eller til venstre for at vurdere gode eller dårlige problemformuleringer.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_ks1.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_ks1.jpg",
+                "alt": "Eksternt billede..."
+            }, {
+                "slideLink": "https://www.vucdigital.dk/danA_selvfremstilling/selvfremstilling.html?file=_k1",
+                "overlay": "<h3>Politikeres brug af videomediet</h3><p class='hidden-xs'>Anvend kommunikationsmodellen i flere forskellige konkrete cases. Til sidst præsenteres du for overordnede perspektiver på selvfremstilling, nye medier og magtdiskurser i det senmoderne samfund.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_dansk1.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_dansk1.jpg",
+                "alt": "Eksternt billede..."
+            },{
+                "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
+                "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_dansk2.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_dansk2.jpg",
+                "alt": "Eksternt billede..."
+            }, {
+                "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_historie1.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_historie1.jpg",
+                "alt": "Eksternt billede..."
+            }, {
+                "slideLink": "https://www.vucdigital.dk/histB_parallax_kildeanalyse/parallax_kildeanalyse.html",
+                "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Du skal lære en metode. Scroll dig gennem kildeanalysens vigtigste redskaber - i dit eget tempo.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_historie2.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_historie2.jpg",
+                "alt": "Eksternt billede..."
+            }, {
+                "slideLink": "https://www.vucdigital.dk/kemiC_ionforbindelser/step1.html",
+                "overlay": "<h3>Ionforbindelser</h3><p class='hidden-xs'>Byg ionforbindelserne ved at trække de rigtige byggeklodser ind i feltet.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_kemi1.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_kemi1.jpg",
+                "alt": "Eksternt billede..."
+            }, {   
+                "slideLink": "https://www.vucdigital.dk/kemiC_bundfald/bundfald_over_c.html",
+                "overlay": "<h3>Fældningsreaktioner</h3><p class='hidden-xs'>Se hvad der sker når man blander ionerne. Afstem reaktionen og vælg det rigtige produkt.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_kemi2.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_kemi2.jpg",
+                "alt": "Eksternt billede..."
+            }, {   
+                "slideLink": "https://www.vucdigital.dk/engB_videoplaylister/videoplaylister.html",
+                "overlay": "<h3>Filmanalysens grundprincipper</h3><p class='hidden-xs'>Se alle filmene i afspilningslisterne om “set, shot og plot”.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_eng1.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_eng1.jpg",
+                "alt": "Eksternt billede..."
+            }, {   
+                "slideLink": "https://www.vucdigital.dk/engB_billeddrag_da/billeddrag_dearamericans_1.html",
+                "overlay": "<h3>Beskriv hovedpersonerne</h3><p class='hidden-xs'>Vælg de ord, der beskriver de to personer bedst. Træn dit ordforråd samtidig.</p>",
+                "type": "img",
+                "src_OLD": "library/img_carousel/imageslider_WIDE_eng2.jpg",
+                "src": "https://www.vucdigital.dk/promotion/img/imageslider_WIDE_eng2.jpg",
+                "alt": "Eksternt billede..."
+            }
+        ]
+    }
+}
+

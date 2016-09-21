@@ -1,0 +1,435 @@
+{
+    "userInterface": {
+        "header": "Linse vs anoreksipiger",
+        "subHeader": "Se begge cases og besvar spørgsmålene om kommunikationen. Når du har løst opgaven får du supplerende perspektiveringer."
+    },
+    "qustions": [{
+            "name": "CASE 1",
+            "sourceData": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/sepOJ4avnPQ?rel=0"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Du har svaret rigtigt :-).</p>", 
+                        "negative": "Du har svaret forkert. Det rigtige svar er, at det er en trailer for et program på TV3."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen?"}, 
+                        {"value": "En hjemmevideo med en mor-datter-situation"}, 
+                        {"value": "En reklame for brystoperation"}, 
+                        {"value": "En oplysningsvideo fra Sundhedsstyrelsen"}, 
+                        {"value": "En trailer for et program på TV3"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Som kendis og medieperson lever Linse Kessler af at iscenesætte sig selv i medierne. TV3’s afsenderroller ses tydeligt på logoet i nederste hjørnet af videoen.</p>", 
+                        "negative": "Nej, det er ikke helt korrekt Der er et mere dækkende svar."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_1a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsenderen?"}, 
+                        {"value": "Sundhedsstyrelsen"}, 
+                        {"value": "Byens Privathospital"}, 
+                        {"value": "TV3"},
+                        {"value": "Linse"},
+                        {"value": "Linse og TV3"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [2,1,2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelsen</b> <p>Ja, traileren vil motivere dig til at se udsendelsen om Linse og hendes datter.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Prøv at se videoen igen ;-)."
+                    },{
+                        "posetive": "<b>Formålet</b> <p>Ja, fordi det er en trailer.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Prøv igen :-)"
+                    },{
+                        "posetive": "<b>Sprog</b> <p>Ja, det er rigtigt.</p>", 
+                        "negative": "Svaret er ikke det mest præcise. Prøv om der er en anden svarmulighed, som rammer sproget bedre."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelsen?"}, 
+                        {"value": "Vær glad for din krop!"}, 
+                        {"value": "Linse er en spændende  kvinde, der er underholdende at lytte til og se på"}, 
+                        {"value": "Mor og datter kan have et super forhold til hinanden"}, 
+                        {"value": "Pas på din krop!"}
+                    ]
+                },{
+                    "id": "Dropdown_2b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At reklamere for programmet"}, 
+                        {"value": "At advare mod at få foretaget unødvendige brystoperationer"}, 
+                        {"value": "Indirekte at reklamere for brystoperationer"}, 
+                        {"value": "At underholde og vise, hvor hyggeligt mor og datter har det sammen"}
+                    ]
+                },{
+                    "id": "Dropdown_2c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Sproget er præget af mange fagudtryk"}, 
+                        {"value": "Sproget er præget af slang/talesprog"}, 
+                        {"value": "Sproget er præget af gruppesprog"},
+                        {"value": "Sproget er præget af dialekt"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [2,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Ja, det er rigtigt.</p>", 
+                        "negative": "Nej, det er ikke rigtig. Find eventuelt det rigtige svar ved at gå tilbage og se på dine tidligere rigtige svar."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Dit svar er korrekt. Programmet søger at give et underholdende og ærligt billede af Linse Kessler og hendes liv bag facaden.</p>", 
+                        "negative": "Dit svar er ikke rigtigt. Prøv igen!"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Facebook"}, 
+                        {"value": "Youtube-video"}, 
+                        {"value": "Hjemmeside/pc"},
+                        {"value": "Vlog"}
+                    ]
+                },{
+                    "id": "Dropdown_3b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruges mediet?"}, 
+                        {"value": "Gennem håndholdt kamera og ved at veksle mellem interview og hverdagsscener, der går tæt på Linse og hendes datter, får publikum en oplevelse af autenticitet."}, 
+                        {"value": "Der arbejdes med lange kritiske og pågående interviews"}, 
+                        {"value": "Der arbejdes med et roligt fortælletempo og der bruges poetiske virkemidler, der viser hvordan Linse og hendes datter oplever et fællesskab"},
+                        {"value": "TV3 bruger mediet til at kritisere moderens brug af datteren"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [2, 4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p>Svaret er rigtigt. De unge er TV3’s primære målgruppe.</p>", 
+                        "negative": "Svaret er ikke rigtigt. Prøv igen!"
+                    }, {
+                        "posetive": "<b>Modtager</b> <p>Dette svar er rigtigt. Der er en snæver sammenhæng mellem adressat og modtager, for TV3 ved hvem deres seere er - nemlig de unge - og målretter derfor deres programmer til denne gruppe.</p>", 
+                        "negative": "Nej, det er ikke rigtigt. Prøv igen!"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_4b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Alle danskere"}, 
+                        {"value": "Unge"}, 
+                        {"value": "Kvinder med brystproblemer"},
+                        {"value": "Mænd der gerne vil se bare bryster"}
+                    ]
+                }, {
+                    "id": "Dropdown_4a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "Hjemmegående kvinder"}, 
+                        {"value": "Arbejdsløse"}, 
+                        {"value": "Seere der gerne vil se fantasifuldt TV"}, 
+                        {"value": "Primært unge mellem 15 og 30 år"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Reaktion</b> <p>Ja, programmet og dets form taler til målgruppen. Det giver mange seere og betyder indtjening til TV3.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Find det mest præcise svar."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_5a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkes TV3 med kommunikationen?"}, 
+                        {"value": "Ja, programmet og dets særlige form rammer sin målgruppe godt"}, 
+                        {"value": "Nej, TV3 har ikke unge i fokus her, men en ældre mor"},
+                        {"value": "Ja, det er en informativ trailer"},
+                        {"value": "Nej, Linse Kessler er for grotesk til, at man kan relatere til det"}
+                    ]
+                }]
+            }]
+        }, {
+            "name": "CASE 2",
+            "sourceData": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/dBz0v8SdqD8?rel=0"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Du har svaret rigtigt :-).</p>", 
+                        "negative": "Du har svaret forkert. Det rigtige svar er, at det er en informationsvideo fra psykiatrifonden."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen?"}, 
+                        {"value": "En privatoptagelse fra Emmas mobiltelefon"}, 
+                        {"value": "En video lavet på Emmas efterskole på en temadag"}, 
+                        {"value": "En informationsvideo fra psykiatrifonden"}, 
+                        {"value": "En hyggestund mellem Emma og Alberte"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Ja, det er Psykiatrifonden, der i samarbejde med Krithfilm har produceret videoen.</p>", 
+                        "negative": "Nej, det er ikke korrekt. Prøv igen."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_7a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsenderen?"}, 
+                        {"value": "Emma og Alberte"}, 
+                        {"value": "Psykiatrifonden"}, 
+                        {"value": "Københavns turistinformation"}, 
+                        {"value": "Efterskoleforeningen"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [4, 1, 5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Meddelsen</b> <p>Ja,  spiseforstyrrelser  er meget sundhedsskadelige og skal tages alvorligt.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Prøv igen."
+                    },{
+                        "posetive": "<b>Formål</b> <p>Ja, formålet er at udbrede viden om unge og spiseforstyrrelser.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Prøv at se videoen igen ;-)."
+                    },{
+                        "posetive": "<b>Sprog</b> <p>Ja, det er rigtigt. Meddelelsen benytter sig både af tale- og skriftsprog.</p>", 
+                        "negative": "Nej, det er ikke rigtigt. Tjek lige videoen igen."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelelsen?"}, 
+                        {"value": "Emma reklamerer for tøj og smykker"}, 
+                        {"value": "Emma og Alberte reklamerer for at gå på efterskole"}, 
+                        {"value": "Det er hyggeligt at spise chips"}, 
+                        {"value": "Spiseforstyrrelser skal tages alvorligt"}
+                    ]
+                },{
+                    "id": "Dropdown_8b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At informere om spiseforstyrrelser"}, 
+                        {"value": "At underholde og vise, hvor hyggeligt Emma og Alberte har det"}, 
+                        {"value": "At påvirke modtageren, så han/hun begynder at spise sundt"}, 
+                        {"value": "At informere om efterskolelivet"}
+                    ]
+                },{
+                    "id": "Dropdown_8c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Sproget er præget af mange fagudtryk"}, 
+                        {"value": "Sproget er præget af gruppesprog"}, 
+                        {"value": "Sproget er præget af dialekt"}, 
+                        {"value": "Sproget er præget af etnolekt"},
+                        {"value": "Sproget er præget af talesprog, dog er faktaboksene skrevet i skriftsprog"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [4,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Ja, det er rigtigt. Youtube ses af mange unge og rammer derfor målgruppen.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar, prøv igen."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Ja, det er rigtigt. Psykiatrifonden bruger et ungdommeligt filmsprog og kanalen youtube for at nå ud til de unge.</p>", 
+                        "negative": "Nej, det er ikke rigtigt. Prøv igen :-)."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_9a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "TV"}, 
+                        {"value": "Facebook"}, 
+                        {"value": "Vlog"},
+                        {"value": "Youtube-video"}
+                    ]
+                },{
+                    "id": "Dropdown_9b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruger Psykiatrifonden mediet?"}, 
+                        {"value": "Psykiatrifonden bruger mediet til at iscenesætte de to unge piger"}, 
+                        {"value": "Psykiatrifonden bruger interviews, baggrundsmusik og klipning til at vise de samfundsmæssige konsekvenser ved spiseforstyrrelser"}, 
+                        {"value": "Elektronisk musik, interviews og hverdagsscener bruges til at komme tæt på den unges egen verden og appellere til den unge seer"}, 
+                        {"value": "Psykiatrifonden bruger mediet på en meget tør og teoritung måde"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [3, 1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p>Ja, meddelelsen er primært bestemt for unge kvinder der er i farezonen for at udvikle spiseforstyrrelser samt deres pårørende.</p>", 
+                        "negative": "Nej, det er ikke det rigtige svar. Prøv igen."
+                    },{
+                        "posetive": "<b>Modtager</b> <p>Ja, meddelelsen rammer bredere end adressaten og derfor unge mennesker generelt, der surfer på nettet.</p>", 
+                        "negative": "Nej, der er et mere dækkende svar. Prøv igen."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Lægestuderende"}, 
+                        {"value": "Psykologistuderende"}, 
+                        {"value": "Unge kvinder, der er truet af spiseforstyrrelser, og deres pårørende"}, 
+                        {"value": "Forældre til unge mennesker"}, 
+                        {"value": "Psykiatrifonden"}
+                    ]
+                },{
+                    "id": "Dropdown_10a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "Unge mennesker, der surfer på nettet"}, 
+                        {"value": "Lægestuderende"}, 
+                        {"value": "Forældre til unge mennesker"}, 
+                        {"value": "Psykologistuderende"}, 
+                        {"value": "Unge kvinder, der er truet af  spiseforstyrrelser, og deres pårørende"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Ja, det er rigtigt. Seeren kan identificere sig med de unge kvinder og får også faktuel information.</p>", 
+                        "negative": "Nej, det er ikke rigtigt. Prøv igen."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_11a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkes Psykiatrifonden med kommunikationen?"}, 
+                        {"value": "Nej, der er alt for mange fremmedord i faktaboksene"}, 
+                        {"value": "Ja, seeren fanges af videoens professionelle udtryk og af dialogen mellem Emma og Alberte"},
+                        {"value": "Nej, videoen er for pjattet med al den hyggesnak"},
+                        {"value": "Ja, det er rigtig god underholdning"}
+                    ]
+                }]
+            }]
+        }],
+    "endSenario": {
+        "btnText" : "PERSPEKTIVERING",
+        "header" : "Politikeres brug af videomediet",
+        "whyIconClass" : "glyphicon glyphicon-bookmark",
+        "whyText" : "Til eksamen skal du kunne perspektivere og løfte din analyse op på et højere niveau. Her har du fire helt centrale områder som kan hjælpe dig med at se den konkrete case i en større sammenhæng, nemlig forholdet mellem kommunikation og medier i en senmoderne verden.",
+        "subHeader": "Læs de supplerende perspektiveringer af de to cases.",
+        "carousel": [
+            {   
+                "header": "Selvfremstilling",
+                "type" : "text",
+                "text" : "<p>De to videoer viser to forskellige brug af mediet. Hvor Linse inviterer seeren helt ind i intimsfæren og viser sine følelser, forholder Emma sig mere distanceret til sit sygdomsforløb. Der bliver altså  fremstillet to former for forhold til kroppen.</p><p>Hvorfor iscenesætter de to kvinder sig så forskelligt? Linse udviser en glæde ved sin krop og får brystforstørrende og -formindskende  operationer, mens Emma har været en fjende af sin krop. Hvorfor reagerer de to kvinder mon så forskelligt på vores kropsfikserede kultur?<br/>I begge film kommer vi dog ind i ‘privaten’ og ser kvindernes private hjem med møbler, tøj og smykker. Vi er langt fra et tv-studie med mikrofon og et glas vand på bordet. Hvilken effekt giver det? Har det med modtagerne at gøre? Hvilke sammenhænge er der mellem selvfremstillingen og mediet?</p>"
+            },{   
+                "header": "Det senmoderne samfund",
+                "type" : "text",
+                "text" : "<p>Det senmoderne samfund er karakteriseret ved økonomisk, kulturel og politisk globalisering. Kort sagt er grænserne mere og mere flydende, hvilket i øvrigt også gælder for vores identitet, som vi konstant reflekterer over og iscenesætter i mange sammenhænge. Ikke mindst på de sociale medier.</p> <p>Identiteten er således ikke noget som er givet, som er fastlagt en gang for alle, men er derimod noget man skaber. Grænserne mellem ens privatliv og det offentlige rum opløses når man lægger private billeder ud på nettet, eller når politikerne pludselig optræder i tv-programmer som “Her er dit liv” eller deltager i “Vild med dans”. Realitypersonligheder udspringer af denne sammenblanding. De laver en karriere ud af at iscenesætte deres privatliv som en offentlig føljeton.</p>"
+            },{   
+                "header": "De nye medier",
+                "type" : "text",
+                "text" : "<p>De mange nye sociale medier har ikke bare gjort det muligt at kommunikere på nye måder (facebook, twitter, instagram, blogs etc.), de har til dels også ændret indholdet af vores kommunikation. Fx uploader mange politikere og kendisser billeder af dem selv i private sammenhænge, så de fremstå som helt almindelige mennesker.</p><p>Tidligere blev emner som eksempelvis psykiatri ført i aviser, radio og tv i det offentlige rum, og fokus lå på de store linjer med særligt fokus på økonomien, og det var for det meste veluddannede mennesker som førte ordet. </p><p>De sociale medier har ført til en demokratisering, så alle kan komme til orde. Det betyder også at kommunikationen i dag i høj grad “kommer nedefra”, dvs. at mange debatter først opstår på de sociale medier, hvorefter de senere bliver taget op af de trykte medier.</p><p>Med de mange medier er det blevet sværere at tiltrække sig opmærksomhed, at være synlig, og derfor gælder det om at kommunikere via så mange platforme/medier som overhovedet muligt. Det er både TV3 og Psykiatrifonden klar over.</p>"
+            }
+        ]
+    }
+}

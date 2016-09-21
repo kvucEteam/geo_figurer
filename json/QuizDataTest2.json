@@ -1,0 +1,239 @@
+{
+    "userInterface": {
+        "header": "Analyser kommunikation og selvfremstilling",
+        "subHeader": "Gennemgå kommunikationen i de to cases. Vælg svarene i dropdownmenuerne. Når du er færdig kan du læse en komparativ analyse."
+    },
+    "qustions": [{
+            "name": "CASE 1",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_black.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }]
+        }, {
+            "name": "CASE 2",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_red.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }]
+        },{
+            "name": "CASE 3",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_black.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }]
+        },{
+            "name": "CASE 4",
+            "sourceData": {
+                "type": "img",
+                "src": "img/dummyImg_black.png",
+                "alt": "Morten Messerschmidt's facebookprofil"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [1,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Situationen</b><br/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    },{
+                        "posetive": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>", 
+                        "negative": "<b>Samfund</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0d",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Situationen?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                },{
+                    "id": "Dropdown_1d",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Samfund?"}, 
+                        {"value": "Valgmulighed 1"}, 
+                        {"value": "Valgmulighed 2"}, 
+                        {"value": "Valgmulighed 3"}, 
+                        {"value": "Valgmulighed 4"}, 
+                        {"value": "Valgmulighed 5"}
+                    ]
+                }]
+            }]
+        }],
+    "endSenario": {
+        "btnText" : "PERSPEKTIVERING",
+        "header" : "Komparativ analyse",
+        "whyText" : "Forklaring til kursisten: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam... ",
+        "subHeader": "Instruktioner til kursisten: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam... ",
+        "carousel": [
+            {   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "columnData",
+                "columnData": [
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                    {"analysis":"<p>4 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                ]
+            },{   
+                "header": "XXX",
+                "type" : "img",
+                "src": "img/Artboard1.png",
+                "alt": "Lokalt billede..."
+            }
+        ]
+    }
+}

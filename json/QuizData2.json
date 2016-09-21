@@ -1,0 +1,447 @@
+{
+    "userInterface": {
+        "header": "Sproglige koder sat under den satiriske lup",
+        "subHeader": "Se begge cases og besvar spørgsmålene om kommunikationen. Når du har løst opgaven får du supplerende perspektiveringer."
+    },
+    "qustions": [{
+            "name": "CASE 1",
+            "sourceData": {
+                "type": "html",
+                "html": "<div id='fb-root'></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = '//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.3';  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class='fb-video' data-allowfullscreen='1' data-href='/RavageRoyal/videos/vb.458422370934569/715887088521428/?type=3'><div class='fb-xfbml-parse-ignore'><blockquote cite='https://www.facebook.com/RavageRoyal/videos/715887088521428/'><a href='https://www.facebook.com/RavageRoyal/videos/715887088521428/'>Ravage Royal er tilbage i Skuespilhuset </a><p></p>Opslået af <a href='https://www.facebook.com/RavageRoyal/'>Ravage Royal</a> på 28. april 2015</blockquote></div></div>"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Ravage Royal reklamer for deres arrangement i skuespilhuset samtidig med, at de giver en smagsprøve på deres satire.</p>", 
+                        "negative": "<b>Ikke korrekt!</b> Ravage Royal reklamer for deres arrangement i skuespilhuset samtidig med, at de giver en smagsprøve på deres satire."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_0a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen?"}, 
+                        {"value": "To danskere med etnisk baggrund taler om deres liv"}, 
+                        {"value": "En bevidst tilrettelagt scene, som ved brug af satire reklamerer for en begivenhed"}, 
+                        {"value": "En politisk opsang til den danske befolkning"}, 
+                        {"value": "Fraklip fra en teaterscene"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [2,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Da hensigten er at reklamere for et konkret arrangement i Det Kongelige Teater, er afsenderen entertainergruppen Ravage Royal og Det Kongelige Teater.</p>", 
+                        "negative": "Forkert! Da hensigten er at reklamere for et konkret arrangement i Det Kongelige Teater, er afsenderen entertainergruppen Ravage Royal og Det Kongelige Teater."
+                    },{
+                        "posetive": "<b>Afsenderroller</b> <p>Zaki Youssef og Hadi Ka-Koush optræder som komikere, der skifter mellem etnisk ‘neutrale’ afsenderpositioner og roller som etnisk minoriteter og bruger disse skift til at skabe en humoristisk effekt.</p>", 
+                        "negative": "Det er ikke helt forkert, men der er en mere dækkende valgmulighed, nemlig at Zaki Youssef og Hadi Ka-Koush optræder som komikere, der skifter mellem etnisk ‘neutrale’ afsenderpositioner og roller som etnisk minoriteter."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_1a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsenderen?"}, 
+                        {"value": "Det Kongelige Teater"}, 
+                        {"value": "Entertainergruppen Ravage Royal og Det Kongelige Teater"}, 
+                        {"value": "Zaki Youssefs private profil"},
+                        {"value": "Facebook"}
+                    ]
+                },{
+                    "id": "Dropdown_1b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan er afsenderrollerne?"}, 
+                        {"value": "Zaki Youssef og Hadi Ka-Koush som privatpersoner"}, 
+                        {"value": "Zaki Youssef og Hadi Ka-Koush som danskere med en etnisk minoritetsbaggrund"}, 
+                        {"value": "Afsenderne er komikere, der skifter positioner mellem etnisk 'neutral' og etnisk minoritet"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [4,5,3],
+                "feedback": [
+                    {
+                        "posetive": "<b>meddelelsen</b> <p> Videoen lægger op til en underholdende aften, der samtidig tør italesætte stereotyper på en satirisk måde. </p>", 
+                        "negative": "Delvist rigtigt, men det er mere dækkende at sige, at videoen lægger op til en underholdende aften, der samtidig tør italesætte stereotyper på en satirisk måde."
+                    },{
+                        "posetive": "<b>Formålet</b> <p> Det er det mest udfoldede svar, at videoen inviterer til et arrangement på Det Kongelige Teater, som samtidig kaster et humoristisk og kritisk blik på de sproglige koder, som knytter sig til Det Kongelige Teater og til det at være &quot;præmieperker&quot;</p>", 
+                        "negative": "Delvist rigtigt, men det er mere dækkende at sige, at videoen inviterer til et arrangement på Det Kongelige Teater, som samtidig kaster et humoristisk og kritisk blik på de sproglige koder, som knytter sig til Det Kongelige Teater og til det at være &quot;præmieperker&quot;"
+                    },{
+                        "posetive": "<b>Sprog</b> <p> Zaki Youssef og Hadi Ka-Koush veksler mellem forskellige etnolekter og dialekter og bruger sproget til at skabe en humoristisk effekt </p>", 
+                        "negative": "Ikke helt rigtigt! Zaki Youssef og Hadi Ka-Koush veksler mellem forskellige etnolekter og dialekter og bruger sproget til at skabe en humoristisk effekt"
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_2a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelelsen?"}, 
+                        {"value": "En kritisk iscenesættelse af de diskursive magtstrukturer i teaterverdenen"}, 
+                        {"value": "Kom i Det Kongelige Teater, det bliver sjovt"}, 
+                        {"value": "Etniske minoriteter bliver undertrykt og diskrimineret"}, 
+                        {"value": "Kom i Det Kongelige Teater, det bliver sjovt, og du vil blive udfordret på dine holdninger"}
+                    ]
+                },{
+                    "id": "Dropdown_2b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At invitere til et arrangement på Det Kongelige Teater"}, 
+                        {"value": "At vise at komikerne har gjort karriere og begge har vundet en fornem teaterpris"}, 
+                        {"value": "Det er en politisk opsang, der kritiserer etniske danskere for ikke at forstå “perkerdansk”"}, 
+                        {"value": "At gøre grin med Det Kongelige Teater, som en gammel og støvet kulturinstitution"},
+                        {"value": "At gøre reklame og iscenesætte sprog og identitet på en humoristisk og kritisk måde"}
+                    ]
+                },{
+                    "id": "Dropdown_2c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Zaki Youssef og Hadi Ka-Koush taler rigsdansk på videoen"}, 
+                        {"value": "Der tales københavnsk på videoen, men dialekten spiller ikke nogen særlig rolle"}, 
+                        {"value": "Der veksles mellem forskellige etnolekter og dialekter, og sproget bruges humoristisk"},
+                        {"value": "Zaki Youssef og Hadi Ka-Koush taler perkerdansk og det lyder sjovt"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [1,5],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Videoen er lagt op som en facebook-opdatering.</p>", 
+                        "negative": "Forkert. Videoen er lagt op som en facebook-opdatering."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p> Det er en veltilrettelagt og professionelt produceret video, som bevidst iscenesætter en spontan samtalesituation.</p>", 
+                        "negative": "Forkert. Det er en veltilrettelagt og professionelt produceret video, som bevidst iscenesætter en spontan samtalesituation."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_3a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Det er en facebook-opdatering"}, 
+                        {"value": "Det er et klip fra en teaterforestilling"}, 
+                        {"value": "Det er en youtube-video"},
+                        {"value": "Der er et klip fra et standup-comedy arrangement"}
+                    ]
+                },{
+                    "id": "Dropdown_3b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruger Zaki Youssef og Hadi Ka-Koush mediet?"}, 
+                        {"value": "Det er et klip fra en teaterforestilling"}, 
+                        {"value": "Det er en hurtig optagelse med en iphone, der skal give klippet et autentisk præg"}, 
+                        {"value": "Det er et fraklip, der er blevet lagt op for sjov"},
+                        {"value": "Det er et klip fra et interview i TV-avisen"},
+                        {"value": "Det er en veltilrettelagt video, som bevidst iscenesætter en spontan samtalesituation"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [2, 4],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p> De, der kan se videoen, har &quot;liket&quot; Ravage Royal eller har venner, der har delt eller liket Ravage Royal.</p>", 
+                        "negative": "Ikke rigtigt! De, der kan se videoen, har &quot;liket&quot; Ravage Royal eller har venner, der har delt eller liket Ravage Royal."
+                    }, {
+                        "posetive": "<b>Modtager</b> <p> Hensigten med meddelelsen er at få interesserede til at gå ind at se teaterforestillingen, så derfor er det alle, som kunne finde på at se forestillingen, der er modtagere.</p>", 
+                        "negative": "Forkert! Hensigten med meddelelsen er at få interesserede i til at gå ind at se teaterforestillingen, så derfor er det alle, som kunne finde på at se forestillingen, der er modtagere."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_4b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Zaki Youssefs og Hadi Ha-Koushs facebookvenner"}, 
+                        {"value": "Alle brugere, der “liker” eller deler Ravage Royal på Facebook"}, 
+                        {"value": "Det Kongelige Teaters traditionelle brugere"},
+                        {"value": "Unge, der er interesserede i teater"}
+                    ]
+                }, {
+                    "id": "Dropdown_4a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "Alle, der bruger google"}, 
+                        {"value": "Alle, der er på facebook, og har mere end 500 venner"}, 
+                        {"value": "Alle brugere, der “liker” eller deler Ravage Royal på Facebook"}, 
+                        {"value": "Alle, der er interesserede i Ravage Royal og satire, og måske vil ind og se forestillingen"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p> Og da meddelelsen er delt på via Facebook, er der en god chance for at modtageren kan lide humoren. Og en del vil sikkert ende med at købe en billet.</p>", 
+                        "negative": "Forkert! Om kommunikationen lykkes afhænger i høj grad af, om modtageren falder for humoren i videoen. Da meddelelsen er delt på via Facebook, er der dog en god chance for at modtageren kan lide humoren. Og en del vil sikkert ende med at købe en billet."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_5a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkedes Zaki Youssef og Hadi Ka-Koush med kommunikationen?"}, 
+                        {"value": "Nej, der er for få smileys"}, 
+                        {"value": "Nej, man forstår ikke, hvorfor de skal ændre deres måde at tale på. Det er da mærkeligt"},
+                        {"value": "Ja, hvis modtageren falder for deres humor og får lyst til at købe en billet til showet"},
+                        {"value": "Ja, mange nydanskere vil synes at det er sjovt og tage ind at se stykket"}                    ]
+                }]
+            }]
+        }, {
+            "name": "CASE 2",
+            "sourceData": {
+                "type": "video",
+                "src": "https://www.youtube.com/embed/IZWYiz_pN1Y"
+            },
+            "DropDowns": [{
+                "header": "SITUATIONEN",
+                "icon":{"alt": "Afsenderen", "url": ""},
+                "glyphicon": "glyphicon glyphicon-map-marker",
+                "correctAnswer": [2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Situationen</b><p>Det er en tilrettelagt scene, hvor to fiktive figurer bruges i satirisk øjemed.</p>", 
+                        "negative": "Nej, der er du ikke helt rigtig på den."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_6a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er situationen?"}, 
+                        {"value": "Et filmklip, hvor to almindelige danskere sidder og snakker om ting, de har hørt"}, 
+                        {"value": "En bevidst tilrettelagt humoristisk scene, der gør grin med de to mænds sprog og menneskesyn"}, 
+                        {"value": "Optakten til en pornografisk film"}, 
+                        {"value": "Klip fra en dokumentarudsendelse om livet i Gentofte"}
+                    ]
+                }]
+            }, {
+                "header": "AFSENDER",
+                "icon":{"alt": "Sproget", "url": ""},
+                "glyphicon": "glyphicon glyphicon-user",
+                "correctAnswer": [3],
+                "feedback": [
+                    {
+                        "posetive": "<b>Afsender</b> <p>Selvom det umiddelbart er komikerne, der skaber satiren og dens indhold, så spiller Danmarks Radio også en rolle, som den tv-station, der stiller deres sendeflade til rådighed og  sikrer programmets økonomiske ramme.</p>", 
+                        "negative": "Ikke helt rigtigt. Det er et mere dækkende svar."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_7a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er afsender?"}, 
+                        {"value": "Poul og Fritz"}, 
+                        {"value": "Komikerne Rasmus Botoft og Martin Buch, der står bag satireprogrammet “Rytteriet”"}, 
+                        {"value": "DR og komikerne Rasmus Botoft og Martin Buch, der står bag satireprogrammet “Rytteriet”"}, 
+                        {"value": "Sammenslutningen af au pair-piger i Danmark"}
+                    ]
+                }]
+            }, {
+                "header": "MEDDELELSE",
+                "icon":{"alt": "Medie", "url": ""},  
+                "glyphicon": "glyphicon glyphicon-arrow-right",
+                "correctAnswer": [4, 4, 3],
+                "feedback": [
+                    {
+                        "posetive": "<b>meddelelsen</b> <p>Den umiddelbare meddelelse er, at man skal tage sig sammen og bare nyde livet som Fritz og Poul. MEN som det er typisk for satire er meddelelsen dobbelt. Den indirekte meddelelse er, at figurerne Poul og Fritz er lykkeligt blinde for verdens problemer.</p>", 
+                        "negative": "Nej, her er du ikke helt rigtigt på den."
+                    },{
+                        "posetive": "<b>Formål</b> <p>Det groteske ved Poul og Frits’ udtalelser understreges ved den hårdtarbejdende au-pair-pige på gulvet ved siden af dem.</p>", 
+                        "negative": "Nej, her er du ikke helt rigtig på den."
+                    },{
+                        "posetive": "<b>Sprog</b> <p> Satiren udstiller de to figurer netop ved deres sprogs særlige tonefald.</p>", 
+                        "negative": "Nej, det er ikke helt rigtigt."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_8a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er meddelelsen?"}, 
+                        {"value": "Folk, der er nedslidte på grund af deres  arbejde, er selv skyld i det"}, 
+                        {"value": "Folk, der nedslidte på grund af deres arbejde, har krav på ferie"}, 
+                        {"value": "Folk, der er nedslidte på grund af deres arbejde, er en minoritet, som ingen kender til"}, 
+                        {"value": "Man skal bare tage sig sammen og nyde livet, så går det nok"}
+                    ]
+                },{
+                    "id": "Dropdown_8b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er formålet med kommunikationen?"}, 
+                        {"value": "At vise, at det gælder om at leve glad og ubekymret, som Fritz og Poul gør det"}, 
+                        {"value": "At vise fordelene ved at have en au pair-pige i huset"}, 
+                        {"value": "At italesætte det vigtige problem omkring nedslidning på det danske arbejdsmarked"}, 
+                        {"value": "At udstille Poul og Fritz, som selvfede og afstumpede typer, uden empati med andre"}, 
+                        {"value": "At kæmpe for au pair-pigers rettigheder"}
+                    ]
+                },{
+                    "id": "Dropdown_8c",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvilket sprog?"}, 
+                        {"value": "Fritz og Poul taler rigsdansk"}, 
+                        {"value": "Fritz og Poul taler jysk"}, 
+                        {"value": "De taler en sociolekt, der viser, at de er overklasse og bor ved Strandvejen i nordsjælland"}
+                    ]
+                }]
+            }, {
+                "header": "MEDIE",
+                "icon":{"alt": "Modtager", "url": ""},
+                "glyphicon": "glyphicon glyphicon-film",
+                "correctAnswer": [3,1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Mediet</b> <p>Det er tv-satire.</p>", 
+                        "negative": "Nej, det er ikke rigtigt."
+                    },{
+                        "posetive": "<b>Brugen af mediet</b> <p>Der er arbejdet med et bevidst samlet filmisk udsagn, hvor de forskellige dele er tilpasset hinanden.</p>", 
+                        "negative": "Nej, det er ikke tilfældet."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_9a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvad er mediet?"}, 
+                        {"value": "Det er et afsnit fra et reality-tv-program"}, 
+                        {"value": "Det er en videodagbog"}, 
+                        {"value": "Det er tv-satire"},
+                        {"value": "Det er et tv-interview"}
+                    ]
+                },{
+                    "id": "Dropdown_9b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvordan bruger Rasmus Botoft og Martin Buch mediet?"}, 
+                        {"value": "Det er en professionelt udført scene, hvor lyd, klipning og skuespil er nøje planlagt og udført"}, 
+                        {"value": "Der er brugt et håndholdt kamera, hvilket giver det hele en urolig effekt"}
+                    ]
+                }]
+            }, {
+                "header": "ADRESSAT/MODTAGER",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicons glyphicons-family",
+                "correctAnswer": [5, 2],
+                "feedback": [
+                    {
+                        "posetive": "<b>Adressat</b> <p>Satireprogrammet har været sendt på kanal DR2 og det er med denne kanals seere for øje, at programmet har været sendt.</p>", 
+                        "negative": "Nej, ikke helt rigtigt. Der er et mere dækkende svar."
+                    },{
+                        "posetive": "<b>Modtager</b> <p>Da det har primært været DR2’s seere, der har været modtagerne.</p>", 
+                        "negative": "Ikke helt rigtigt. Der er et mere præcist svar."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_10b",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er adressaten?"}, 
+                        {"value": "Folk, der bor ved Strandvejen og  ligner Poul og Fritz"}, 
+                        {"value": "Tv-seere på tværs af hele EU"}, 
+                        {"value": "Det brede danske tv-publikum"}, 
+                        {"value": "Folk i “udkantsdanmark”, så de kan grine af snobberne fra Strandvejen"}, 
+                        {"value": "Primært tv-seere på kanal DR2"}
+                    ]
+                },{
+                    "id": "Dropdown_10a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Hvem er modtageren(e)?"}, 
+                        {"value": "Det brede danske tv-publikum"}, 
+                        {"value": "Primært tv-seere på kanal DR2"}, 
+                        {"value": "Folk, der bor ved Strandvejen og ligner Poul og Fritz"}, 
+                        {"value": "Tv-seere på tværs af hele EU"}, 
+                        {"value": "Folk i “udkantsdanmark”, så de kan grine af snobberne fra Strandvejen"}
+                    ]
+                }]
+            }, {
+                "header": "REAKTION",
+                "icon":{"alt": "Reaktion", "url": ""},
+                "glyphicon": "glyphicon glyphicon-thumbs-up",
+                "correctAnswer": [1],
+                "feedback": [
+                    {
+                        "posetive": "<b>Effekten</b> <p>Programmets udprægede succes vidner om, at komikerne er lykkedes med deres satiriske kommunikation.</p>", 
+                        "negative": "Nej, det er ikke helt rigtigt."
+                    }
+                ],
+                "obj": [{
+                    "id": "Dropdown_11a",
+                    "class": "Dropdown",
+                    "selected": "0",
+                    "options": [
+                        {"value": "Lykkedes Rasmus Botoft og Martin Buch  med kommunikationen?"}, 
+                        {"value": "ja, de har succes, og viser med humor usympatiske træk ved den danske selvtilstrækkelighed"}, 
+                        {"value": "Nej, figurerne Fritz og Poul er urealistiske og utroværdige"}
+                    ]
+                }]
+            }]
+        }],
+    "endSenario": {
+        "btnText" : "PERSPEKTIVERING",
+        "header" : "Sproglige koder sat under den satiriske lup",
+        "whyIconClass" : "glyphicon glyphicon-bookmark",
+        "whyText" : "Til eksamen skal du kunne perspektivere og løfte din analyse op på et højere niveau. Her har du fire helt centrale områder som kan hjælpe dig med at se den konkrete case i en større sammenhæng, nemlig forholdet mellem kommunikation og medier i en senmoderne verden.",
+        "subHeader": "Læs de supplerende perspektiveringer af de to cases.",
+        "carousel": [
+            {   
+                "header": "Selvfremstilling",
+                "type" : "text",
+                "text" : "<p>Til forskel fra tidligere er grænserne mellem det private og det offentlige rum i dag udviskede. Mobiltelefonen har på en hidtil uset måde bragt den private samtale ud i det offentlige rum og de mange sociale medier skaber netop rum, hvor det private bliver offentligt og omvendt.</p><p>Vores identitet skabes og “forhandles” derfor hele tiden i denne udveksling mellem det private og det offentlige. De billeder, vi uploader på vores profil, skal vise os fra den bedste side. I sådan en sammenhæng spiller satiren en vigtig rolle. Den får ofte de perfekte billeder til at revne, da den som et spejl, fastholder og ofte forstørre de sider af os, som måske ikke er så flatterende. Zaki og Hadi Ka-Koush bruger sig selv til at gøre grin med de sproglige og etniske roller, som på en gang definerer og sætter i bås. Martin Buch og Rasmus Botoft skaber de fiktive figurer Fritz og Poul, hvis samtaler giver os et komisk billede af en afstumpet selvtilstrækkelighed og ignorance.</p>"
+            },{   
+                "header": "Det senmoderne samfund",
+                "type" : "text",
+                "text" : "<p>Det senmoderne samfund er karakteriseret ved økonomisk, kulturel og politisk globalisering. Kort sagt er grænserne mere og mere flydende, hvilket i øvrigt også gælder for vores identitet, som vi konstant reflekterer over og iscenesætter i mange sammenhænge. Ikke mindst på de sociale medier.</p><p>Identiteten er således ikke noget som er givet, som er fastlagt en gang for alle, men er derimod noget man skaber. Grænserne mellem ens privatliv og det offentlige rum opløses når man lægger private billeder ud på nettet, eller når politikerne pludselig optræder i tv-programmer som &quot;Her er dit liv&quot; eller deltager i &quot;Vild med dans&quot;.</p> "
+            },{   
+                "header": "De nye medier",
+                "type" : "text",
+                "text" : "<p>De mange nye sociale medier har ikke bare gjort det muligt at kommunikere på nye måder (facebook, twitter, instagram, blogs etc.), de har til dels også ændret indholdet af vores kommunikation. Fx uploader mange politikere billeder af dem selv i private sammenhænge, så de fremstå som helt almindelige mennesker.</p> <p>Tidligere blev debatter i det offentlige rum ført i aviser, radio og tv, fokus lå på de store politiske problemer og konflikter, og det var for det meste veluddannede mennesker som førte ordet. De sociale medier har ført til en demokratisering, alle kan komme til orde. Det betyder også at kommunikationen i dag i høj grad &quot;kommer nedefra&quot;, dvs. at mange debatter først opstår på de sociale medier, hvorefter de senere bliver taget op af de trykte medier.</p> <p>Med de mange medier er det blevet sværere at tiltrække sig opmærksomhed, at være synlig, og derfor gælder det om at kommunikere via så mange platforme/medier som overhovedet muligt.</p>"
+            },{   
+                "header": "Magtdiskurser",
+                "type" : "text",
+                "text" : "<p>Industrisamfundets tydelige hierarkier er i det senmoderne samfund blevet afløst af mere usynlige magtdiskurser. Vi siger ikke længere De til de ældre, og vi letter ikke på hatten når vi møder vores chef. De sociale medier har også været med til opløse skellet mellem det private og det offentlige.</p><p>Men sprog er fortsat magt, og selvom magtudøvelse kan synes mere usynlig i dag, så er den fortsat virksom. Langt fra al kommunikation indeholder en magtdiskurs, men vi skal borgere kunne navigere i den nye medievirkelighed, og her er der ikke meget som er tilfældigt. Det er denne usynlige sproglige magt, som Zaki Youssef og Hadi Ka-Koush gør synlig i deres humoristiske scene. Hvilken rolle synes du sproget og den sproglige magt spiller i satiren med Fritz og Poul?</p>"
+            }
+        ]
+    }
+}
