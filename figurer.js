@@ -152,10 +152,13 @@ function initElearningObj(jsonData){
         $('.carouselPage').eq(0).show();
         $('.diagramBtn').eq(0).toggleClass('vuc-info-active');
     }
+    insertContentInSlides(jsonData);
 }
 
 
 function setEventListeners(){
+
+    // SAVE: Click on a diagramBtn:
     $( document ).on('click', ".diagramBtn", function(event){
         var index = $(this).index();
         console.log('index: ' + index);
@@ -169,6 +172,7 @@ function setEventListeners(){
         osc.save('jsonData', jsonData);
     });
 
+    // SAVE: Click on the carousel-indicators:
     $( document ).on('click', ".carousel-indicators li", function(event){
         var id = $(this).parent().parent().prop('id').replace('carouselId_', '');
         var index = $(this).index();
@@ -177,6 +181,18 @@ function setEventListeners(){
 
         osc.save('jsonData', jsonData); 
     });
+
+    // SAVE: Click on left and right arrows and underlining panel:
+    $( document ).on('click', ".carousel-control", function(event){  
+        var parentObj = $(this).parent();
+        var id = parentObj.prop('id').replace('carouselId_', '');
+        var index = $('.carousel-indicators .active', parentObj).index();
+        console.log('CLICK - right or left - id: ' + id + ', index: ' + index);
+        setAtiveSlide(id, index);
+
+        osc.save('jsonData', jsonData); 
+    });
+
 }
 
 
@@ -196,7 +212,7 @@ function setAtiveSlide(ativeCarouselNo, ativeSlideNo){
 }
 
 
-// NOT IN USE:
+// FUNCTION NOT IN USE:
 function goToAtiveCarousel(){ 
     for (var n in jsonData.slideData){
         if (jsonData.slideData[n].status.active){
@@ -210,12 +226,101 @@ function goToAtiveCarousel(){
 function goToAtiveSlide(ativeCarouselNo){
     for (var k in jsonData.slideData[ativeCarouselNo].carouselData.slides){
         if (jsonData.slideData[ativeCarouselNo].carouselData.slides[k].status.active){
+            $( '#carouselId_'+String(ativeCarouselNo)+' .item' ).removeClass('active'); 
+            $( '#carouselId_'+String(ativeCarouselNo)+' .item' ).eq(k).addClass('active');
             $( '#carouselId_'+String(ativeCarouselNo)+' .carousel-indicators li' ).removeClass('active'); 
             $( '#carouselId_'+String(ativeCarouselNo)+' .carousel-indicators li' ).eq(k).addClass('active');
         }
     }
 }
 
+
+function leftColumnMarkup(columnData){
+    console.log('leftColumnMarkup - columnData: ' + JSON.stringify(columnData));
+    var HTML = '';
+    switch (columnData.type) {
+        case "img":
+            HTML += '<img class="img-responsive" src="' + columnData.src + '" alt="' + columnData.alt + '"/>';
+            break;
+        case "text":
+            HTML += '<div class="TextHolder">' + columnData.text + '</div>';
+            break;
+        case "video":
+            HTML += '<div class="embed-responsive embed-responsive-16by9 col-xs-12 col-md-12">' +
+                '<iframe class="embed-responsive-item" src="' + columnData.src + '?rel=0&iv_load_policy=3" allowfullscreen="1"></iframe>' +
+                '</div>';
+            break;
+        default:
+            alert('Invalid "type" in leftColumnMarkup');
+    }
+    return HTML;
+}
+
+
+function rightColumnMarkup(columnData){
+    console.log('rightColumnMarkup - columnData: ' + JSON.stringify(columnData));
+    var HTML = '';
+    switch (columnData.type) {
+        case "info":
+            HTML += '<div class="TextHolder">' + columnData.info + '</div>';
+            break;
+        case "quiz":
+            HTML += '<div class="quizHolder">' + columnData.quiz + '</div>';
+            break;
+        default:
+            alert('Invalid "type" in rightColumnMarkup');
+    }
+    return HTML;
+}
+
+
+function insertContentInSlides(jsonData){
+    for (var n in jsonData.slideData){
+        for (var k in jsonData.slideData[n].carouselData.slides){
+            var slideDataObj = jsonData.slideData[n].carouselData.slides[k];
+            var slideJQobj = $( '#carouselId_'+String(n)+' .item' ).eq(k);
+            console.log('insertContentInSlides - slideJQobj: ' + JSON.stringify(slideJQobj));
+            if (typeof(slideDataObj.columnData_content) !== 'undefined') {
+                $('.leftColumn', slideJQobj).html(leftColumnMarkup(slideDataObj.columnData_content.leftColumn));
+                $('.rightColumn', slideJQobj).html(rightColumnMarkup(slideDataObj.columnData_content.rightColumn));
+            }
+        }
+    }
+}
+
+
+function detectBootstrapBreakpoints(){
+    if (typeof(bootstrapBreakpointSize) === 'undefined') {
+        console.log('detectBootstrapBreakpoints - bootstrapBreakpointSize defined.');
+        window.bootstrapBreakpointSize = null;
+        window.bootstrapcolObj = {xs:0,sm:1,md:2,lg:3};
+    }
+
+    $(document).ready(function() {
+        console.log('detectBootstrapBreakpoints - document.ready.');
+        $('body').append('<div id="bootstrapBreakpointWrapper"> <span class="visible-xs-block"> </span> <span class="visible-sm-block"></span> <span class="visible-md-block"> </span> <span class="visible-lg-block"> </span> </div>');
+        bootstrapBreakpointSize = $( "#bootstrapBreakpointWrapper>span:visible" ).prop('class').split('-')[1];
+        console.log('detectBootstrapBreakpoints - bootstrapBreakpointSize: ' + bootstrapBreakpointSize);
+    });
+
+    $(window).on('resize', function () {
+        console.log('detectBootstrapBreakpoints - window.resize.');
+        bootstrapBreakpointSize = $( "#bootstrapBreakpointWrapper>span:visible" ).prop('class').split('-')[1];
+        console.log('detectBootstrapBreakpoints - bootstrapBreakpointSize: ' + bootstrapBreakpointSize + ', typeof(bootstrapBreakpointSize): ' + typeof(bootstrapBreakpointSize));
+    });
+}
+
+
+function reduceInputWidth() {
+    console.log('reduceInputWidth - CALLED');
+    if (bootstrapcolObj[bootstrapBreakpointSize] > bootstrapcolObj['sm']) {
+        $('.diagramBtn').addClass('diagramBtn_ekstra');
+        console.log('reduceInputWidth - ON');
+    } else {
+        $('.diagramBtn').removeClass('diagramBtn_ekstra');
+        console.log('reduceInputWidth - OFF');
+    }
+}
 
 
 //==============================================================================
@@ -338,13 +443,24 @@ carouselClass = {
                     '<iframe class="embed-responsive-item" src="' + slideData[slideNum].src + '?rel=0&iv_load_policy=3" allowfullscreen="1"></iframe>' +
                     '</div>';
                 break;
+            // case "columnData":
+            //     console.log("SLIDE TEST 1");
+            //     for (var j in slideData[slideNum].columnData) {
+            //         console.log("SLIDE TEST 2");
+            //         var l = slideData[slideNum].columnData.length;
+            //         var bsColNum = ((l == 1) ? '12' : ((l == 2) ? '6' : ((l == 3) ? '4' : '12')));
+            //         HTML += '<div class="analysis column col-xs-12 col-md-' + bsColNum + '">' + slideData[slideNum].columnData[j].column + '</div>';
+            //     }
+            //     break;
             case "columnData":
                 console.log("SLIDE TEST 1");
                 for (var j in slideData[slideNum].columnData) {
-                    console.log("SLIDE TEST 2");
-                    var l = slideData[slideNum].columnData.length;
-                    var bsColNum = ((l == 1) ? '12' : ((l == 2) ? '6' : ((l == 3) ? '4' : '12')));
-                    HTML += '<div class="analysis column col-xs-12 col-md-' + bsColNum + '">' + slideData[slideNum].columnData[j].column + '</div>';
+                    if (j == 0) {
+                        HTML += '<div class="analysis column col-xs-12 col-md-8">' + slideData[slideNum].columnData[j].column + '</div>';
+                    }
+                    if (j == 1) {
+                        HTML += '<div class="analysis column col-xs-12 col-md-4">' + slideData[slideNum].columnData[j].column + '</div>';
+                    }
                 }
                 break;
             default:
@@ -393,14 +509,15 @@ carouselClass = {
 //=======================================================================================
 
 
-$(window).resize(function() {
-
+$(window).on('resize', function() {
+    reduceInputWidth();  
 });
 
+detectBootstrapBreakpoints();
 
 $(document).ready(function() {
 
-    getAjaxData("GET", "json/carouselDataTest2.json", false, "json");
+    getAjaxData("GET", "json/carouselDataTest3.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();

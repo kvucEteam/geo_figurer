@@ -180,20 +180,26 @@
                         "type": "img",
                         "src": "img/dummyImg_white.png",
                         "alt": "Eksternt billede..."
-                    },{
-                        "status" : {"active": false, "answered": false},
-                        "slideLink": "https://www.vucdigital.dk/danA_MCWriteNight/mc_write_night.html",
-                        "overlay": "<h3>MC's Write Night</h3><p class='hidden-xs'>Skrivegeneratoren sætter dine kursister i gang med gruppeskrivning - på en legende måde. Kæmp om at skrive det bedste digt på tid.</p>",
-                        "type": "img",
-                        "src": "img/dummyImg_white.png",
-                        "alt": "Eksternt billede..."
                     }, {
                         "status" : {"active": false, "answered": false},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "overlay": "<h3>Kildeanalyse</h3><p class='hidden-xs'>Hvem udtaler sig? Hvem er modtageren? Hvornår er kilden fra? Hvilket tema omhandler kilden? Svar på spørgsmålene og lav din kildeanalyse samtidig.</p>",
-                        "type": "img",
-                        "src": "img/dummyImg_white.png",
-                        "alt": "Eksternt billede..."
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<b>CASE 1</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"},
+                            {"column":"<b>CASE 2</b><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                        ]
+                    }, {
+                        "status" : {"active": false, "answered": false},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : "leftColumn columnData_content",
+                            "rightColumn" : "rightColumn columnData_content"
+                        }
                     }
                 ]
             }
