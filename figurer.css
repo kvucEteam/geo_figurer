@@ -10,3 +10,68 @@
         margin-bottom: 10px;
     }
 }
+
+
+.CloseClass_new {
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: -15px;
+    margin-top: -15px;
+}
+
+.MsgBox_bgr_new {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 110;
+
+    /* The following code i borrowed from: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+    -webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+#UserMsgBox_new {
+    background-color: #fff;
+    border: 0 solid silver;
+    border-radius: 3px;
+    line-height: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 90%;
+    overflow: auto;
+    padding: 30px;
+    position: absolute;
+    top: 5%;
+    /*max-width: 95%;*/
+    display: inline-table;  /*This make the UserMsgBox_new div element ajust to the image-size*/
+
+    /* The following code i borrowed from: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+	transform: perspective(1px) translateY(-50%);
+}
+
+#UserMsgBox_new {  /*.OverlayTextContainer */
+    cursor: pointer;
+    left: 0;
+    right: 0;
+
+    /*display: inline-block; 
+    margin-left: auto;
+	margin-right: auto;*/
+}
+.centerImg{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.glyphicon-search{
+	position: absolute;
+	left: 95%;
+	top: 10px;
+	font-size: 2em;
+	color: rgba(0, 0, 0, 0.5);
+	/*display: none;*/
+}

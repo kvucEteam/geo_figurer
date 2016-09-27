@@ -102,10 +102,14 @@ function template() {
 }
 
 
-function initCtrlBtnContainer(jsonData){
+function initCtrlBtnContainer(jsonData){  // MARK
     var HTML = '';
     for (var n in jsonData.slideData){
-        HTML += '<div class="diagramBtn btn btn-info">'+jsonData.slideData[n].ctrlBtn+'</div>';
+        if (n == 0) {
+            HTML += '<div class="diagramBtn btn btn-info vuc-primary">'+jsonData.slideData[n].ctrlBtn+'</div>';
+        } else {
+            HTML += '<div class="diagramBtn btn btn-info">'+jsonData.slideData[n].ctrlBtn+'</div>';
+        }
     }
     return HTML;
 }
@@ -193,6 +197,48 @@ function setEventListeners(){
         osc.save('jsonData', jsonData); 
     });
 
+    $( document ).on('click', ".CloseClass_new", function(event){
+        $(".MsgBox_bgr_new").fadeOut(200, function() {
+            $(this).remove();
+        });
+    });
+
+    // SAVE: Click on left and right arrows and underlining panel:
+    $( document ).on('click', ".leftColumn", function(event){
+        console.log('leftColumn - CLICKED');
+        var imgUrl = $('> img', this).prop('src');
+        var imgAlt = $('> img', this).prop('alt');
+        var HTML = '<img class="centerImg img-responsive" src="'+imgUrl+'" alt="'+imgAlt+'">';
+        UserMsgBox_mod(HTML, false);
+    });
+    
+}
+
+
+/**
+ * DESCRIPTION: 
+ * 
+ */  
+function UserMsgBox_mod(msg, showStandardYesNoBtns){
+    var yesNoBtns = '<div><div class="btn btn-success" id="userMsgBox_yes">Ja</div><div class="btn btn-danger" id="userMsgBox_no">Nej</div></div>';
+    UserMsgBox("body", msg+((showStandardYesNoBtns)?yesNoBtns:''));
+
+    $('#UserMsgBox').unbind('click');
+    $('.MsgBox_bgr').unbind('click');
+
+    $('.CloseClass').addClass('CloseClass_new').removeClass('CloseClass');
+    $('#UserMsgBox').attr('id', 'UserMsgBox_new');
+    $('.MsgBox_bgr').addClass('MsgBox_bgr_new').removeClass('MsgBox_bgr');
+
+    // UserMsgBox_callbackOnComplete = function(){  // This callback 
+    //     $(".MsgBox_bgr").fadeOut(200, function() {
+    //         $(this).remove();
+    //         // $('.container-fluid').fadeIn('slow');  // Fade in all program-content.
+    //     });
+    // }
+    
+    // callback(UserMsgBox_callbackOnComplete);
+
 }
 
 
@@ -240,7 +286,8 @@ function leftColumnMarkup(columnData){
     var HTML = '';
     switch (columnData.type) {
         case "img":
-            HTML += '<img class="img-responsive" src="' + columnData.src + '" alt="' + columnData.alt + '"/>';
+            HTML += '<div class="glyphicon glyphicon-search"></div>';
+            HTML += '<img class="img-responsive" src="' + columnData.src + '" alt="' + columnData.alt + '"/>'; 
             break;
         case "text":
             HTML += '<div class="TextHolder">' + columnData.text + '</div>';
@@ -517,7 +564,7 @@ detectBootstrapBreakpoints();
 
 $(document).ready(function() {
 
-    getAjaxData("GET", "json/carouselDataTest3.json", false, "json");
+    getAjaxData("GET", "json/carouselDataTest4.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();
