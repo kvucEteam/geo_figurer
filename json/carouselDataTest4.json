@@ -5,13 +5,13 @@
     "slideData": [
         {   
             "carouselNo" : 0,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Generel info",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -24,7 +24,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData", 
                         "columnData": [   
@@ -37,7 +37,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -50,7 +50,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -63,7 +63,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -76,7 +76,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -93,13 +93,13 @@
         },
         {   
             "carouselNo" : 0,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Befolkningspyramider",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -112,7 +112,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -121,11 +121,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_befolkningspyramide.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -134,7 +134,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_befolkningspyramide.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -142,13 +142,13 @@
         },
         {   
             "carouselNo" : 1,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Demografiske transition",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -161,7 +161,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -170,11 +170,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_demografiskeTransition.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -183,7 +183,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_demografiskeTransition_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -191,13 +191,13 @@
         },
         {   
             "carouselNo" : 2,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false},
             "ctrlBtn" : "Stakkede diagrammer",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -210,7 +210,8 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -218,12 +219,31 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Overskrift... inputfield - Stakkede diagrammer", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Placeholder text...",
+                                        "value": "Old saved value..."
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":1, "max":3},
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -231,8 +251,59 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Overskrift... radio - Stakkede diagrammer", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Answer 1..."},
+                                        {"text":"Answer 2..."},
+                                        {"text":"Answer 3..."}
+                                    ],
+                                    "answer":1,
+                                    "giveAnswer": "Lærersvar på opgave: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...",
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz",
+                                "quiz": {
+                                    "header": "Overskrift... checkbox - Stakkede diagrammer", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "checkbox", 
+                                    "checkbox": [
+                                        {"text":"Answer 1..."},
+                                        {"text":"Answer 2..."},
+                                        {"text":"Answer 3..."}
+                                    ],
+                                    "answer":[1,2],
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
                         }
                     }
                 ]
@@ -240,13 +311,17 @@
         },
         {   
             "carouselNo" : 3,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Simpel graf-aflæsning",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
+                "feedback": {
+                    "correct": "Generel feedback correct text...",
+                    "wrong": "Generel feedback wrong text..."
+                },
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -260,7 +335,7 @@
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -269,12 +344,30 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Overskrift... inputfield", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Placeholder text...",
+                                        "value": "Old saved value..."
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":1, "max":3},
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -283,12 +376,77 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Overskrift... radio", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Answer 1..."},
+                                        {"text":"Answer 2..."},
+                                        {"text":"Answer 3..."}
+                                    ],
+                                    "answer":1,
+                                    "giveAnswer": "Lærersvar på opgave: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...",
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz",
+                                "quiz": {
+                                    "header": "Overskrift... checkbox", 
+                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "type": "checkbox", 
+                                    "checkbox": [
+                                        {"text":"Answer 1..."},
+                                        {"text":"Answer 2..."},
+                                        {"text":"Answer 3..."}
+                                    ],
+                                    "answer":[1,2],
+                                    "feedback": {
+                                        "correct": "Specific feedback correct text...",
+                                        "wrong": "Specific feedback wrong text..."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -297,12 +455,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_indbyggere_i_DK_1769-2016.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -311,12 +469,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_indbyggere_i_DK_1769-2016.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -325,12 +483,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_raastofindvinding_sand_grus_sten_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -339,12 +497,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_raastofindvinding_sand_grus_sten_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -353,12 +511,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_gasproduktion_i_Mm3.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -367,12 +525,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_gasproduktion_i_Mm3.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -381,12 +539,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_svovldioxid_udledning_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -395,12 +553,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_svovldioxid_udledning_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -409,12 +567,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_dyrket_areal_i_hektar_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -423,12 +581,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_dyrket_areal_i_hektar_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     },
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -437,12 +595,12 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }, 
                     {
                         "NEW" : true,
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -451,7 +609,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
                         }
                     }
                 ]
@@ -459,13 +617,13 @@
         },
         {   
             "carouselNo" : 4,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Grafer med indeks",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -478,7 +636,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -487,11 +645,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_grafMedIndeks.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -500,7 +658,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_grafMedIndeks_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -508,13 +666,13 @@
         },
         {   
             "carouselNo" : 5,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Koordinatsystem med to y-akser",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -527,7 +685,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -536,11 +694,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -549,11 +707,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -562,11 +720,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -575,7 +733,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -583,13 +741,13 @@
         },
         {   
             "carouselNo" : 6,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Tabeller",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -602,7 +760,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -611,11 +769,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -624,7 +782,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -632,13 +790,13 @@
         },
         {   
             "carouselNo" : 7,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Kredsløb",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -651,7 +809,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -660,11 +818,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -673,7 +831,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]
@@ -681,13 +839,13 @@
         },
         {   
             "carouselNo" : 8,
-            "status" : {"active": false, "answered": false},
+            "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Kort",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -700,7 +858,7 @@
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -709,11 +867,11 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
-                        "status" : {"active": false, "answered": false},
+                        "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
                         "columnData": [   
@@ -722,7 +880,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "quiz", "quiz": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }
                 ]

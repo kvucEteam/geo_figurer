@@ -44,7 +44,7 @@
     position: absolute;
     top: 5%;
     /*max-width: 95%;*/
-    display: inline-table;  /*This make the UserMsgBox_new div element ajust to the image-size*/
+    /*display: inline-table;*/  /*This make the UserMsgBox_new div element ajust to the image-size*/
 
     /* The following code i borrowed from: http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
 	top: 50%;
@@ -73,5 +73,30 @@
 	top: 10px;
 	font-size: 2em;
 	color: rgba(0, 0, 0, 0.5);
-	/*display: none;*/
+}
+.answerChoice input {
+	margin-right: 10px; 
+}
+.answerWrong{
+	background-color: #ed3e3a !important;
+}
+.answerCorrect{
+	background-color: #2abb2a !important;
+}
+
+.carousel .carousel-indicators .active {
+	height: 13px;
+	width: 13px;
+	position: relative;
+	top: -2px;
+	border: 1px solid #000;
+    opacity: 0.7;
+}
+.answerChoice label{
+	font-weight: normal;	
+}
+
+.vuc-info-active{  /* This need to be here due to the precedence in definition-order */
+	background-color: #717272;
+	color: #FFF;
 }

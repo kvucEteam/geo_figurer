@@ -157,6 +157,8 @@ function initElearningObj(jsonData){
         $('.diagramBtn').eq(0).toggleClass('vuc-info-active');
     }
     insertContentInSlides(jsonData);
+    initRadioAndCheckboxes();
+    setPreviousCorrectOrWrongAnswers();
 }
 
 
@@ -210,6 +212,29 @@ function setEventListeners(){
         var imgAlt = $('> img', this).prop('alt');
         var HTML = '<img class="centerImg img-responsive" src="'+imgUrl+'" alt="'+imgAlt+'">';
         UserMsgBox_mod(HTML, false);
+    });
+
+
+    $( document ).on('click', ".checkAnswer", function(event){
+        console.log('checkAnswer - CLICKED');
+        var carouselNo = $(this).closest('.carousel').prop('id').replace('carouselId_','');
+        var slideNo = $(this).closest('.item').prop('id').replace('slide_','');
+        checkAnswer(carouselNo, slideNo);
+        saveRadioAndCheckboxValues(carouselNo, slideNo); // <--- NEEDS TO BE TESTED!!!
+        setDiagramBtnCorrectOrWrong(carouselNo);
+
+        osc.save('jsonData', jsonData);
+    });
+
+
+    $( document ).on('click', ".giveAnswer", function(event){
+        var carouselNo = $(this).closest('.carousel').prop('id').replace('carouselId_','');
+        var slideNo = $(this).closest('.item').prop('id').replace('slide_','');
+        // checkAnswer(carouselNo, slideNo);
+        var text = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz.giveAnswer;
+        UserMsgBox("body", text);
+
+        osc.save('jsonData', jsonData);
     });
     
 }
@@ -304,6 +329,7 @@ function leftColumnMarkup(columnData){
 }
 
 
+// "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"
 function rightColumnMarkup(columnData){
     console.log('rightColumnMarkup - columnData: ' + JSON.stringify(columnData));
     var HTML = '';
@@ -312,12 +338,296 @@ function rightColumnMarkup(columnData){
             HTML += '<div class="TextHolder">' + columnData.info + '</div>';
             break;
         case "quiz":
-            HTML += '<div class="quizHolder">' + columnData.quiz + '</div>';
+            HTML += '<div class="quizHolder">';
+            HTML +=     '<h3>'+columnData.quiz.header+'</h3>';
+            HTML +=     '<p>'+columnData.quiz.caption+'</p>';
+            HTML +=     '<b>'+columnData.quiz.question+'</b>';
+            HTML +=     '<div class="answerWrap">';
+            HTML +=         quizMarkup(columnData.quiz);
+            HTML +=     '</div>';
+            HTML +=     '<br>';
+            HTML +=     '<span class="checkAnswer btn btn-primary">TJEK SVAR</span>';
+            HTML +=     (typeof(columnData.quiz.giveAnswer)!=='undefined')?'<span class="giveAnswer btn btn-info">SE SVAR</span>':'';
+            HTML += '</div>';
             break;
         default:
             alert('Invalid "type" in rightColumnMarkup');
     }
     return HTML;
+}
+
+
+function quizMarkup(quizData){
+    console.log('quizMarkup - quizData: ' + JSON.stringify(quizData));
+    var HTML = '';
+    switch (quizData.type) {
+        case "inputfield":
+            HTML += '<input class="inputfield" type="text" value="'+quizData.inputfield.value+'" placeholder="'+quizData.inputfield.placeholder+'">';
+            break;
+        case "radio":
+            for (var n in quizData.radio){
+                // HTML += '<div class="answerChoice radioWrap"> <input type="radio" name="'+n+'" value="'+n+'">'+quizData.radio[n].text+'</div>';
+                HTML += '<div class="answerChoice radioWrap"> <label><input type="radio" name="'+n+'" value="'+n+'">'+quizData.radio[n].text+'</label></div>';
+            }
+            break;
+        case "checkbox":
+            for (var n in quizData.checkbox){
+                // HTML += '<div class="answerChoice checkboxWrap"> <input type="checkbox" name="'+n+'" value="'+n+'">'+quizData.checkbox[n].text+'</div>';
+                HTML += '<div class="answerChoice checkboxWrap"> <label><input type="checkbox" name="'+n+'" value="'+n+'">'+quizData.checkbox[n].text+'</label></div>';
+            }
+            break;
+        default:
+            alert('Invalid "type" in quizMarkup');
+    }
+    return HTML;
+}
+
+
+function initRadioAndCheckboxes(){
+    $( ".answerWrap" ).each(function( index, element ) {
+        // $('>.answerChoice input', element).attr('name', index);
+        $('>.answerChoice label input', element).attr('name', index);
+    });
+}
+
+
+function setPreviousCorrectOrWrongAnswers(){
+    for (var n in jsonData.slideData){
+        var answered1 = jsonData.slideData[n].status.answered;
+        console.log('setPreviousCorrectOrWrongAnswers - answered1: ' + answered1);
+        // if (typeof(answered1) !== 'undefined') {  // This check is due to the zero'th carousel consisting of info-slides - these does not have an "answered" state.
+            if ((typeof(answered1) !== 'undefined') && (answered1!== null)){  // This "undefined" check is due to the zero'th carousel consisting of info-slides - these does not have an "answered" state.
+                if (answered1){
+                    $('.diagramBtn').eq(n).addClass('vuc-correct'); 
+                } else {
+                    $('.diagramBtn').eq(n).addClass('vuc-wrong');   // <--------  NOTE (#1): This will not be in effect... - see NOTE (#2) below!
+                }
+            }
+            for (var k in jsonData.slideData[n].carouselData.slides){
+                var answered2 = jsonData.slideData[n].carouselData.slides[k].status.answered;
+                console.log('setPreviousCorrectOrWrongAnswers - answered2: ' + answered2);
+                if (typeof(answered2) !== 'undefined') {  // This check is due to the zero'th carousel consisting of info-slides - these does not have an "answered" state.
+                    if (answered2!== null){
+                        if (answered2){
+                            $('#carouselId_'+n+' .carousel-indicators li').eq(k).addClass('answerCorrect');
+                        } else {
+                            $('#carouselId_'+n+' .carousel-indicators li').eq(k).addClass('answerWrong');
+                        }
+                        
+                    }
+                }
+            }  // END FOR
+        // }
+    }
+
+    for (var n in jsonData.slideData){
+        for (var k in jsonData.slideData[n].carouselData.slides){
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //
+            //      NEDENSTÅENDE VIRKER IKKE - DET SÆTTER IKKE TILSTANDEN FOR RADIO OG CKECKBOXE VED START 
+            //
+            ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            var quizObj = jsonData.slideData[n].carouselData.slides[k].columnData_content.rightColumn.quiz;
+            console.log('setPreviousCorrectOrWrongAnswers - quizObj: ' + JSON.stringify(quizObj));
+
+            if (typeof(quizObj)!=='undefined'){  // "quiz" is undefined for info-slides..
+            
+                if (typeof(quizObj.radio)!=='undefined'){
+                    for (var s in quizObj.radio){
+                        console.log('setPreviousCorrectOrWrongAnswers - radio: ' + JSON.stringify(quizObj.radio[s]));
+                        if (quizObj.radio[s].checked){
+                            $('#carouselId_'+n+' #slide_'+k+' input').eq(s).prop("checked", true);
+                        }
+                    }
+                }
+                
+                if (typeof(quizObj.checkbox)!=='undefined'){
+                    for (var s in quizObj.checkbox){
+                        if (quizObj.checkbox[s].checked){
+                            $('#carouselId_'+n+' #slide_'+k+' input').eq(s).prop("checked", true);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+function setDiagramBtnCorrectOrWrong(carouselNo){
+    var allSlidesAnswered = true;
+    for (var k in jsonData.slideData[carouselNo].carouselData.slides){
+        if (k > 0) {  // The zero'th slide is the info-slide, which does not have an "answered" status.
+            var answered = jsonData.slideData[carouselNo].carouselData.slides[k].status.answered;
+            if (answered!== null){
+                if (!answered){
+                    allSlidesAnswered = false;
+                    break;
+                }
+            } else {
+                allSlidesAnswered = false;
+                break;
+            }
+        }
+    }
+    if (allSlidesAnswered){
+        jsonData.slideData[carouselNo].status.answered = true;
+        $('.diagramBtn').eq(carouselNo).addClass('vuc-correct'); 
+    } 
+    // else {                                                       // <------ NOTE (#2): This works OK, but has been commented out since it looks "strange" that a correct answer to a slide gives a wrong/fail diagramBtn color (e.g. "vuc-wrong"). See NOTE (#1) above!
+    //     jsonData.slideData[carouselNo].status.answered = false;
+    //     $('.diagramBtn').eq(carouselNo).addClass('vuc-wrong');   
+    // }
+}
+
+
+function checkAnswer(carouselNo, slideNo){
+    var quizObj = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz;
+    console.log('checkAnswer - quizObj: ' + JSON.stringify(quizObj));
+    switch (quizObj.type) {
+
+        case "inputfield":
+            var answerType = quizObj.answerType;
+            console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', answerType: '+answerType);
+
+            switch (answerType) {
+                
+                case "interval":
+                    var intervalObj = quizObj.interval;
+                    var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
+                    console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', intervalObj: '+ JSON.stringify(intervalObj)+', value: '+value);
+                    value = value.replace(',','.');
+                    var regexPatt = /(^-\d+$|^-\d+.\d+$|^\d+$|^\d+.\d+$)/g;  // Test for posetive and negative integers and real numbers, e.g: "x", "-x", "x.y", "-x.y"
+                    if (regexPatt.test(value)){
+                        value = parseFloat(value);
+                        if ((intervalObj.min <= value) && (value <= intervalObj.max)) {
+                            actions_answerCorrect(carouselNo, slideNo);
+                        } else {
+                            actions_answerWrong(carouselNo, slideNo);
+                        }
+                        quizObj.inputfield.value = value; // Save the value.
+                    } else {
+                        UserMsgBox('body', '<h4>OBS</h4> <p> Den intastede værdi: "'+value+'" indeholder andre tegn end tal!</p>');
+                    }
+
+                break;
+
+                case "string":
+                break;
+
+                default:
+                    alert('Invalid "type" in quizMarkup');
+            }
+
+            break;
+
+        case "radio":
+            var answerNo = quizObj.answer;
+            console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', answerNo: '+answerNo);
+
+            if ($('#carouselId_'+carouselNo+' #slide_'+slideNo+' input').eq(answerNo).is(':checked')){
+                actions_answerCorrect(carouselNo, slideNo);
+            } else {
+                actions_answerWrong(carouselNo, slideNo);
+            }
+            console.log('checkAnswer - status: ' + JSON.stringify(jsonData.slideData[carouselNo].carouselData.slides[slideNo].status));
+            break;
+
+        case "checkbox":
+            var answerArr = quizObj.answer;
+            var answerFound = false;
+            var elementArr = [];
+            for (var n in quizObj.checkbox){
+                if ($('#carouselId_'+carouselNo+' #slide_'+slideNo+' input').eq(n).is(':checked')){
+                    elementArr.push(parseInt($('#carouselId_'+carouselNo+' #slide_'+slideNo+' input').eq(n).val()));
+                }
+            }
+            console.log('checkAnswer - answerArr: '+answerArr+', elementArr: '+elementArr);
+            if (hasSimilarElements(answerArr, elementArr).similar){
+                actions_answerCorrect(carouselNo, slideNo);
+            } else {
+                actions_answerWrong(carouselNo, slideNo);
+            }
+            break;
+        default:
+            alert('Invalid "type" in quizMarkup');
+    }
+}
+
+
+function saveRadioAndCheckboxValues(carouselNo, slideNo){   // <------------------------------------------------------- NEEDS TO BE TESTED!!!
+    var quizObj = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz;
+    $('#carouselId_'+carouselNo+' #slide_'+slideNo+' input').each(function( index, element ) {
+        if (typeof(quizObj.radio)!=='undefined'){
+            if ($(element).is(':checked')){
+                quizObj.radio[index].checked = true; // Save the value - "checked" is NOT a property of jsonData to begin with...
+            } else {
+                quizObj.radio[index].checked = false; // Save the value - "checked" is NOT a property of jsonData to begin with...
+            }
+        }
+        if (typeof(quizObj.checkbox)!=='undefined'){
+            if ($(element).is(':checked')){
+                quizObj.checkbox[index].checked = true; // Save the value - "checked" is NOT a property of jsonData to begin with...
+            } else {
+                quizObj.checkbox[index].checked = false; // Save the value - "checked" is NOT a property of jsonData to begin with...
+            }
+        }
+    });
+    console.log('saveRadioAndCheckboxValues - quizObj: '+ JSON.stringify(quizObj));
+}
+
+/**
+ * DESCRIPTION:
+ *  This function "tells" if two arrays are similar or not (similar = true/false), and if they are not similar, does "elementArr" contain more, same or less elements
+ *  than "answerArr".
+ *
+ *  similar:
+ *      similar = true if "elementArr" contain exactly the same elements as "answerArr", otherwise similar = false.
+ *  
+ *  sizeDiff:
+ *      if sizeDiff < 0, the student has given less answers than requried.
+ *      if sizeDiff = 0, the student has given the number of answers as requried.
+ *      if sizeDiff > 0, the student has given more answers than requried.
+ */  
+function hasSimilarElements(answerArr, elementArr){
+    console.log('hasSimilarElements - answerArr: '+answerArr+', elementArr: '+elementArr);
+    var elemObj = {sizeDiff: null, similar: false};
+    elemObj.sizeDiff = elementArr.length - answerArr.length; // , 
+    if (elemObj.sizeDiff == 0) {
+        answerArr.sort(); 
+        elementArr.sort(); 
+        for (var n in answerArr){
+            if (answerArr[n] !== elementArr[n]){
+                return elemObj; // returns similar = false
+            }
+        }
+        elemObj.similar = true;
+    }
+    return elemObj;  // can return similar = true/false, NOTE: similar = true if sizeDiff = 0
+}
+
+
+function actions_answerCorrect(carouselNo, slideNo){
+    jsonData.slideData[carouselNo].carouselData.slides[slideNo].status.answered = true;
+    $('#carouselId_'+carouselNo+' .carousel-indicators li').eq(slideNo).removeClass('answerWrong').addClass('answerCorrect');
+    var feedbackObj = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz.feedback;
+    if (typeof(feedbackObj) !== 'undefined') {  // Only if the teachers have supplied specific feedback for this studentanswer, then...
+        UserMsgBox("body", '<h3>Du har svaret <span class="label label-success">Korrekt!</span></h3><p>'+feedbackObj.correct+'</p>');
+    } else { // ... else give the student the general answer. 
+        UserMsgBox("body", '<h3>Du har svaret <span class="label label-success">Korrekt!</span></h3><p>'+jsonData.slideData[carouselNo].carouselData.feedback.correct+'</p>');
+    }
+}
+
+function actions_answerWrong(carouselNo, slideNo){
+    jsonData.slideData[carouselNo].carouselData.slides[slideNo].status.answered = false;
+    $('#carouselId_'+carouselNo+' .carousel-indicators li').eq(slideNo).removeClass('answerCorrect').addClass('answerWrong');
+    var feedbackObj = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz.feedback;
+    if (typeof(feedbackObj) !== 'undefined') {  // Only if the teachers have supplied specific feedback for this specific studentanswer, then...
+        UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');
+    } else { // ... else give the student the general answer. 
+        UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+jsonData.slideData[carouselNo].carouselData.feedback.wrong+'</p>');
+    }
 }
 
 
@@ -564,7 +874,8 @@ detectBootstrapBreakpoints();
 
 $(document).ready(function() {
 
-    getAjaxData("GET", "json/carouselDataTest4.json", false, "json");
+    // getAjaxData("GET", "json/carouselDataTest4.json", false, "json"); 
+    getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();
