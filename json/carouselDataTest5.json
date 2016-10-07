@@ -2,6 +2,9 @@
     "mainHeader" : "Objekt overskrift figurer",
     "instruction" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
     "explanation" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
+    "strDataInterval":{
+        "months":["Januar", "Febuar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"]
+        },
     "slideData": [
         {   
             "carouselNo" : 0,
@@ -19,8 +22,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_befolkningspyramider.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_1.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Figuren viser et koordinatsystem med to akser.</p><p>Den vandrette akse kaldes x-aksen eller første aksen. Denne viser den uafhængige variabel.</p><p>Den lodrette akse kaldes y-aksen eller anden aksen. Denne viser den afhængige variabel.</p><p>Ved siden af akserne er enheden angivet.</p><p>Man skal være opmærksom på at akserne på disse figurer ikke nødvendigvis krydser hinanden i punktet (0,0).</p><p>I koordinatsystemet er der indtegnet en graf, der beskriver sammenhængen mellem de to variable.</p>"}
                         }
                     }, 
                     {
@@ -32,8 +35,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_demografiskeTransition.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_2.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen.<br>Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.</p><p>Eksempel:<br>Når smørproduktionen i 2008 skal findes starter man altså ved 2008 på x-aksen.<br><br>Går lodret op i koordinatsystemet til man møder grafen.<br><br>Så aflæser man dette punkts y-koordinat, som er 38.<br><br>Dvs. i 2008 var smørproduktionen på 38 mio. kg.</p>"}
                         }
                     }, 
                     {
@@ -45,8 +48,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_graferMedIndeks.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_3.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen.<br>Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p><p>Eksempel:<br>Når man skal finde ud af hvornår smørproduktionen første gang nåede ned under 60 mio. kg, så starter man altså ved 60 på y-aksen.<br><br>Går vandret ud i koordinatsystemet til man møder grafen.<br><br>Så aflæser man dette punkts x-koordinat, som er 1993.<br><br>Dvs. i 1993 var smørproduktionen for første gang i perioden 1990-2014 under 60 mio. kg.</p>"}
                         }
                     }, 
                     {
@@ -219,12 +222,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__endelig_energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... inputfield - Stakkede diagrammer", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+                                    "header": "Danmarks energiforbrug 1972-2014", 
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra Energistyrelsen, <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik</a>",
                                     "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -343,23 +346,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Befolkningstal på Læsø"},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... inputfield", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
+                                    "question":"Aflæs befolkningstallet på Læsø i 2011.",
                                     "type": "inputfield", 
                                     "inputfield": {
-                                        "placeholder": "Placeholder text...",
-                                        "value": "Old saved value..."
+                                        "placeholder": "Skriv befolkningstallet...",
+                                        "value": ""
                                     },
                                     "answerType": "interval",
-                                    "interval":{"min":1, "max":3},
+                                    "interval":{"min":1940, "max":1960},
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": "Årstallet er en x-værdi. Du kan aflæse befolkningstallet ved at finde årstallet på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
                                     }
                                 }
                             }
@@ -375,24 +378,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... radio", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
+                                    "question":"Hvad er enheden på y-aksen?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Answer 1..."},
-                                        {"text":"Answer 2..."},
-                                        {"text":"Answer 3..."}
+                                        {"text":"Antal indbyggere"},
+                                        {"text":"Årstal"},
+                                        {"text":"Antal indbyggere pr. kvadratmeter"}
                                     ],
-                                    "answer":1,
-                                    "giveAnswer": "Lærersvar på opgave: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...",
+                                    "answer":0,
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": "Enhederne finder du ved enden af akserne."
                                     }
                                 }
                             }
@@ -408,23 +410,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
-                                "type": "quiz",
+                                "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... checkbox", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-                                    "type": "checkbox", 
-                                    "checkbox": [
-                                        {"text":"Answer 1..."},
-                                        {"text":"Answer 2..."},
-                                        {"text":"Answer 3..."}
-                                    ],
-                                    "answer":[1,2],
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
+                                    "question":"I hvilket årstal i perioden 2008-2016 var befolkningstallet på Læsø lavest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":2015, "max":2015},
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde det sted grafen er lavest (laveste befolkningsstal) og gå lodret ned til x-aksen, hvor årstallet kan aflæses."
                                     }
                                 }
                             }
@@ -440,50 +442,26 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_indbyggere_i_DK_1769-2016.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_indbyggere_i_DK_1769-2016.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_raastofindvinding_sand_grus_sten_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
+                                    "question":"I hvilket år nåede befolkningstallet på Læse første gang under 1850 i perioden 2008-2016?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":2012, "max":2012},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde befolkningstallet på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
@@ -496,50 +474,27 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_raastofindvinding_sand_grus_sten_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_gasproduktion_i_Mm3.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_gasproduktion_i_Mm3.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_svovldioxid_udledning_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Befolkningstal på Læsø"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
+                                    "question":"I hvilken måned overstiger middeltemperaturen første gang 11 grader?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv måned...",
+                                        "value": ""
+                                    },
+                                    "answerType": "strInterval",
+                                    "strInterval":{"min":"maj", "max":"maj"},
+                                    "strDataInterval": "months",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse måneden ved at finde middeltemperaturen på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
@@ -552,50 +507,26 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_svovldioxid_udledning_i_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_dyrket_areal_i_hektar_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_dyrket_areal_i_hektar_DK.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
-                        }
-                    },
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3> <p>Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br><b>Aflæs befolkningstallet på Læsø i 2011.</b><br><br> <input type='text' placeholder='Skriv årstal'></p> <br><span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
+                                    "question":"Hvad er middeltemperaturen i juni?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":14, "max":14.6},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Månedsnavnet er en x-værdi. Du kan aflæse middeltemperaturen ved at finde månedens navn på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
@@ -608,8 +539,59 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningstal på Læsø 1</h3><p> Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. <br><br> <b>Hvad er enheden på y-aksen?</b> <br><br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere<br> <input type='radio' name='xxx' value='yyy'> Årstal<br> <input type='radio' name='xxx' value='yyy'> Antal indbyggere pr. kvadratmeter<br> </p> <span class='btn btn-primary'>TJEK SVAR</span>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
+                                    "question":"I hvor mange måneder er middeltemperaturen i Danmark under frysepunktet?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Ingen"},
+                                        {"text":"1"},
+                                        {"text":"2"},
+                                        {"text":"3"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Frysepunktet svarer til 0 grader. Du kan finde antallet af måneder med en gennemsnitstemperatur over frysepunktet ved at tælle antallet af måneder, hvor grafen, når over x-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
+                                    "question":"Hvad er den højeste månedlige middeltemperatur i Danmark?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":15.3, "max":16},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse den højeste værdi ved at finde det sted, hvor grafen går længst opad og aflæse punktets y-værdi."
+                                    }
+                                }
+                            }
                         }
                     }
                 ]

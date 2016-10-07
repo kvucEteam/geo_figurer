@@ -106,7 +106,8 @@ function initCtrlBtnContainer(jsonData){  // MARK
     var HTML = '';
     for (var n in jsonData.slideData){
         if (n == 0) {
-            HTML += '<div class="diagramBtn btn btn-info vuc-primary">'+jsonData.slideData[n].ctrlBtn+'</div>';
+            // HTML += '<div class="diagramBtn btn btn-info vuc-primary">'+jsonData.slideData[n].ctrlBtn+'</div>';  /* <----- TLY does not want this. 30/9-2016 */
+            HTML += '<div class="diagramBtn btn btn-info">'+jsonData.slideData[n].ctrlBtn+'</div>';
         } else {
             HTML += '<div class="diagramBtn btn btn-info">'+jsonData.slideData[n].ctrlBtn+'</div>';
         }
@@ -513,7 +514,26 @@ function checkAnswer(carouselNo, slideNo){
 
                 break;
 
-                case "string":
+                case "strInterval":
+                    var strIntervalObj = quizObj.strInterval;
+                    var strDataInterval = quizObj.strDataInterval;
+                    var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
+                    console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', strIntervalObj: '+ JSON.stringify(strIntervalObj)+', value: '+value+', strDataInterval: '+strDataInterval);
+                    value = value.toLowerCase();
+                    var regexPatt = /(^\w+$)/g;  // Test for word chars.
+                    if (regexPatt.test(value)){
+                        var sdi = arrToObj(jsonData.strDataInterval[strDataInterval]);  // sdi = strDataInterval
+                        console.log('checkAnswer - sdi[strIntervalObj.min]: '+sdi[strIntervalObj.min]+' <= sdi[value]: '+sdi[value]+' <= sdi[strIntervalObj.max]: '+sdi[strIntervalObj.max]);
+                        console.log('checkAnswer - sdi: ' + JSON.stringify(sdi));
+                        if ((sdi[strIntervalObj.min] <= sdi[value]) && (sdi[value] <= sdi[strIntervalObj.max])) {
+                            actions_answerCorrect(carouselNo, slideNo);
+                        } else {
+                            actions_answerWrong(carouselNo, slideNo);
+                        }
+                        quizObj.inputfield.value = value; // Save the value. 
+                    } else {
+                        UserMsgBox('body', '<h4>OBS</h4> <p> Den intastede værdi: "'+value+'" indeholder andre tegn end bogstaver!</p>');
+                    }
                 break;
 
                 default:
@@ -554,6 +574,16 @@ function checkAnswer(carouselNo, slideNo){
             alert('Invalid "type" in quizMarkup');
     }
 }
+
+
+function arrToObj(arr){
+    var obj = {}; var key;
+    for (var n in arr){
+        obj[arr[n].toLowerCase()] = parseInt(n);
+    }
+    return obj;
+}
+console.log('arrToObj(["a", "b", "c", "d"]): ' + JSON.stringify(arrToObj(["a", "b", "c", "d"])));
 
 
 function saveRadioAndCheckboxValues(carouselNo, slideNo){   // <------------------------------------------------------- NEEDS TO BE TESTED!!!
@@ -872,10 +902,13 @@ $(window).on('resize', function() {
 
 detectBootstrapBreakpoints();
 
+
+
+
 $(document).ready(function() {
 
-    // getAjaxData("GET", "json/carouselDataTest4.json", false, "json"); 
-    getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
+    getAjaxData("GET", "json/carouselDataTest5.json", false, "json"); 
+    // getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();

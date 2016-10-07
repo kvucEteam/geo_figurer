@@ -1,3 +1,7 @@
+
+.carouselPage{
+	margin-top: 10px;
+}
 .PagerContainer, .ctrlBtnContainer{
 	/*margin-bottom: 10px;*/
 }
@@ -16,6 +20,7 @@
     color: rgba(0, 0, 0, 0.5);
     margin-right: -15px;
     margin-top: -15px;
+    font-size: 1.6em;
 }
 
 .MsgBox_bgr_new {
@@ -58,7 +63,7 @@
     left: 0;
     right: 0;
 
-    /*display: inline-block; 
+    /*display: inline-block;  
     margin-left: auto;
 	margin-right: auto;*/
 }
@@ -69,7 +74,7 @@
 
 .glyphicon-search{
 	position: absolute;
-	left: 95%;
+	left: 93%;
 	top: 10px;
 	font-size: 2em;
 	color: rgba(0, 0, 0, 0.5);
@@ -78,7 +83,7 @@
 	margin-right: 10px; 
 }
 .answerWrong{
-	background-color: #ed3e3a !important;
+	/*background-color: #ed3e3a !important;*/  /* <----- TLY does not want this. 30/9-2016 */
 }
 .answerCorrect{
 	background-color: #2abb2a !important;
@@ -89,14 +94,27 @@
 	width: 13px;
 	position: relative;
 	top: -2px;
-	border: 1px solid #000;
+	border: 1px solid #717272;  /* <----- TLY want this instead of #000. 30/9-2016 */
+	background-color: #717272;  /* <----- TLY want this instead of #000. 30/9-2016 */
     opacity: 0.7;
 }
 .answerChoice label{
 	font-weight: normal;	
 }
 
-.vuc-info-active{  /* This need to be here due to the precedence in definition-order */
+.carousel-indicators .answerCorrect.active{
+	border: 1px solid #227722;      /* <----- TLY want this. 30/9-2016 */
+}
+
+.ctrlBtnContainer .vuc-correct{
+	background-color: #8daa8d;  /* <----- TLY want this. 30/9-2016 */
+}
+
+.inputfield{
+	margin-top: 10px;
+}
+
+.ctrlBtnContainer .vuc-info-active{  /* This need to be here due to the precedence in definition-order */
 	background-color: #717272;
 	color: #FFF;
 }
