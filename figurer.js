@@ -498,7 +498,7 @@ function checkAnswer(carouselNo, slideNo){
                     var intervalObj = quizObj.interval;
                     var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
                     console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', intervalObj: '+ JSON.stringify(intervalObj)+', value: '+value);
-                    value = value.replace(',','.');
+                    value = value.replace(',','.').trim();
                     var regexPatt = /(^-\d+$|^-\d+.\d+$|^\d+$|^\d+.\d+$)/g;  // Test for posetive and negative integers and real numbers, e.g: "x", "-x", "x.y", "-x.y"
                     if (regexPatt.test(value)){
                         value = parseFloat(value);
@@ -519,7 +519,7 @@ function checkAnswer(carouselNo, slideNo){
                     var strDataInterval = quizObj.strDataInterval;
                     var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
                     console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', strIntervalObj: '+ JSON.stringify(strIntervalObj)+', value: '+value+', strDataInterval: '+strDataInterval);
-                    value = value.toLowerCase();
+                    value = value.toLowerCase().trim();
                     var regexPatt = /(^\w+$)/g;  // Test for word chars.
                     if (regexPatt.test(value)){
                         var sdi = arrToObj(jsonData.strDataInterval[strDataInterval]);  // sdi = strDataInterval
@@ -534,6 +534,19 @@ function checkAnswer(carouselNo, slideNo){
                     } else {
                         UserMsgBox('body', '<h4>OBS</h4> <p> Den intastede værdi: "'+value+'" indeholder andre tegn end bogstaver!</p>');
                     }
+                break;
+
+                case "string":
+                    var AnswerString = quizObj.string;
+                    var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
+                    console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', AnswerString: '+ AnswerString+', value: '+value);
+                    value = value.toLowerCase().trim();
+                    if (value == AnswerString) {
+                        actions_answerCorrect(carouselNo, slideNo);
+                    } else {
+                        actions_answerWrong(carouselNo, slideNo);
+                    }
+                    quizObj.inputfield.value = value; // Save the value. 
                 break;
 
                 default:

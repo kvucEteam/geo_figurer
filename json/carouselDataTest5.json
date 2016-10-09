@@ -222,23 +222,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__endelig_energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Danmarks energiforbrug 1972-2014", 
-                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra Energistyrelsen, <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik</a>",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Placeholder text...",
-                                        "value": "Old saved value..."
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":1, "max":3},
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvad er enheden på y-aksen?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Tetajoule"},
+                                        {"text":"Årstal"},
+                                        {"text":"Energikilde"}
+                                    ],
+                                    "answer":0,
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": "Enhederne finder du ved enden af akserne."
                                     }
                                 }
                             }
@@ -254,24 +254,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... radio - Stakkede diagrammer", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-                                    "type": "radio", 
-                                    "radio": [
-                                        {"text":"Answer 1..."},
-                                        {"text":"Answer 2..."},
-                                        {"text":"Answer 3..."}
-                                    ],
-                                    "answer":1,
-                                    "giveAnswer": "Lærersvar på opgave: lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt...",
+                                    "header": "Danmarks energiforbrug 1972-2014", 
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"I hvilket år i perioden 1972-2014 har det samlede energiforbrug været størst?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":2007, "max":2007},
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": ""
                                     }
                                 }
                             }
@@ -287,23 +286,184 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer_befolkningstal_Laesoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
-                                "type": "quiz",
+                                "type": "quiz", 
                                 "quiz": {
-                                    "header": "Overskrift... checkbox - Stakkede diagrammer", 
-                                    "caption": "Figurforklaring... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-                                    "question":"Kursistspørgsmål... hvad er lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-                                    "type": "checkbox", 
-                                    "checkbox": [
-                                        {"text":"Answer 1..."},
-                                        {"text":"Answer 2..."},
-                                        {"text":"Answer 3..."}
+                                    "header": "Danmarks energiforbrug 1972-2014", 
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvor stor en andel af det samlede energiforbrug blev i 2014 dækket af naturgas?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Ca. 10 %"},
+                                        {"text":"Ca. 25 %"},
+                                        {"text":"Ca. 50 %"}
                                     ],
-                                    "answer":[1,2],
+                                    "answer":0,
                                     "feedback": {
-                                        "correct": "Specific feedback correct text...",
-                                        "wrong": "Specific feedback wrong text..."
+                                        "correct": "",
+                                        "wrong": ""
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Danmarks energiforbrug 1972-2014", 
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvilken energikilde dækkede i 1984 størstedelen af det danske energiforbrug?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv energikilde...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "olie",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": ""
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Produktion af vedvarende energi i Danmark 1972-2014", 
+                                    "caption": "Figuren viser produktionen af vedvarende energi i Danmark i perioden 1972-2014 fordelt på energikilder. Øvrig biomasse dækker over skovflis, brænde, træpiller, træaffald og bioolie. Øvrige dækker over solenergi, vandkraft og geotermi. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvad er enheden på x-aksen?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Tetajoule"},
+                                        {"text":"Årstal"},
+                                        {"text":"Energikilde"}
+                                    ],
+                                    "answer":1,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Enhederne finder du ved enden af akserne."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Produktion af vedvarende energi i Danmark 1972-2014", 
+                                    "caption": "Figuren viser produktionen af vedvarende energi i Danmark i perioden 1972-2014 fordelt på energikilder. Øvrig biomasse dækker over skovflis, brænde, træpiller, træaffald og bioolie. Øvrige dækker over solenergi, vandkraft og geotermi. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvad var den samlede produktion af vedvarende energi i 1996?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"60 000 TJ"},
+                                        {"text":"35 000 TJ"},
+                                        {"text":"65 000 TJ"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": ""
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Produktion af vedvarende energi i Danmark 1972-2014", 
+                                    "caption": "Figuren viser produktionen af vedvarende energi i Danmark i perioden 1972-2014 fordelt på energikilder. Øvrig biomasse dækker over skovflis, brænde, træpiller, træaffald og bioolie. Øvrige dækker over solenergi, vandkraft og geotermi. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvor stor en andel af den samlede produktion af vedvarende energi blev i 1993 lavet ud fra affald?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Ca. 20 %"},
+                                        {"text":"Ca. 50 %"},
+                                        {"text":"Ca. 80 %"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": ""
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Produktion af vedvarende energi i Danmark 1972-2014", 
+                                    "caption": "Figuren viser produktionen af vedvarende energi i Danmark i perioden 1972-2014 fordelt på energikilder. Øvrig biomasse dækker over skovflis, brænde, træpiller, træaffald og bioolie. Øvrige dækker over solenergi, vandkraft og geotermi. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"Hvilken af de vedvarende energikilder stod for den største andel af produktionen i 2000?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Øvrig biomasse"},
+                                        {"text":"Vindkraft"},
+                                        {"text":"Halm"},
+                                        {"text":"Øvrige"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": ""
                                     }
                                 }
                             }
