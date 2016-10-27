@@ -549,6 +549,19 @@ function checkAnswer(carouselNo, slideNo){
                     quizObj.inputfield.value = value; // Save the value. 
                 break;
 
+                case "strArray":
+                    var answerStrArray = quizObj.strArray;
+                    var value = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .inputfield').val();
+                    console.log('checkAnswer - carouselNo: '+carouselNo+', slideNo: '+slideNo+', answerStrArray: '+ answerStrArray+', value: '+value);
+                    value = value.toLowerCase().trim();
+                    if (elementInArray(answerStrArray, value)) {
+                        actions_answerCorrect(carouselNo, slideNo);
+                    } else {
+                        actions_answerWrong(carouselNo, slideNo);
+                    }
+                    quizObj.inputfield.value = value; // Save the value. 
+                break;
+
                 default:
                     alert('Invalid "type" in quizMarkup');
             }
@@ -720,6 +733,14 @@ function reduceInputWidth() {
         $('.diagramBtn').removeClass('diagramBtn_ekstra');
         console.log('reduceInputWidth - OFF');
     }
+}
+
+
+function elementInArray(tArray, element){
+    for (x in tArray){
+        if (tArray[x] == element) return true 
+    }
+    return false;
 }
 
 

@@ -758,6 +758,419 @@
             }
         },
         {   
+            "carouselNo" : 3,
+            "status" : {"active": false, "answered": null},
+            "ctrlBtn" : "Hydrotermfigurer",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "feedback": {
+                    "correct": "Generel feedback correct text...",
+                    "wrong": "Generel feedback wrong text..."
+                },
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/info_hydrotermfigurer.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__nuuk.png", "alt": "Hydrotermfigur for Nuuk, Grønland"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Nuuk, Grønland", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "question":"På hvilken akse aflæser man temperaturen?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den lodrette akse til højre"},
+                                        {"text":"Den lodrette akse til venstre"},
+                                        {"text":"Den vandrette akse"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "På den vandrette akse aflæses månederne. På de to lodrette akser aflæses nedbør (mm) og temperatur (°C)."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__nuuk.png", "alt": "Hydrotermfigur for Nuuk, Grønland"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Nuuk, Grønland", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "question":"Hvad beskriver kurven på figuren?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Middeltemperaturen"},
+                                        {"text":"Nedbørsmængden"},
+                                        {"text":"Den maksimale temperatur"},
+                                        {"text":"Dagstemperaturen"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Nederst på figuren er vist en signaturforklaring. Her kan det aflæses hvad kurven og søjlerne beskriver."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}  
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__nuuk.png", "alt": "Hydrotermfigur for Nuuk, Grønland"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Nuuk, Grønland", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "question":"I hvilken måned er den gennemsnitlige nedbørsmængde i Nuuk størst?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv måned...",
+                                        "value": ""
+                                    },
+                                    "answerType": "strArray",
+                                    "strArray":["sep", "september"],
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Nedbørsmængden er vist som søjler. Måneden med den største nedbørsmængde er den måned hvor søjlen er højest."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__nuuk.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Nuuk, Grønland", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "question":"Hvad er middeltemperaturen i Nuuk i juni?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":3.5, "max":4.5},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er beskrevet ved kurven. Gå lodret op fra x-aksen ved “jun” indtil du møder grafen. Aflæs temperaturen på den lodrette akse til højre."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__bornholm.png", "alt": "Hydrotermfigur for Bornholm, Danmark"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Bornholm, Danmark", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "question":"På hvilken akse aflæser man nedbørsmængden?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den lodrette akse til højre"},
+                                        {"text":"Den lodrette akse til venstre"},
+                                        {"text":"Den vandrette akse"}
+                                    ],
+                                    "answer":1,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "På den vandrette akse aflæses månederne. På de to lodrette akser aflæses nedbør (mm) og temperatur (°C)."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}  
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__bornholm.png", "alt": "Hydrotermfigur for Nuuk, Grønland"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Bornholm, Danmark", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "question":"I hvilken måned er den gennemsnitlige temperatur på Bornholm lavest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv måned...",
+                                        "value": ""
+                                    },
+                                    "answerType": "strArray",
+                                    "strArray":["feb", "februar"],
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Temperaturen er beskrevet ved kurven. Måneden med den laveste temperatur er den måned hvor kurven ligger lavest."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__bornholm.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Bornholm, Danmark", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "question":"Hvad er forskellen mellem nedbørsmængden i den vådeste og den tørreste måned på Bornholm?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv nedbørsmængde...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":39, "max":49},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den mindste nedbørsmængde findes i februar, mens den højeste findes i november. Aflæs nedbørsmængden i disse to måneder og find så forskellen mellem de to tal."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__bornholm.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Bornholm, Danmark", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "question":"Hvad er middeltemperaturen i den varmeste måned på Bornholm?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":16.2, "max":17.2},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er beskrevet ved kurven. Måneden med den højeste temperatur er den måned hvor kurven ligger højest. Middeltemperaturen kan aflæses på den lodrette akse til højre."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__torshavn.png", "alt": "Hydrotermfigur for Tórshavn, Færøerne"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Tórshavn, Færøerne", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "question":"Hvad beskriver søjlerne på figuren?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Middeltemperaturen"},
+                                        {"text":"Nedbørsmængden"},
+                                        {"text":"Antal nedbørsdage"},
+                                        {"text":"Dagstemperaturen"}
+                                    ],
+                                    "answer":1,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Nederst på figuren er vist en signaturforklaring. Her kan det aflæses hvad kurven og søjlerne beskriver."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__torshavn.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Tórshavn, Færøerne", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "question":"Hvad er middeltemperaturen i Tórshavn i april?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":4.5, "max":5.5},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er beskrevet ved kurven. Gå lodret op fra x-aksen ved “apr” indtil du møder grafen. Aflæs temperaturen på den lodrette akse til højre."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__torshavn.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Tórshavn, Færøerne", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "question":"Hvad er forskellen mellem gennemsnitstemperaturen i den koldeste og den varmeste måned i Tórshavn?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":6.6, "max":7.6},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den laveste middeltemperatur findes i januar, mens den højeste findes i august. Aflæs temperaturen i disse to måneder og find så forskellen mellem de to tal."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_ht__torshavn.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Hydrotermfigur for Tórshavn, Færøerne", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "question":"Hvor meget regner det i den måned med den mindste gennemsnitlige nedbørsmængde i Tórshavn?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":59, "max":63},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Nedbørsmængden er vist som søjler. Måneden med den mindste nedbørsmængde er den måned hvor søjlen er lavest. Nedbørsmængden kan aflæses på den lodrette akse til venstre."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {   
             "carouselNo" : 4,
             "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Grafer med indeks",
