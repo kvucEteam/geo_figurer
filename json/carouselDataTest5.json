@@ -159,11 +159,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_demografiskeTransition.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info__demografisk_transitionsmodel.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<p>Den demografiske transitionsmodel beskriver udviklingen i fødsels- og dødsrate over en årrække.Udviklingen inddeles i fem faser:<br><br><b>1. fase: Høj fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>2. fase: Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.</b><br><b>3. fase: Faldende fødsels- og dødsrate. Voksende befolkningstal.</b><br><b>4. fase: Lav fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>5. fase: Dødsraten overstiger fødselsraten. Faldende befolkningstal.</b></p>"}
                         }
                     }, 
                     {
+                        "NEW" : true,
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
@@ -172,11 +173,31 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_demografiskeTransition.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Danmark.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Danmark, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Danmark for perioden 1955-2025.",
+                                    "question":"Hvad var dødsraten i Danmark i 1970?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"10 &permil;"},
+                                        {"text":"10 %"},
+                                        {"text":"16 &permil;"},
+                                        {"text":"16 %"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Vær opmærksom på at dødsraten er vist som den røde graf. Enheden for dødsraten er promille."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
+                        "NEW" : true,
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
@@ -185,8 +206,483 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_demografiskeTransition_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Danmark.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Danmark, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Danmark for perioden 1955-2025.",
+                                    "question":"Hvad skete der med den naturlige befolkningstilvækst i Danmark i perioden 1965-1983?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den faldt"},
+                                        {"text":"Den steg"},
+                                        {"text":"Den var konstant"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den naturlige befolkningstilvækst er fødselsrate minus dødsrate, dvs. den lodrette afstand mellem de to grafer. Den naturlige befolkningstilvækst falder altså, når de to grafer nærmer sig hinanden, den stiger, når de to grafer fjerner sig fra hinanden og den er konstant, hvis afstanden mellem de to grafer forbliver den samme."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Danmark.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Danmark, 1955-2025", 
+                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "question":"I hvilket årstal i perioden 1955-2025 har dødsraten i Danmark været højest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "1995",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Dødsraten er højest i det årstal, hvor den røde graf har sit maksimum."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Danmark.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Danmark, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Danmark for perioden 1955-2025.",
+                                    "question":"Hvornår var Danmark i den demografiske transitions 5. fase?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"1983-1991"},
+                                        {"text":"1960-1965"},
+                                        {"text":"2010-2015"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Om de fem faser gælder: <br><b>1. fase:</b> Høj fødsels- og dødsrate. Stabilt befolkningstal. <br><b>2. fase:</b> Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.<br><b>3. fase:</b> Faldende fødsels- og dødsrate. Voksende befolkningstal.<br><b>4. fase:</b> Lav fødsels- og dødsrate. Stabilt befolkningstal.<br><b>5. fase:</b> Dødsraten overstiger fødselsraten. Faldende befolkningstal."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Brasilien.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Brasilien, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Brasilien for perioden 1955-2025.",
+                                    "question":"Hvad var fødselsraten i Brasilien i 2015?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"6 &permil;"},
+                                        {"text":"6 %"},
+                                        {"text":"15 &permil;"},
+                                        {"text":"15 %"}
+                                    ],
+                                    "answer":2,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Vær opmærksom på at fødselsraten er vist som den blå graf. Enheden for fødselsraten er promille."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Brasilien.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Brasilien, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Brasilien for perioden 1955-2025.",
+                                    "question":"Hvad gælder der om den naturlige befolkningstilvækst i Brasilien i hele perioden 1955-2025?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den er positiv"},
+                                        {"text":"Den er negativ"},
+                                        {"text":"Den er konstant"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den naturlige befolkningstilvækst er fødselsrate minus dødsrate. Den naturlige befolkningstilvækst er altså positiv, når grafen over fødselsraten ligger øverst, den er negativ, når grafen over fødselsraten ligger nederst og den er konstant, hvis de to grafer ligger oveni hinanden."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Brasilien.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Brasilien, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Brasilien for perioden 1955-2025.",
+                                    "question":"I hvilket årstal i perioden 1955-2025 har fødselsraten i Danmark været højest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "1955",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Dødsraten er højest i det årstal, hvor den blå graf har sit maksimum."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Brasilien.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Brasilien, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Brasilien for perioden 1955-2025.",
+                                    "question":"Hvilken fase i den demografiske transitionsmodel var Brasilien i, i perioden 1975-1995?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"1. fase"},
+                                        {"text":"2. fase"},
+                                        {"text":"3. fase"},
+                                        {"text":"4. fase"},
+                                        {"text":"5. fase"}
+                                    ],
+                                    "answer":2,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Om de fem faser gælder: <br><b>1. fase:</b> Høj fødsels- og dødsrate. Stabilt befolkningstal. <br><b>2. fase:</b> Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.<br><b>3. fase:</b> Faldende fødsels- og dødsrate. Voksende befolkningstal.<br><b>4. fase:</b> Lav fødsels- og dødsrate. Stabilt befolkningstal.<br><b>5. fase:</b> Dødsraten overstiger fødselsraten. Faldende befolkningstal."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Singapore.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Singapore, 1955-2025.", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Singapore for perioden 1955-2025.",
+                                    "question":"Hvad var dødsraten i Singapore i 1980?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"5 &permil;"},
+                                        {"text":"17 %"},
+                                        {"text":"7 &permil;"},
+                                        {"text":"15 %"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Vær opmærksom på at dødsraten er vist som den røde graf."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Singapore.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Singapore, 1955-2025.", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Singapore for perioden 1955-2025.",
+                                    "question":"Hvad gælder der om den naturlige befolkningstilvækst i Singapore i hele perioden 1955-2025?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den er positiv"},
+                                        {"text":"Den er negativ"},
+                                        {"text":"Den er konstant"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den naturlige befolkningstilvækst er fødselsrate minus dødsrate. Den naturlige befolkningstilvækst er altså positiv, når grafen over fødselsraten ligger øverst, den er negativ, når grafen over fødselsraten ligger nederst og den er konstant, hvis de to grafer ligger oveni hinanden."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Singapore.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Singapore, 1955-2025.", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Singapore for perioden 1955-2025.",
+                                    "question":"I hvilket årstal i perioden 1955-2025 har dødsraten i Singapore været lavest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "1995",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Dødsraten er lavest i det årstal, hvor den blå graf har sit minimum."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Singapore.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Singapore, 1955-2025.", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Singapore for perioden 1955-2025.",
+                                    "question":"Hvilken fase i den demografiske transitionsmodel var Singapore i, i perioden 1955-1980?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"1. fase"},
+                                        {"text":"2. fase"},
+                                        {"text":"3. fase"},
+                                        {"text":"4. fase"},
+                                        {"text":"5. fase"}
+                                    ],
+                                    "answer":2,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Om de fem faser gælder: <br><b>1. fase:</b> Høj fødsels- og dødsrate. Stabilt befolkningstal. <br><b>2. fase:</b> Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.<br><b>3. fase:</b> Faldende fødsels- og dødsrate. Voksende befolkningstal.<br><b>4. fase:</b> Lav fødsels- og dødsrate. Stabilt befolkningstal.<br><b>5. fase:</b> Dødsraten overstiger fødselsraten. Faldende befolkningstal."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Uganda.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Uganda, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Uganda for perioden 1955-2025.",
+                                    "question":"Hvad var fødselsraten i Uganda i 1995?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"50 &permil;"},
+                                        {"text":"19 &permil;"},
+                                        {"text":"25 &permil;"},
+                                        {"text":"38 &permil;"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Vær opmærksom på at fødselsraten er vist som den blå graf."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Uganda.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Uganda, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Uganda for perioden 1955-2025.",
+                                    "question":"Hvad skete der med den naturlige befolkningstilvækst i Uganda i perioden 1955-1975?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Den faldt"},
+                                        {"text":"Den steg"},
+                                        {"text":"Den var konstant"}
+                                    ],
+                                    "answer":1,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den naturlige befolkningstilvækst er fødselsrate minus dødsrate, dvs. den lodrette afstand mellem de to grafer. Den naturlige befolkningstilvækst falder altså, når de to grafer nærmer sig hinanden, den stiger, når de to grafer fjerner sig fra hinanden og den er konstant, hvis afstanden mellem de to grafer forbliver den samme."
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Uganda.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Uganda, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Uganda for perioden 1955-2025.",
+                                    "question":"På hvilket tidspunkt i perioden 1955-2025 var den naturlige befolkningsvækst mindst i Uganda?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "1955",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den naturlige befolkningstilvækst er fødselsrate minus dødsrate, dvs. den lodrette afstand mellem de to grafer."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/data_DT__Uganda.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Demografisk transition i Uganda, 1955-2025", 
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Uganda for perioden 1955-2025.",
+                                    "question":"Hvilken fase i den demografiske transitionsmodel var Ugande i, i perioden 1995-2015?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"1. fase"},
+                                        {"text":"2. fase"},
+                                        {"text":"3. fase"},
+                                        {"text":"4. fase"},
+                                        {"text":"5. fase"}
+                                    ],
+                                    "answer":2,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Om de fem faser gælder: <br><b>1. fase:</b> Høj fødsels- og dødsrate. Stabilt befolkningstal. <br><b>2. fase:</b> Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.<br><b>3. fase:</b> Faldende fødsels- og dødsrate. Voksende befolkningstal.<br><b>4. fase:</b> Lav fødsels- og dødsrate. Stabilt befolkningstal.<br><b>5. fase:</b> Dødsraten overstiger fødselsraten. Faldende befolkningstal."
+                                    }
+                                }
+                            }
                         }
                     }
                 ]
@@ -492,8 +988,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_simpelGrafAflaesning.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info__simple_grafer.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<p>Figuren viser et koordinatsystem med to akser. <br> Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen. Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.<br> Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen. <br> Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p>"}
                         }
                     }, 
                     {
@@ -777,8 +1273,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_hydrotermfigurer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/info__hydrotermfigurer.png", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<p>Hydrotermfiguren viser et koordinatsystem med tre akser. <br> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. <br> På x-aksen kan man se årets 12 måneder.</p>"}
                         }
                     }, 
                     {
