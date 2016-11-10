@@ -84,11 +84,26 @@ function returnLastStudentSession() {
     }
 }
 
+
+// This function ajusts the position of the bootstrap glyphicon-chevron-left and glyphicon-chevron-right arrows so that they are 
+// in the center position of the picture (leftColumn) on all screen-sizes.
+function setSliderContolHeight(){
+
+    if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
+        var h = $('.leftColumn').height();
+        $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+    } else {
+        $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+    }
+}
+
+
 function template() {
     console.log('template - jsonData: ' + JSON.stringify(jsonData));
     var HTML = '';
     HTML += '<h1>'+jsonData.mainHeader+'</h1>';
     HTML += instruction(jsonData.instruction);
+    HTML += '<div class="Clear"></div>';
     // HTML += '<span class="PagerContainer"></span>';          // <-------  PAGER
     HTML += '<div class="ctrlBtnContainer">'+initCtrlBtnContainer(jsonData)+'</div>';
     HTML += initCarouselObjs(jsonData);
@@ -99,6 +114,7 @@ function template() {
 
     initElearningObj(jsonData);
     setEventListeners();
+
 }
 
 
@@ -932,6 +948,8 @@ carouselClass = {
 
 $(window).on('resize', function() {
     reduceInputWidth();  
+
+    setSliderContolHeight();
 });
 
 detectBootstrapBreakpoints();
@@ -946,6 +964,8 @@ $(document).ready(function() {
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();
+
+    setSliderContolHeight();
 
     // var cObj = Object.create(carouselClass);
     // cObj.carouselId = 'carouselId';

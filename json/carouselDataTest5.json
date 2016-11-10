@@ -160,7 +160,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/info__demografisk_transitionsmodel.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<p>Den demografiske transitionsmodel beskriver udviklingen i fødsels- og dødsrate over en årrække.Udviklingen inddeles i fem faser:<br><br><b>1. fase: Høj fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>2. fase: Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.</b><br><b>3. fase: Faldende fødsels- og dødsrate. Voksende befolkningstal.</b><br><b>4. fase: Lav fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>5. fase: Dødsraten overstiger fødselsraten. Faldende befolkningstal.</b></p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Den demografiske transitionsmodel</h3><p>Den demografiske transitionsmodel beskriver udviklingen i fødsels- og dødsrate over en årrække.Udviklingen inddeles i fem faser:<br><br><b>1. fase: Høj fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>2. fase: Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.</b><br><b>3. fase: Faldende fødsels- og dødsrate. Voksende befolkningstal.</b><br><b>4. fase: Lav fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>5. fase: Dødsraten overstiger fødselsraten. Faldende befolkningstal.</b></p>"}
                         }
                     }, 
                     {
@@ -705,7 +705,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/info_stakkedeDiagrammer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Stakkede diagrammer</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
                         }
                     }, 
                     {
@@ -988,8 +988,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info__simple_grafer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<p>Figuren viser et koordinatsystem med to akser. <br> Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen. Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.<br> Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen. <br> Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/template_cropper_test.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Simpel graf-aflæsning</h3><p>Figuren viser et koordinatsystem med to akser. <br> Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen. Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.<br> Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen. <br> Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p>"}
                         }
                     }, 
                     {
@@ -1274,7 +1274,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/info__hydrotermfigurer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<p>Hydrotermfiguren viser et koordinatsystem med tre akser. <br> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. <br> På x-aksen kan man se årets 12 måneder.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Hydrotermfigurer</h3><p>Hydrotermfiguren viser et koordinatsystem med tre akser. <br> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. <br> På x-aksen kan man se årets 12 måneder.</p>"}
                         }
                     }, 
                     {
@@ -1794,104 +1794,6 @@
             "carouselNo" : 6,
             "status" : {"active": false, "answered": null},
             "ctrlBtn" : "Tabeller",
-            "carouselData": {
-                "subHeader": "Øvrige objekter for faget Dansk...",
-                "slides": [
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }
-                ]
-            }
-        },
-        {   
-            "carouselNo" : 7,
-            "status" : {"active": false, "answered": null},
-            "ctrlBtn" : "Kredsløb",
-            "carouselData": {
-                "subHeader": "Øvrige objekter for faget Dansk...",
-                "slides": [
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }
-                ]
-            }
-        },
-        {   
-            "carouselNo" : 8,
-            "status" : {"active": false, "answered": null},
-            "ctrlBtn" : "Kort",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
