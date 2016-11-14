@@ -43,6 +43,7 @@
     line-height: 1.5em;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
     max-height: 90%;
     overflow: auto;
     padding: 30px;
@@ -73,12 +74,22 @@
 }
 
 .glyphicon-search{
+/*
 	position: absolute;
 	left: 93%;
 	top: 10px;
-	font-size: 2em;
+*/    
+	font-size: 1.5em;
 	color: rgba(0, 0, 0, 0.5);
+    /*color: rgba(255, 255, 255, 0.5);*/
 }
+
+.enlargeBtn{
+    position: absolute;
+    left: 93%;
+    top: 10px;
+}
+
 .answerChoice input {
 	margin-right: 10px; 
 }
@@ -118,6 +129,9 @@
 	background-color: #717272;
 	color: #FFF;
 }
+
+
+
 
 
 /**************    *********************/

@@ -222,11 +222,12 @@ function setEventListeners(){
         });
     });
 
-    // SAVE: Click on left and right arrows and underlining panel:
-    $( document ).on('click', ".leftColumn", function(event){
+    
+    $( document ).on('click', ".enlargeBtn", function(event){
         console.log('leftColumn - CLICKED');
-        var imgUrl = $('> img', this).prop('src');
-        var imgAlt = $('> img', this).prop('alt');
+        var parentObj = $(this).parent();
+        var imgUrl = $('> img', parentObj).prop('src');
+        var imgAlt = $('> img', parentObj).prop('alt');
         var HTML = '<img class="centerImg img-responsive" src="'+imgUrl+'" alt="'+imgAlt+'">';
         UserMsgBox_mod(HTML, false);
     });
@@ -328,7 +329,8 @@ function leftColumnMarkup(columnData){
     var HTML = '';
     switch (columnData.type) {
         case "img":
-            HTML += '<div class="glyphicon glyphicon-search"></div>';
+            // HTML += '<div class="glyphicon glyphicon-search"></div>';
+            HTML += '<div class="enlargeBtn btn btn-info"><div class="glyphicon glyphicon-search"></div></div>';
             HTML += '<img class="img-responsive" src="' + columnData.src + '" alt="' + columnData.alt + '"/>'; 
             break;
         case "text":
