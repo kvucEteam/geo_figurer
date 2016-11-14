@@ -91,9 +91,14 @@ function setSliderContolHeight(){
 
     if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
         var h = $('.leftColumn').height();
-        $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+        console.log('setSliderContolHeight - h: ' + h);
+        // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+        $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+        $('.glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
     } else {
-        $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+        // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+        $('.glyphicon-chevron-left').css({'display': 'block', 'top': '50%'});
+        $('.glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
     }
 }
 
@@ -330,7 +335,7 @@ function leftColumnMarkup(columnData){
     switch (columnData.type) {
         case "img":
             // HTML += '<div class="glyphicon glyphicon-search"></div>';
-            HTML += '<div class="enlargeBtn btn btn-info"><div class="glyphicon glyphicon-search"></div></div>';
+            HTML += '<div class="enlargeBtn btn btn-sm btn-info"><div class="glyphicon glyphicon-search"></div></div>';
             HTML += '<img class="img-responsive" src="' + columnData.src + '" alt="' + columnData.alt + '"/>'; 
             break;
         case "text":
