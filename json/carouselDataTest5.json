@@ -718,7 +718,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_energiforbrug.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -750,7 +750,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_energiforbrug.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -782,7 +782,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_energiforbrug.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -814,7 +814,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__energiforbrug_i_alt.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_energiforbrug.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -846,7 +846,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_vedvarendeenergi.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -878,7 +878,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_vedvarendeenergi.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -910,7 +910,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_vedvarendeenergi.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -942,7 +942,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_stakkedeDiagrammer__vedvarende_energi.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_vedvarendeenergi.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1002,7 +1002,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Befolkningstal på Læsø"},
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Befolkningstal på Læsø"},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1034,7 +1034,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1066,7 +1066,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1098,7 +1098,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__befolkningstal_paa_Læsoe.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1130,7 +1130,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Befolkningstal på Læsø"},
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Befolkningstal på Læsø"},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1163,7 +1163,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1195,7 +1195,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -1228,7 +1228,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_simpleGrafer__middeltemperatur_i_DK.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {

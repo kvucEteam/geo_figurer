@@ -89,8 +89,13 @@ function returnLastStudentSession() {
 // in the center position of the picture (leftColumn) on all screen-sizes.
 function setSliderContolHeight(){
 
+    var carouselNo = $('.carousel:visible').attr('id').replace('carouselId_','');
+    var slideNo = $('.item:visible').attr('id').replace('slide_','');
+    console.log('setSliderContolHeight - carouselNo: ' + carouselNo + ', slideNo: ' + slideNo);
+
     if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
-        var h = $('.leftColumn').height();
+        // var h = $('.leftColumn').height();
+        var h = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .leftColumn').height();
         console.log('setSliderContolHeight - h: ' + h);
         // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
         $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
@@ -196,6 +201,7 @@ function setEventListeners(){
         $('.carouselPage').eq(index).fadeIn('slow');
         setAtiveCarousel(index);
         goToAtiveSlide(index);
+        setSliderContolHeight();
 
         osc.save('jsonData', jsonData);
     });
@@ -206,6 +212,7 @@ function setEventListeners(){
         var index = $(this).index();
         console.log('id: ' + id + ', index: ' + index);
         setAtiveSlide(id, index);
+        setSliderContolHeight();
 
         osc.save('jsonData', jsonData); 
     });
@@ -217,6 +224,7 @@ function setEventListeners(){
         var index = $('.carousel-indicators .active', parentObj).index();
         console.log('CLICK - right or left - id: ' + id + ', index: ' + index);
         setAtiveSlide(id, index);
+        setSliderContolHeight();
 
         osc.save('jsonData', jsonData); 
     });
@@ -288,6 +296,7 @@ function UserMsgBox_mod(msg, showStandardYesNoBtns){
     // callback(UserMsgBox_callbackOnComplete);
 
 }
+
 
 
 function setAtiveCarousel(ativeCarouselNo){
