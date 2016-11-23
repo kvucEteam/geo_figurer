@@ -89,21 +89,32 @@ function returnLastStudentSession() {
 // in the center position of the picture (leftColumn) on all screen-sizes.
 function setSliderContolHeight(){
 
-    var carouselNo = $('.carousel:visible').attr('id').replace('carouselId_','');
-    var slideNo = $('.item:visible').attr('id').replace('slide_','');
-    console.log('setSliderContolHeight - carouselNo: ' + carouselNo + ', slideNo: ' + slideNo);
+    // var carouselNo = $('.carousel:visible').prop('id').replace('carouselId_','');
+    var carouselNo = $('.carousel:visible').prop('id');
 
-    if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
-        // var h = $('.leftColumn').height();
-        var h = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .leftColumn').height();
-        console.log('setSliderContolHeight - h: ' + h);
-        // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
-        $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
-        $('.glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
-    } else {
-        // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
-        $('.glyphicon-chevron-left').css({'display': 'block', 'top': '50%'});
-        $('.glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+    // var slideNo = $('.item:visible').prop('id').replace('slide_','');
+    var slideNo = $('.item:visible').prop('id');
+
+    if ((typeof(carouselNo)!=='undefined') && (typeof(slideNo)!=='undefined')) {
+        carouselNo = carouselNo.replace('carouselId_','');
+        slideNo = slideNo.replace('slide_','');
+
+        var carouselNo = $('.carousel:visible').prop('id').replace('carouselId_','');
+        var slideNo = $('.item:visible').prop('id').replace('slide_','');
+        console.log('setSliderContolHeight - carouselNo: ' + carouselNo + ', slideNo: ' + slideNo);
+
+        if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
+            // var h = $('.leftColumn').height();
+            var h = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .leftColumn').height();
+            console.log('setSliderContolHeight - h: ' + h);
+            // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+            $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+            $('.glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+        } else {
+            // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+            $('.glyphicon-chevron-left').css({'display': 'block', 'top': '50%'});
+            $('.glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+        }
     }
 }
 
@@ -146,6 +157,12 @@ function initCarouselObjs(jsonData){
     window.mco = {};
     var HTML = '';
     for (var n in jsonData.slideData){
+
+        // if (typeof(jsonData.slideData[n].carouselData.text)!=='undefined') {
+        //     HTML += '<div class="carouselPage">'+'DummyText'+'</div>';
+        // } 
+
+
         mco[n] = Object.create(carouselClass);
         mco[n].carouselId = 'carouselId_'+String(n);
         mco[n].bsColum = "col-12-center";
@@ -202,6 +219,10 @@ function setEventListeners(){
         setAtiveCarousel(index);
         goToAtiveSlide(index);
         setSliderContolHeight();
+
+        if (index == 0) {
+            UserMsgBox('body', jsonData.slideData[index].carouselData.slides[0].text);
+        }
 
         osc.save('jsonData', jsonData);
     });
@@ -461,8 +482,10 @@ function setPreviousCorrectOrWrongAnswers(){
             //
             ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-            var quizObj = jsonData.slideData[n].carouselData.slides[k].columnData_content.rightColumn.quiz;
-            console.log('setPreviousCorrectOrWrongAnswers - quizObj: ' + JSON.stringify(quizObj));
+            if (typeof(jsonData.slideData[n].carouselData.slides[k].columnData_content)!=='undefined') {           // <--------------   Added 22-11-2016
+                var quizObj = jsonData.slideData[n].carouselData.slides[k].columnData_content.rightColumn.quiz;
+                console.log('setPreviousCorrectOrWrongAnswers - quizObj: ' + JSON.stringify(quizObj));
+            }
 
             if (typeof(quizObj)!=='undefined'){  // "quiz" is undefined for info-slides..
             
@@ -712,7 +735,21 @@ function actions_answerWrong(carouselNo, slideNo){
     $('#carouselId_'+carouselNo+' .carousel-indicators li').eq(slideNo).removeClass('answerCorrect').addClass('answerWrong');
     var feedbackObj = jsonData.slideData[carouselNo].carouselData.slides[slideNo].columnData_content.rightColumn.quiz.feedback;
     if (typeof(feedbackObj) !== 'undefined') {  // Only if the teachers have supplied specific feedback for this specific studentanswer, then...
-        UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');
+
+        // UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');  // <---------  COMMENTED OUT 21-11-2016
+        
+        if (Array.isArray(feedbackObj.wrong)){  // If an array of feedback posibilities is present, then...   // <---------  ADDED 21-11-2016
+            var ansIndex = null;
+            $( '#carouselId_'+carouselNo+' #slide_'+slideNo+' input' ).each(function( index, element ) {
+                if ($(element).is(':checked')){
+                    ansIndex = index;
+                }
+            });
+            
+            UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong[ansIndex]+'</p>');
+        } else {
+            UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');
+        }
     } else { // ... else give the student the general answer. 
         UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+jsonData.slideData[carouselNo].carouselData.feedback.wrong+'</p>');
     }
@@ -975,7 +1012,8 @@ detectBootstrapBreakpoints();
 
 $(document).ready(function() {
 
-    getAjaxData("GET", "json/carouselDataTest5.json", false, "json"); 
+    // getAjaxData("GET", "json/carouselDataTest5.json", false, "json");        //  Commented out 22-11-2016
+    getAjaxData("GET", "json/carouselData_quiz.json", false, "json");           //  Added 22-11-2016
     // getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 

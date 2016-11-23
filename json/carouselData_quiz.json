@@ -1,7 +1,7 @@
 {
     "mainHeader" : "Objekt overskrift figurer",
-    "instruction" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
-    "explanation" : "Du skal ... Lorem ipsum dolor sit amet, at non vitae elementum, massa volutpat cum, tincidunt nec non magnis netus curae iaculis, nulla dapibus praesent massa fringilla id. ",
+    "instruction" : "Vælg en figurtype og læs om hvordan den er opbygget. Klik dig videre og øv dig i at aflæse på figuren.",
+    "explanation" : "Formålet med øvelsen er lære at aflæse forskellige figurtyper, sådan at de kan bruges som kilder til information.",
     "strDataInterval":{
         "months":["Januar", "Febuar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"]
         },
@@ -16,80 +16,8 @@
                     {
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_1.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Figuren viser et koordinatsystem med to akser.</p><p>Den vandrette akse kaldes x-aksen eller første aksen. Denne viser den uafhængige variabel.</p><p>Den lodrette akse kaldes y-aksen eller anden aksen. Denne viser den afhængige variabel.</p><p>Ved siden af akserne er enheden angivet.</p><p>Man skal være opmærksom på at akserne på disse figurer ikke nødvendigvis krydser hinanden i punktet (0,0).</p><p>I koordinatsystemet er der indtegnet en graf, der beskriver sammenhængen mellem de to variable.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData", 
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen.<br>Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.</p><p>Eksempel:<br>Når smørproduktionen i 2008 skal findes starter man altså ved 2008 på x-aksen.<br><br>Går lodret op i koordinatsystemet til man møder grafen.<br><br>Så aflæser man dette punkts y-koordinat, som er 38.<br><br>Dvs. i 2008 var smørproduktionen på 38 mio. kg.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_simpleGrafer_smoerproduktion_i_DK_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Smørproduktionen i Danmark i perioden 1990-2014.</h3><p>Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen.<br>Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p><p>Eksempel:<br>Når man skal finde ud af hvornår smørproduktionen første gang nåede ned under 60 mio. kg, så starter man altså ved 60 på y-aksen.<br><br>Går vandret ud i koordinatsystemet til man møder grafen.<br><br>Så aflæser man dette punkts x-koordinat, som er 1993.<br><br>Dvs. i 1993 var smørproduktionen for første gang i perioden 1990-2014 under 60 mio. kg.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_simpelGrafAflaesning.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_stakkedeDiagrammer.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
+                        "type": "text",
+                        "text": "<h3>Hvad er en figur?</h3><p>En figur er en grafisk fremstilling af data, så det er lettere at overskue en evt. udvikling og sammenhæng.</p><p>Den figurtype der vælges til at afbillede data afhænger af tradition, modtageren de er tænkt til og selvfølgelig den figurtype der egner sig bedst til netop den datatype.</p><p>Enhederne på en figur skal passe til datas størrelser, så det er muligt at se evt. variationer. Enhederne fortæller også hvad der undersøges f.eks. CO<sub>2</sub>-udledning /indbygger eller CO2-udledning /land eller ved et specifikt land eller verdensdel CO<sub>2</sub>-udledning /år.</p><p>Farver på figurer: Der er ikke konventioner på dette område, se derfor altid i signaturforklaringen der knytter sig til figuren.</p><h3>Hvordan anvender man en figur?</h3><p>Når man skal hente viden ud af en figur er det en god idé at gøre det ved at gennemgå punkterne, der er opstillet nedenfor.</p><h4>Overskriften</h4><p>Start altid med overskriften. Den fortæller hvad figuren beskriver.</p><h4>Figurtypen</h4><p>Identificer figurtypen. Den afgør hvordan man aflæser data, og om der er en eller flere variable i spil.</p><h4>Enheder og signaturer</h4><p>Se på hvilke enheder eller signaturer der bruges på figuren. De fortæller hvad der undersøges og skalaen der undersøges i. Signaturer kan være farver men også tegn som veje og søer er signaturer. Fælles for signaturer er, at de er fremhævet, så det netop er dem man skal have fokus på.</p><h4>Indhold - Beskrivelse</h4><p>Identificer og beskriv figurens indhold.  Angiv f.eks. en tendens med konkrete aflæsninger. Dette er det redegørende niveau.</p><h4>Indhold - Forklaring</h4><p>Forklar figurens indhold. Her skal teorien kobles på. Sammenlign, forklar, bedøm og argumenter for hvorfor indholdet ser ud som det gør. Dette er det analyserende niveau.</p>"
                     }
                 ]
             }
@@ -141,7 +69,7 @@
                                     "answer": 3,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Se på figuren det er y-aksen, der er alderen. Dvs. tårnpyramide er det rigtige svar"
+                                        "wrong": "Se på figuren det er y-aksen, der er alderen. Dvs. tårnpyramide er det rigtige svar."
                                     }
                                 }
                             }
@@ -207,7 +135,7 @@
                                     "answer": 2,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Nej, det er fordi ikke alle opnår den høje alder"
+                                        "wrong": "Nej, det er fordi ikke alle opnår den høje alder."
                                     }
                                 }
                             }
@@ -240,7 +168,7 @@
                                     "answer": 1,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Nej det er den progressive pyramide, hvor der er faldende dødsrate og fortsat høj fødselsrate"
+                                        "wrong": "Nej det er den progressive pyramide, hvor der er faldende dødsrate og fortsat høj fødselsrate."
                                     }
                                 }
                             }
@@ -499,7 +427,7 @@
                                     ],
                                     "answer": [0,1],
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
+                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
                                         "wrong": [
                                             "...",
                                             "...",
@@ -640,7 +568,7 @@
                                     ],
                                     "answer": 0,
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
+                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
                                         "wrong": [
                                             "...",
                                             "...",
@@ -791,7 +719,7 @@
                                     ],
                                     "answer": [0,1,2],
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
+                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
                                         "wrong": [
                                             "...",
                                             "...",
