@@ -124,6 +124,7 @@ function template() {
     var HTML = '';
     HTML += '<h1>'+jsonData.mainHeader+'</h1>';
     HTML += instruction(jsonData.instruction);
+    HTML += explanation(jsonData.explanation);
     HTML += '<div class="Clear"></div>';
     // HTML += '<span class="PagerContainer"></span>';          // <-------  PAGER
     HTML += '<div class="ctrlBtnContainer">'+initCtrlBtnContainer(jsonData)+'</div>';
@@ -220,8 +221,8 @@ function setEventListeners(){
         goToAtiveSlide(index);
         setSliderContolHeight();
 
-        if (index == 0) {
-            UserMsgBox('body', jsonData.slideData[index].carouselData.slides[0].text);
+        if (index == 0) {   
+            UserMsgBox('body', jsonData.slideData[index].carouselData.slides[0].text);      // Added 21-11-2016
         }
 
         osc.save('jsonData', jsonData);

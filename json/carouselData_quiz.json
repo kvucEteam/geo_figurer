@@ -1,5 +1,5 @@
 {
-    "mainHeader" : "Objekt overskrift figurer",
+    "mainHeader" : "Figurlæsning",
     "instruction" : "Vælg en figurtype og læs om hvordan den er opbygget. Klik dig videre og øv dig i at aflæse på figuren.",
     "explanation" : "Formålet med øvelsen er lære at aflæse forskellige figurtyper, sådan at de kan bruges som kilder til information.",
     "strDataInterval":{
@@ -18,6 +18,291 @@
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type": "text",
                         "text": "<h3>Hvad er en figur?</h3><p>En figur er en grafisk fremstilling af data, så det er lettere at overskue en evt. udvikling og sammenhæng.</p><p>Den figurtype der vælges til at afbillede data afhænger af tradition, modtageren de er tænkt til og selvfølgelig den figurtype der egner sig bedst til netop den datatype.</p><p>Enhederne på en figur skal passe til datas størrelser, så det er muligt at se evt. variationer. Enhederne fortæller også hvad der undersøges f.eks. CO<sub>2</sub>-udledning /indbygger eller CO2-udledning /land eller ved et specifikt land eller verdensdel CO<sub>2</sub>-udledning /år.</p><p>Farver på figurer: Der er ikke konventioner på dette område, se derfor altid i signaturforklaringen der knytter sig til figuren.</p><h3>Hvordan anvender man en figur?</h3><p>Når man skal hente viden ud af en figur er det en god idé at gøre det ved at gennemgå punkterne, der er opstillet nedenfor.</p><h4>Overskriften</h4><p>Start altid med overskriften. Den fortæller hvad figuren beskriver.</p><h4>Figurtypen</h4><p>Identificer figurtypen. Den afgør hvordan man aflæser data, og om der er en eller flere variable i spil.</p><h4>Enheder og signaturer</h4><p>Se på hvilke enheder eller signaturer der bruges på figuren. De fortæller hvad der undersøges og skalaen der undersøges i. Signaturer kan være farver men også tegn som veje og søer er signaturer. Fælles for signaturer er, at de er fremhævet, så det netop er dem man skal have fokus på.</p><h4>Indhold - Beskrivelse</h4><p>Identificer og beskriv figurens indhold.  Angiv f.eks. en tendens med konkrete aflæsninger. Dette er det redegørende niveau.</p><h4>Indhold - Forklaring</h4><p>Forklar figurens indhold. Her skal teorien kobles på. Sammenlign, forklar, bedøm og argumenter for hvorfor indholdet ser ud som det gør. Dette er det analyserende niveau.</p>"
+                    }
+                ]
+            }
+        },
+        {   
+            "carouselNo" : 3,
+            "status" : {"active": false, "answered": null},
+            "ctrlBtn" : "Simpel grafaflæsning",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "feedback": {
+                    "correct": "Generel feedback correct text...",
+                    "wrong": "Generel feedback wrong text..."
+                },
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/intro_simplegrafer.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Simpel grafaflæsning</h3><p>Figuren viser et koordinatsystem med to akser.</p><p>Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen. Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.</p><p>Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen. Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p>"}
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a>",
+                                    "question":"Hvad er enheden på y-aksen?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Antal indbyggere"},
+                                        {"text":"Årstal"},
+                                        {"text":"Antal indbyggere pr. kvadratmeter"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Enhederne finder du ved enden af akserne."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Befolkningstal på Læsø"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a>",
+                                    "question":"Aflæs befolkningstallet på Læsø i 2011.",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv befolkningstallet...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":1940, "max":1960},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Årstallet er en x-værdi. Du kan aflæse befolkningstallet ved at finde årstallet på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a>",
+                                    "question":"I hvilket årstal i perioden 2008-2016 var befolkningstallet på Læsø lavest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":2015, "max":2015},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde det sted grafen er lavest (laveste befolkningsstal) og gå lodret ned til x-aksen, hvor årstallet kan aflæses."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningstal på Læsø", 
+                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år. Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a>",
+                                    "question":"I hvilket år nåede befolkningstallet på Læsø første gang under 1850 i perioden 2008-2016?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":2012, "max":2012},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde befolkningstallet på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Befolkningstal på Læsø"},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90. Kilde: <a href='http://www.dmi.dk'>DMI</a>",
+                                    "question":"I hvilken måned overstiger middeltemperaturen første gang 11 grader?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv måned...",
+                                        "value": ""
+                                    },
+                                    "answerType": "strInterval",
+                                    "strInterval":{"min":"maj", "max":"maj"},
+                                    "strDataInterval": "months",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse måneden ved at finde middeltemperaturen på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90. Kilde: <a href='http://www.dmi.dk'>DMI</a>",
+                                    "question":"Hvad er middeltemperaturen i juni?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":14, "max":14.6},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Månedsnavnet er en x-værdi. Du kan aflæse middeltemperaturen ved at finde månedens navn på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90. Kilde: <a href='http://www.dmi.dk'>DMI</a>",
+                                    "question":"I hvor mange måneder er middeltemperaturen i Danmark under frysepunktet?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Ingen"},
+                                        {"text":"1"},
+                                        {"text":"2"},
+                                        {"text":"3"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Frysepunktet svarer til 0 grader. Du kan finde antallet af måneder med en gennemsnitstemperatur over frysepunktet ved at tælle antallet af måneder, hvor grafen, når over x-aksen."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Middeltemperatur i Danmark.", 
+                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.  Kilde: <a href='http://www.dmi.dk'>DMI</a>",
+                                    "question":"Hvad er den højeste månedlige middeltemperatur i Danmark?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv temperatur...",
+                                        "value": ""
+                                    },
+                                    "answerType": "interval",
+                                    "interval":{"min":15.3, "max":16},
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse den højeste værdi ved at finde det sted, hvor grafen går længst opad og aflæse punktets y-værdi."
+                                    }
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -420,20 +705,15 @@
                                     "question":"Hvilke udfordringer kan vi ud fra befolkningspyramiden se Italien står overfor i nær fremtid?",
                                     "type": "checkbox", 
                                     "checkbox": [
-                                        {"text":"Mangler skattebetalere."},
-                                        {"text":"Øgede udgifter til sundhedsvæsenet."},
+                                        {"text":"Mangler arbejdskraft"},
+                                        {"text":"Manglende boliger"},
                                         {"text":"Arbejdsløshed"},
                                         {"text":"Stor børnedødelighed"}
                                     ],
-                                    "answer": [0,1],
+                                    "answer": 1,
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
-                                        "wrong": [
-                                            "...",
-                                            "...",
-                                            "Nej, det modsatte, der vil mangle kvalificeret arbejdskraft",
-                                            "Nej, der fødes få børn, og der er meget lille børnedødelighed i Italien. Det er typisk kvinderne der vælger børn fra mod en karriere"
-                                        ]
+                                        "correct": "",
+                                        "wrong": "Nej, der fødes få børn, og det vil i nær fremtid betyde, at der vil mangle arbejdskraft"
                                     }
                                 }
                             }
@@ -559,24 +839,16 @@
                                     "question":"Hvilke udfordringer kan denne befolkningssammensætning være for landet lige nu?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Større fødevarebehov."},
-                                        {"text":"Behov for flere arbejdspladser."},
-                                        {"text":"Behov for at udbygge uddannelsessektoren"},
-                                        {"text":"Behov for at udbygge sundhedssektoren"},
+                                        {"text":"Behov for flere arbejdspladser"},
+                                        {"text":"Reduktion af uddannelsessektoren"},
+                                        {"text":"Indskrænkning af sundhedssektoren"},
                                         {"text":"Stor ældrebyrde"},
                                         {"text":"At der er negativ befolkningstilvækst"}
                                     ],
                                     "answer": 0,
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
-                                        "wrong": [
-                                            "...",
-                                            "...",
-                                            "...",
-                                            "...",
-                                            "Nej, det er først om 50-60 år der vil være en meget stor andel af ældre.",
-                                            "Nej, der er befolkningstilvækst i Mali da flere børn overlever, og man bliver ældre nu. Tilsammen giver det en større befolkning"
-                                        ]
+                                        "correct": "Ja, den større unge befolkning medfører behov for flere jobs, så de kan brødføde sig selv.",
+                                        "wrong": "Nej, der er behov for flere arbejdspladser, udbygning af uddannelsessektoren og sundhedsektoren pga. Den øgede befolkningstilvækst."
                                     }
                                 }
                             }
@@ -709,8 +981,8 @@
                                     "header": "Befolkningspyramide Burundi 2016", 
                                     "caption": "<p>Population estimeret juli 2016: 11,099,298 <br><br> Kilde (oversat): <a href='https://www.cia.gov/library/publications/the-world-factbook/geos/by.html'>cia.gov</a> </p>",
                                     "question":"Hvorfor bliver man ikke så gammel i Burundi?",
-                                    "type": "radio", 
-                                    "radio": [
+                                    "type": "checkbox", 
+                                    "checkbox": [
                                         {"text":"AIDS"},
                                         {"text":"Høj spædbarnsdødelighed"},
                                         {"text":"Krige indtil år 2000"},
@@ -719,7 +991,7 @@
                                     ],
                                     "answer": [0,1,2],
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   -----------------------------------",
+                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   ----------------------------------- Hvis der skal være flere svar muligheder dvs (checkbox og ikke radio), så kan der kun være een forkeret svarmulighed.",
                                         "wrong": [
                                             "...",
                                             "...",
@@ -878,7 +1150,7 @@
         {   
             "carouselNo" : 1,
             "status" : {"active": false, "answered": null},
-            "ctrlBtn" : "Demografiske transition",
+            "ctrlBtn" : "Demografisk transition",
             "carouselData": {
                 "subHeader": "Øvrige objekter for faget Dansk...",
                 "slides": [
@@ -975,7 +1247,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Demografisk transition i Danmark, 1955-2025", 
-                                    "caption": "Figuren viser Danmarks energiforbrug i perioden 1972-2014 fordelt på kilder. Klimakorrigeret. Data fra <a href='https://ens.dk/service/statistik-data-noegletal-og-kort/maanedlig-og-aarlig-energistatistik'> Energistyrelsen</a>",
+                                    "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Danmark for perioden 1955-2025.",
                                     "question":"I hvilket årstal i perioden 1955-2025 har dødsraten i Danmark været højest?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -1105,7 +1377,7 @@
                                 "quiz": {
                                     "header": "Demografisk transition i Brasilien, 1955-2025", 
                                     "caption": "Figuren viser udviklingen i fødsels- og dødsrate i Brasilien for perioden 1955-2025.",
-                                    "question":"I hvilket årstal i perioden 1955-2025 har fødselsraten i Danmark været højest?",
+                                    "question":"I hvilket årstal i perioden 1955-2025 har fødselsraten i Brasilien været højest?",
                                     "type": "inputfield", 
                                     "inputfield": {
                                         "placeholder": "Skriv årstal...",
@@ -1246,7 +1518,7 @@
                                     "string": "1995",
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Dødsraten er lavest i det årstal, hvor den blå graf har sit minimum."
+                                        "wrong": "Dødsraten er lavest i det årstal, hvor den røde graf har sit minimum."
                                     }
                                 }
                             }
@@ -1437,7 +1709,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/intro_stabledediagrammer.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Stakkede diagrammer</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Stakkede diagrammer</h3><p>På et stablet diagram er søjlen eller området omdelt i flere dele. Her kan størrelsen af den enkelte del aflæses som højden af den tilhørende farve. <br> F.eks. kan det aflæses her, at der i 2015 var ca. 50000 af de 21 årige som havde fuldført en ungdomsuddannelse. Og at der var 7700 af de 23 årige som var i gang med en ungdomsuddannelse. Samt at der i 2015 i alt var 76000 på 24 år.</p>"}
                         }
                     }, 
                     {
@@ -1466,7 +1738,7 @@
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Enhederne finder du ved enden af akserne."
+                                        "wrong": "Enheden kan aflæses øverst ved siden af y-aksen (den lodrette akse)."
                                     }
                                 }
                             }
@@ -1594,7 +1866,7 @@
                                     "answer":1,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Enhederne finder du ved enden af akserne."
+                                        "wrong": "Enheden kan aflæses til højre ved siden af x-aksen (den vandrette akse)."
                                     }
                                 }
                             }
@@ -1626,7 +1898,7 @@
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": ""
+                                        "wrong": "Den samlede produktion aflæses som hele søjlens højde."
                                     }
                                 }
                             }
@@ -1658,7 +1930,7 @@
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": ""
+                                        "wrong": "Affald er på figuren vist som den gule del af søjlerne. Svaret kan altså aflæses som højden af den gule del af søjlen ved 1993."
                                     }
                                 }
                             }
@@ -1691,66 +1963,7 @@
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": ""
-                                    }
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {   
-            "carouselNo" : 3,
-            "status" : {"active": false, "answered": null},
-            "ctrlBtn" : "Simpel graf-aflæsning",
-            "carouselData": {
-                "subHeader": "Øvrige objekter for faget Dansk...",
-                "feedback": {
-                    "correct": "Generel feedback correct text...",
-                    "wrong": "Generel feedback wrong text..."
-                },
-                "slides": [
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/intro_simplegrafer.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Simpel graf-aflæsning</h3><p>Figuren viser et koordinatsystem med to akser. <br> Hvis man kender x-værdien og skal finde y-værdien, så starter man ved den kendte værdi på x-aksen. Man går lodret op i koordinatsystemet til man møder grafen og aflæser så punktets y-koordinat.<br> Hvis man kender y-værdien og skal finde x-værdien, så starter man ved den kendte værdi på y-aksen. <br> Man går vandret ud i koordinatsystemet til man møder grafen og aflæser så punktets x-koordinat.</p>"}
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Befolkningstal på Læsø"},
-                            "rightColumn" : {
-                                "type": "quiz", 
-                                "quiz": {
-                                    "header": "Befolkningstal på Læsø", 
-                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
-                                    "question":"Aflæs befolkningstallet på Læsø i 2011.",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv befolkningstallet...",
-                                        "value": ""
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":1940, "max":1960},
-                                    "feedback": {
-                                        "correct": "",
-                                        "wrong": "Årstallet er en x-værdi. Du kan aflæse befolkningstallet ved at finde årstallet på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
+                                        "wrong": "Svaret kan aflæses som den energikilde, der udgør den største del af den samlede søjle ved 2000."
                                     }
                                 }
                             }
@@ -1766,23 +1979,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_bedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Befolkningstal på Læsø", 
-                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
+                                    "header": "Antal landbrugsbedrifter i Danmark 2010-2015", 
+                                    "caption": "Figuren viser antallet af landbrugsbedrifter i Danmark i perioden 2010-2015 fordelt på størrelsen målt i hektar. Data fra <a href='http://www.statistikbanken.dk/statbank5a/default.asp?w=1366'> Danmarks statistik </a>",
                                     "question":"Hvad er enheden på y-aksen?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Antal indbyggere"},
+                                        {"text":"Antal bedrifter"},
                                         {"text":"Årstal"},
-                                        {"text":"Antal indbyggere pr. kvadratmeter"}
+                                        {"text":"Hektar (ha)"}
                                     ],
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Enhederne finder du ved enden af akserne."
+                                        "wrong": "Enheden kan aflæses øverst ved siden af y-aksen (den lodrette akse)."
                                     }
                                 }
                             }
@@ -1798,153 +2011,23 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_bedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Befolkningstal på Læsø", 
-                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
-                                    "question":"I hvilket årstal i perioden 2008-2016 var befolkningstallet på Læsø lavest?",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv årstal...",
-                                        "value": ""
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":2015, "max":2015},
-                                    "feedback": {
-                                        "correct": "",
-                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde det sted grafen er lavest (laveste befolkningsstal) og gå lodret ned til x-aksen, hvor årstallet kan aflæses."
-                                    }
-                                }
-                            }
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_befolkningstal.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {
-                                "type": "quiz", 
-                                "quiz": {
-                                    "header": "Befolkningstal på Læsø", 
-                                    "caption": "Figuren viser befolkningstallet på Læsø i perioden 2008-2016. Tallene er fra første kvartal de pågældende år.",
-                                    "question":"I hvilket år nåede befolkningstallet på Læse første gang under 1850 i perioden 2008-2016?",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv årstal...",
-                                        "value": ""
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":2012, "max":2012},
-                                    "feedback": {
-                                        "correct": "",
-                                        "wrong": "Befolkningstallet er en y-værdi. Du kan aflæse årstallet ved at finde befolkningstallet på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
-                                    }
-                                }
-                            }
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Befolkningstal på Læsø"},
-                            "rightColumn" : {
-                                "type": "quiz", 
-                                "quiz": {
-                                    "header": "Middeltemperatur i Danmark.", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
-                                    "question":"I hvilken måned overstiger middeltemperaturen første gang 11 grader?",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv måned...",
-                                        "value": ""
-                                    },
-                                    "answerType": "strInterval",
-                                    "strInterval":{"min":"maj", "max":"maj"},
-                                    "strDataInterval": "months",
-                                    "feedback": {
-                                        "correct": "",
-                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse måneden ved at finde middeltemperaturen på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
-                                    }
-                                }
-                            }
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {
-                                "type": "quiz", 
-                                "quiz": {
-                                    "header": "Middeltemperatur i Danmark.", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
-                                    "question":"Hvad er middeltemperaturen i juni?",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv temperatur...",
-                                        "value": ""
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":14, "max":14.6},
-                                    "feedback": {
-                                        "correct": "",
-                                        "wrong": "Månedsnavnet er en x-værdi. Du kan aflæse middeltemperaturen ved at finde månedens navn på x-aksen og gå lodret op til du møder grafen. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
-                                    }
-                                }
-                            }
-                        }
-                    }, 
-                    {
-                        "NEW" : true,
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {
-                                "type": "quiz", 
-                                "quiz": {
-                                    "header": "Middeltemperatur i Danmark.", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
-                                    "question":"I hvor mange måneder er middeltemperaturen i Danmark under frysepunktet?",
+                                    "header": "Antal landbrugsbedrifter i Danmark 2010-2015", 
+                                    "caption": "Figuren viser antallet af landbrugsbedrifter i Danmark i perioden 2010-2015 fordelt på størrelsen målt i hektar. Data fra <a href='http://www.statistikbanken.dk/statbank5a/default.asp?w=1366'> Danmarks statistik </a>",
+                                    "question":"Hvilken bedriftstørrelse var den mest almindelige i 2012?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Ingen"},
-                                        {"text":"1"},
-                                        {"text":"2"},
-                                        {"text":"3"}
+                                        {"text":"0,1-24,9 ha"},
+                                        {"text":"100-199,9 ha"},
+                                        {"text":"300-399,9 ha"}
                                     ],
                                     "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Frysepunktet svarer til 0 grader. Du kan finde antallet af måneder med en gennemsnitstemperatur over frysepunktet ved at tælle antallet af måneder, hvor grafen, når over x-aksen."
+                                        "wrong": "Svaret kan aflæses som det interval, der udgør den største del af den samlede søjle ved 2012."
                                     }
                                 }
                             }
@@ -1960,23 +2043,55 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/simple_middeltemp.jpg", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/SD_bedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Middeltemperatur i Danmark.", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur i Danmark på månedsbasis for perioden 1961-90.",
-                                    "question":"Hvad er den højeste månedlige middeltemperatur i Danmark?",
-                                    "type": "inputfield", 
-                                    "inputfield": {
-                                        "placeholder": "Skriv temperatur...",
-                                        "value": ""
-                                    },
-                                    "answerType": "interval",
-                                    "interval":{"min":15.3, "max":16},
+                                    "header": "Antal landbrugsbedrifter i Danmark 2010-2015", 
+                                    "caption": "Figuren viser antallet af landbrugsbedrifter i Danmark i perioden 2010-2015 fordelt på størrelsen målt i hektar. Data fra <a href='http://www.statistikbanken.dk/statbank5a/default.asp?w=1366'> Danmarks statistik </a>",
+                                    "question":"Hvor mange bedrifter var i 2011 på 50-99,9 ha?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Ca. 5000"},
+                                        {"text":"Ca. 30000"},
+                                        {"text":"Ca. 35000"}
+                                    ],
+                                    "answer":0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse den højeste værdi ved at finde det sted, hvor grafen går længst opad og aflæse punktets y-værdi."
+                                        "wrong": "Størrelsen 50-99,9 ha er på figuren vist som den grønne del af søjlerne. Svaret kan altså aflæses som højden af den grønne del af søjlen ved 2011."
+                                    }
+                                }
+                            }
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/SD_bedrifter.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Antal landbrugsbedrifter i Danmark 2010-2015", 
+                                    "caption": "Figuren viser antallet af landbrugsbedrifter i Danmark i perioden 2010-2015 fordelt på størrelsen målt i hektar. Data fra <a href='http://www.statistikbanken.dk/statbank5a/default.asp?w=1366'> Danmarks statistik </a>",
+                                    "question":"Hvad er der sket med det samlede antal bedrifter i Danmark i perioden 2010-2015?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Det er faldet"},
+                                        {"text":"Det er steget"},
+                                        {"text":"Det har været stabilt"}
+                                    ],
+                                    "answer":0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Det samlede antal bedrifter aflæses som hele søjlens højde."
                                     }
                                 }
                             }
@@ -2006,7 +2121,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/intro_hydrotermfigurer.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Hydrotermfigurer</h3><p>Hydrotermfiguren viser et koordinatsystem med tre akser. <br> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. <br> På x-aksen kan man se årets 12 måneder.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Hydrotermfigurer</h3><p>Hydrotermfiguren viser et koordinatsystem med tre akser. </p><p> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. </p><p> Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. </p><p> På x-aksen kan man se årets 12 måneder.</p>"}
                         }
                     }, 
                     {
@@ -2024,7 +2139,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Nuuk, Grønland", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"På hvilken akse aflæser man temperaturen?",
                                     "type": "radio", 
                                     "radio": [
@@ -2056,7 +2171,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Nuuk, Grønland", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad beskriver kurven på figuren?",
                                     "type": "radio", 
                                     "radio": [
@@ -2089,7 +2204,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Nuuk, Grønland", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"I hvilken måned er den gennemsnitlige nedbørsmængde i Nuuk størst?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2121,7 +2236,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Nuuk, Grønland", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad er middeltemperaturen i Nuuk i juni?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2153,7 +2268,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Bornholm, Danmark", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned på Bornholm, Danmark, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"På hvilken akse aflæser man nedbørsmængden?",
                                     "type": "radio", 
                                     "radio": [
@@ -2185,7 +2300,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Bornholm, Danmark", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned på Bornholm, Danmark, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"I hvilken måned er den gennemsnitlige temperatur på Bornholm lavest?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2217,7 +2332,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Bornholm, Danmark", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned på Bornholm, Danmark, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad er forskellen mellem nedbørsmængden i den vådeste og den tørreste måned på Bornholm?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2249,7 +2364,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Bornholm, Danmark", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Bornholm, Danmark, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned på Bornholm, Danmark, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad er middeltemperaturen i den varmeste måned på Bornholm?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2281,7 +2396,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Tórshavn, Færøerne", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad beskriver søjlerne på figuren?",
                                     "type": "radio", 
                                     "radio": [
@@ -2314,7 +2429,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Tórshavn, Færøerne", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad er middeltemperaturen i Tórshavn i april?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2346,7 +2461,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Tórshavn, Færøerne", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvad er forskellen mellem gennemsnitstemperaturen i den koldeste og den varmeste måned i Tórshavn?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2378,7 +2493,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Hydrotermfigur for Tórshavn, Færøerne", 
-                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990.",
+                                    "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
                                     "question":"Hvor meget regner det i den måned med den mindste gennemsnitlige nedbørsmængde i Tórshavn?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2414,8 +2529,8 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_info_graferMedIndeks.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/intro_IG.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Grafer med indeks</h3><p>Figuren viser en kurve i et koordinatsystem. Kurven viser afvigelsen fra et tal f.eks. i et bestemt årstal (eller et gennemsnit over en given periode).</p><p>Hvis afvigelsen er fra et bestemt årstal vil y-værdien være 0 i dette årstal.</p><p> På figuren kan man for hver x-værdiaflæse afvigelsen ved at starte ved den kendte værdi på x-aksen og gå lodret op i koordinatsystemet til man møder grafen og man kan så aflæse afvigelsen som punktets y-koordinat.</p>"}
                         }
                     }, 
                     {
@@ -2428,12 +2543,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_aarsmiddeltemperatur.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_aarmiddeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Årsmiddeltemperatur i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"Hvad ses på y-aksen?",
                                     "type": "radio", 
                                     "radio": [
@@ -2460,12 +2575,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_aarsmiddeltemperatur.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_aarmiddeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Årsmiddeltemperatur i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"Hvad var afvigelsen fra normalen i år 2014?",
                                     "type": "radio", 
                                     "radio": [
@@ -2492,12 +2607,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_aarsmiddeltemperatur.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_aarmiddeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Årsmiddeltemperatur i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"I hvilket årstal i perioden 1955-2025 har dødsraten i Singapore været lavest?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2524,12 +2639,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_aarsmiddeltemperatur.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_aarmiddeltemp.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Årsmiddeltemperatur i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"I hvilke årstal var afvigelsen fra normalen mere end 1&ordm;C?",
                                     "type": "radio", 
                                     "radio": [
@@ -2556,12 +2671,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_landbrugsbedrifter.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_antalbedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Antal landbrugsbedrifter i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"Hvad var afvigelsen fra normalen i år 2011?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2589,12 +2704,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_landbrugsbedrifter.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_antalbedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Antal landbrugsbedrifter i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"I hvilket år i perioden 2006-2015 var antallet af bedrifter 4800 større end i 2015?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2621,12 +2736,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_landbrugsbedrifter.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_antalbedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Antal landbrugsbedrifter i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"I hvilke årstal var afvigelsen fra antallet i 2015 mere end 7000?",
                                     "type": "radio", 
                                     "radio": [
@@ -2653,12 +2768,12 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_landbrugsbedrifter.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_antalbedrifter.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Antal landbrugsbedrifter i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
+                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
                                     "question":"Hvilket år i perioden 2006-2015 var antallet af bedrifter lavest?",
                                     "type": "inputfield", 
                                     "inputfield": {
@@ -2685,42 +2800,30 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_graferMedIndeks_landbrugsbedrifter.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/IG_foedsler.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
-                                    "header": "Antal landbrugsbedrifter i Danmark, 2006-2015", 
-                                    "caption": "<p>Figuren viser afvigelsen i antallet af bedrifter i 2006-2015 fra antallet i 2015. <br> Kilde: <a href='www.dmi.dk'>dmi.dk</a></p>",
-                                    "question":"XXXXX",
+                                    "header": "Gennemsnitsalder for samtlige fødende kvinder i Danmark, 1901-2015", 
+                                    "caption": "<p>Figuren viser afvigelsen i gennemsnitsalderen for samtlige fødende kvinder i Danmark 1901-2015 fra gennemsnitsalderen i 1950. <br> Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a></p>",
+                                    "question":"Hvad var afvigelsen i 1951?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"XXXXX"},
-                                        {"text":"XXXXX"},
-                                        {"text":"XXXXX"},
-                                        {"text":"XXXXX"},
-                                        {"text":"XXXXX"},
-                                        {"text":"XXXXX"}
+                                        {"text":"Gennemsnitsalderen var 0,2 år lavere end i 1950"},
+                                        {"text":"Gennemsnitsalderen var 0,1 år højere end i 1950"},
+                                        {"text":"Gennemsnitsalderen var 2 år lavere end i 1950"}
                                     ],
-                                    "answer": 4,
+                                    "answer": 0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "XXXXX"
+                                        "wrong": "Årstallet er en x-værdi. Du kan aflæse afvigelsen ved at finde årstallet på x-aksen og gå lodret op til du møder kurven. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
                                     }
                                 }
                             }
                         }
-                    }
-                ]
-            }
-        },
-        {   
-            "carouselNo" : 5,
-            "status" : {"active": false, "answered": null},
-            "ctrlBtn" : "Koordinatsystem med to y-akser",
-            "carouselData": {
-                "subHeader": "Øvrige objekter for faget Dansk...",
-                "slides": [
+                    }, 
                     {
+                        "NEW" : true,
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
@@ -2729,11 +2832,30 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/info_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Om denne figurtype</h3><p>Tilgangen til denne firgurtype er som følger ... lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/IG_foedsler.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Gennemsnitsalder for samtlige fødende kvinder i Danmark, 1901-2015", 
+                                    "caption": "<p>Figuren viser afvigelsen i gennemsnitsalderen for samtlige fødende kvinder i Danmark 1901-2015 fra gennemsnitsalderen i 1950. <br> Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a></p>",
+                                    "question":"I hvilke år i perioden 1901-2015 var gennemsnitsalderen 1 år højere eller mere end i 1950?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"1901-1936 og 1993-2015"},
+                                        {"text":"1936-1950 og 2010-1015"},
+                                        {"text":"1936-1993 og 1998-2012"}
+                                    ],
+                                    "answer": 0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "De år hvor afvigelsen fra gennemsnitsalderen i 1950 er 1 år eller mere kan findes ved at aflæse for hvilke årstal kurven ligger ved eller over y-værdien 1."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
+                        "NEW" : true,
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
@@ -2742,11 +2864,30 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 1</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/IG_foedsler.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Gennemsnitsalder for samtlige fødende kvinder i Danmark, 1901-2015", 
+                                    "caption": "<p>Figuren viser afvigelsen i gennemsnitsalderen for samtlige fødende kvinder i Danmark 1901-2015 fra gennemsnitsalderen i 1950. <br> Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a></p>",
+                                    "question":"Hvor meget er gennemsnitsalderen for fødende kvinder steget i perioden 1981-2001?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"3,2 år"},
+                                        {"text":"2,2 år"},
+                                        {"text":"0,2 år"}
+                                    ],
+                                    "answer": 0,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Ændringen i gennemsnitsalderen i perioden kan findes ved at aflæse afvigelsen i 1981 og i 2001 og så trække afvigelsen i 1981 fra afvigelsen i 2001."
+                                    }
+                                }
+                            }
                         }
                     }, 
                     {
+                        "NEW" : true,
                         "status" : {"active": false, "answered": null},
                         "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
                         "type" : "columnData",
@@ -2755,34 +2896,26 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_2.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 2</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_3.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 3</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
-                        }
-                    }, 
-                    {
-                        "status" : {"active": false, "answered": null},
-                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
-                        "type" : "columnData",
-                        "columnData": [   
-                            {"column":"<div class='leftColumn'> leftColumn </div>"},
-                            {"column":"<div class='rightColumn'> rightColumn </div>"}
-                        ],
-                        "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/data_koordinatsystemMedToYakser_4.png", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Quizspørgsmål 4</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"}
+                            "leftColumn" : {"type": "img", "src": "img/IG_foedsler.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Gennemsnitsalder for samtlige fødende kvinder i Danmark, 1901-2015", 
+                                    "caption": "<p>Figuren viser afvigelsen i gennemsnitsalderen for samtlige fødende kvinder i Danmark 1901-2015 fra gennemsnitsalderen i 1950. <br> Kilde: <a href='http://www.dst.dk'>Danmarks statistik</a></p>",
+                                    "question":"Hvilket år i perioden 1901-2015 var gennemsnitsalderen for fødende kvinder lavest?",
+                                    "type": "inputfield", 
+                                    "inputfield": {
+                                        "placeholder": "Skriv årstal...",
+                                        "value": ""
+                                    },
+                                    "answerType": "string",
+                                    "string": "1975",
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Den laveste gennemsnitsalder findes i det år hvor kurven ligger lavest."
+                                    }
+                                }
+                            }
                         }
                     }
                 ]
