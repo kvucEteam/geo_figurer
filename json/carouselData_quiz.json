@@ -598,7 +598,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_italien.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_italien.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -631,7 +631,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_italien.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_italien.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -663,7 +663,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_italien.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_italien.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -696,7 +696,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_italien.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_italien.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -729,7 +729,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_mali.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_mail.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -767,7 +767,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_mali.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_mail.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -799,7 +799,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_mali.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_mail.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -830,7 +830,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_befolkningspyramider_mali.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/befolkningspyramide_mail.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
