@@ -2951,7 +2951,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_intro.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_raastofindvinding.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -2983,7 +2983,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_intro.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_raastofindvinding.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3015,7 +3015,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_intro.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_raastofindvinding.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3049,7 +3049,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_intro.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_raastofindvinding.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3251,7 +3251,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_emission.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_emissionsregnskab.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3284,7 +3284,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_emission.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_emissionsregnskab.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3316,7 +3316,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_emission.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_emissionsregnskab.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3350,7 +3350,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_emission.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_emissionsregnskab.jpg", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3519,7 +3519,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_ferierejser.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_ferierejser.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3553,7 +3553,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_ferierejser.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_ferierejser.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3585,7 +3585,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_ferierejser.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_ferierejser.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3620,7 +3620,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_ferierejser.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_ferierejser.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
@@ -3655,7 +3655,7 @@
                             {"column":"<div class='rightColumn'> rightColumn </div>"}
                         ],
                         "columnData_content": {
-                            "leftColumn" : {"type": "img", "src": "img/dummy/dummy_tabeller_ferierejser.png", "alt": "Eksternt billede..."},
+                            "leftColumn" : {"type": "img", "src": "img/TABEL_ferierejser.png", "alt": "Eksternt billede..."},
                             "rightColumn" : {
                                 "type": "quiz", 
                                 "quiz": {
