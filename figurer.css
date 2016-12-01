@@ -130,9 +130,18 @@
 	color: #FFF;
 }
 
+/*
+.columnRight, .rightColumn, .quizHolder{
+    height: 100%;
+}
+*/
+.checkAnswer{
+    float: right;
+}
 
-
-
+.generalInfo{
+    margin-bottom: 10px;
+}
 
 /**************    *********************/
 

@@ -77,10 +77,12 @@ function returnLastStudentSession() {
 
             // step_0_template();
             template();
+            $( ".generalInfo" ).trigger( "click" );  // Open the generalInfo text userMssageBox if you want to start over.
         });
     } else {
         // step_0_template();
         template();
+        $( ".generalInfo" ).trigger( "click" );  // Open the generalInfo text userMssageBox if you load the program for the first time.
     }
 }
 
@@ -127,9 +129,11 @@ function template() {
     HTML += explanation(jsonData.explanation);
     HTML += '<div class="Clear"></div>';
     // HTML += '<span class="PagerContainer"></span>';          // <-------  PAGER
-    HTML += '<div class="ctrlBtnContainer">'+initCtrlBtnContainer(jsonData)+'</div>';
+    HTML += '<span class="ctrlBtnContainer">'+initCtrlBtnContainer(jsonData)+'</span>';
     HTML += initCarouselObjs(jsonData);
     $('#DataInput').html(HTML);
+
+    $('.ctrlBtnContainer').before('<div class="generalInfo btn btn-info">Generel info</div>');  // Insert general info btn.
 
     // var pagerObj = Object.create(pagerClass);                // <-------  PAGER
     // pagerObj.init(".PagerContainer", ".carouselPage");       // <-------  PAGER
@@ -209,6 +213,10 @@ function initElearningObj(jsonData){
 
 function setEventListeners(){
 
+    $( document ).on('click', ".generalInfo", function(event){
+        UserMsgBox('body', "<h3>Hvad er en figur?</h3><p>En figur er en grafisk fremstilling af data, så det er lettere at overskue en evt. udvikling og sammenhæng.</p><p>Den figurtype der vælges til at afbillede data afhænger af tradition, modtageren de er tænkt til og selvfølgelig den figurtype der egner sig bedst til netop den datatype.</p><p>Enhederne på en figur skal passe til datas størrelser, så det er muligt at se evt. variationer. Enhederne fortæller også hvad der undersøges f.eks. CO<sub>2</sub>-udledning /indbygger eller CO2-udledning /land eller ved et specifikt land eller verdensdel CO<sub>2</sub>-udledning /år.</p><p>Farver på figurer: Der er ikke konventioner på dette område, se derfor altid i signaturforklaringen der knytter sig til figuren.</p><h3>Hvordan anvender man en figur?</h3><p>Når man skal hente viden ud af en figur er det en god idé at gøre det ved at gennemgå punkterne, der er opstillet nedenfor.</p><h4>Overskriften</h4><p>Start altid med overskriften. Den fortæller hvad figuren beskriver.</p><h4>Figurtypen</h4><p>Identificer figurtypen. Den afgør hvordan man aflæser data, og om der er en eller flere variable i spil.</p><h4>Enheder og signaturer</h4><p>Se på hvilke enheder eller signaturer der bruges på figuren. De fortæller hvad der undersøges og skalaen der undersøges i. Signaturer kan være farver men også tegn som veje og søer er signaturer. Fælles for signaturer er, at de er fremhævet, så det netop er dem man skal have fokus på.</p><h4>Indhold - Beskrivelse</h4><p>Identificer og beskriv figurens indhold.  Angiv f.eks. en tendens med konkrete aflæsninger. Dette er det redegørende niveau.</p><h4>Indhold - Forklaring</h4><p>Forklar figurens indhold. Her skal teorien kobles på. Sammenlign, forklar, bedøm og argumenter for hvorfor indholdet ser ud som det gør. Dette er det analyserende niveau.</p>");      // Added 21-11-2016
+    });
+
     // SAVE: Click on a diagramBtn:
     $( document ).on('click', ".diagramBtn", function(event){
         var index = $(this).index();
@@ -220,10 +228,6 @@ function setEventListeners(){
         setAtiveCarousel(index);
         goToAtiveSlide(index);
         setSliderContolHeight();
-
-        if (index == 0) {   
-            UserMsgBox('body', jsonData.slideData[index].carouselData.slides[0].text);      // Added 21-11-2016
-        }
 
         osc.save('jsonData', jsonData);
     });
@@ -402,6 +406,7 @@ function rightColumnMarkup(columnData){
             HTML +=     '</div>';
             HTML +=     '<br>';
             HTML +=     '<span class="checkAnswer btn btn-primary">TJEK SVAR</span>';
+            HTML +=     '<span class="Clear"></span>';
             HTML +=     (typeof(columnData.quiz.giveAnswer)!=='undefined')?'<span class="giveAnswer btn btn-info">SE SVAR</span>':'';
             HTML += '</div>';
             break;
@@ -797,10 +802,10 @@ function detectBootstrapBreakpoints(){
 function reduceInputWidth() {
     console.log('reduceInputWidth - CALLED');
     if (bootstrapcolObj[bootstrapBreakpointSize] > bootstrapcolObj['sm']) {
-        $('.diagramBtn').addClass('diagramBtn_ekstra');
+        $('.diagramBtn, .generalInfo').addClass('diagramBtn_ekstra');
         console.log('reduceInputWidth - ON');
     } else {
-        $('.diagramBtn').removeClass('diagramBtn_ekstra');
+        $('.diagramBtn, .generalInfo').removeClass('diagramBtn_ekstra');
         console.log('reduceInputWidth - OFF');
     }
 }
@@ -947,10 +952,10 @@ carouselClass = {
                 console.log("SLIDE TEST 1");
                 for (var j in slideData[slideNum].columnData) {
                     if (j == 0) {
-                        HTML += '<div class="analysis column col-xs-12 col-md-8">' + slideData[slideNum].columnData[j].column + '</div>';
+                        HTML += '<div class="analysis column col-xs-12 col-md-8 columnLeft">' + slideData[slideNum].columnData[j].column + '</div>';
                     }
                     if (j == 1) {
-                        HTML += '<div class="analysis column col-xs-12 col-md-4">' + slideData[slideNum].columnData[j].column + '</div>';
+                        HTML += '<div class="analysis column col-xs-12 col-md-4 columnRight">' + slideData[slideNum].columnData[j].column + '</div>';
                     }
                 }
                 break;
@@ -1010,7 +1015,6 @@ detectBootstrapBreakpoints();
 
 
 
-
 $(document).ready(function() {
 
     // getAjaxData("GET", "json/carouselDataTest5.json", false, "json");        //  Commented out 22-11-2016
@@ -1019,6 +1023,8 @@ $(document).ready(function() {
     console.log("jsonData: " + JSON.stringify(jsonData));
 
     returnLastStudentSession();
+
+    // $('.ctrlBtnContainer').before('<div class="generalInfo btn btn-info">Generel info XXX</div>');
 
     setSliderContolHeight();
 
