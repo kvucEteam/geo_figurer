@@ -599,7 +599,7 @@
                                     "answer": 2,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Nej, tårnpyramiden har en tilnærmelsesvis ensartet fordeling af aldersgrupperne. Her er der flest ældre. Der er tale om en regressiv pyramide."
+                                        "wrong": "Nej, her er der tale om en regressiv pyramide, dvs. Der fødes færre børn."
                                     }
                                 }
                             }
@@ -654,17 +654,17 @@
                                     "header": "Befolkningspyramide for Italien", 
                                     "caption": "<p>Populationsstørrelse estimeret juli 2016: 62,007,540 <br><br> Kilde (oversat): <a href='https://www.cia.gov/library/publications/the-world-factbook/geos/it.html'>cia.gov</a> </p>",
                                     "question":"Hvorfor er der relativt mange flere kvinder end mænd der er over 50 år?",
-                                    "type": "checkbox", 
-                                    "checkbox": [
+                                    "type": "radio", 
+                                    "radio": [
                                         {"text":"Der er relativt flere mænd der er døde i krigene"},
                                         {"text":"Kvinder har færre livsstilsrelaterede sygdomme i den generation"},
                                         {"text":"Kvinder arbejder ikke så meget"},
                                         {"text":"Mænd er døde i arbejdsulykker"}
                                     ],
-                                    "answer": [0,1],
+                                    "answer": 0,
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Nej, det er typisk mænd der har været/er soldater, og den ældre generation af kvinder har ikke så mange livsstilssygdomme som mændene."
+                                        "wrong": "Nej, det er typisk mænd der har været/er soldater, og derfor er der relativt få ældre mænd i Italien."
                                     }
                                 }
                             }
@@ -687,14 +687,14 @@
                                     "header": "Befolkningspyramide for Italien", 
                                     "caption": "<p>Populationsstørrelse estimeret juli 2016: 62,007,540 <br><br> Kilde (oversat): <a href='https://www.cia.gov/library/publications/the-world-factbook/geos/it.html'>cia.gov</a> </p>",
                                     "question":"Hvilke udfordringer kan vi ud fra befolkningspyramiden se Italien står overfor i nær fremtid?",
-                                    "type": "checkbox", 
-                                    "checkbox": [
+                                    "type": "radio", 
+                                    "radio": [
                                         {"text":"Mangler arbejdskraft"},
                                         {"text":"Manglende boliger"},
                                         {"text":"Arbejdsløshed"},
                                         {"text":"Stor børnedødelighed"}
                                     ],
-                                    "answer": 1,
+                                    "answer": 0,
                                     "feedback": {
                                         "correct": "",
                                         "wrong": "Nej, der fødes få børn, og det vil i nær fremtid betyde, at der vil mangle arbejdskraft"
@@ -965,24 +965,17 @@
                                     "header": "Befolkningspyramide Burundi 2016", 
                                     "caption": "<p>Population estimeret juli 2016: 11,099,298 <br><br> Kilde (oversat): <a href='https://www.cia.gov/library/publications/the-world-factbook/geos/by.html'>cia.gov</a> </p>",
                                     "question":"Hvorfor bliver man ikke så gammel i Burundi?",
-                                    "type": "checkbox", 
-                                    "checkbox": [
+                                    "type": "radio", 
+                                    "radio": [
                                         {"text":"AIDS"},
-                                        {"text":"Høj spædbarnsdødelighed"},
-                                        {"text":"Krige indtil år 2000"},
-                                        {"text":"Begrænsende befolkningspolitik"},
+                                        {"text":"Lav spædbarnsdødelighed"},
+                                        {"text":"Mange arbejdsulykker"},
                                         {"text":"Polioepidemier"}
                                     ],
-                                    "answer": [0,1,2],
+                                    "answer": 0,
                                     "feedback": {
-                                        "correct": "-----------------------------------   FAGREDAKTØRE OG E-TEAM SKAL TAGE BESLUTNING I DETTE SPM   ----------------------------------- Hvis der skal være flere svar muligheder dvs (checkbox og ikke radio), så kan der kun være een forkeret svarmulighed.",
-                                        "wrong": [
-                                            "...",
-                                            "...",
-                                            "...",
-                                            "Nej, begrænsende befolkningspolitik betyder at regeringen ønsker færre børnefødsler vha. fx klinikker der oplyser om prævention, ingen økonomisk hjælp til børn eller evt. økonomisk straf.",
-                                            "Nej, polio er stort set erklæret udryddet efter en global vaccinationsindsats."
-                                        ]
+                                        "correct": "",
+                                        "wrong": "Nej, der er en meget stor andel af befolkningen, der har HIV/ AIDS"
                                     }
                                 }
                             }
@@ -1148,7 +1141,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/intro_demografisktransition.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Den demografiske transitionsmodel</h3><p>Den demografiske transitionsmodel beskriver udviklingen i fødsels- og dødsrate over en årrække.Udviklingen inddeles i fem faser:<br><br><b>1. fase: Høj fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>2. fase: Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.</b><br><b>3. fase: Faldende fødsels- og dødsrate. Voksende befolkningstal.</b><br><b>4. fase: Lav fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>5. fase: Dødsraten overstiger fødselsraten. Faldende befolkningstal.</b></p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Den demografiske transitionsmodel</h3><p>Den demografiske transitionsmodel beskriver udviklingen i fødsels- og dødsrate over en årrække. Udviklingen inddeles i fem faser:<br><br><b>1. fase: Høj fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>2. fase: Høj fødselsrate og faldende dødsrate. Voksende befolkningstal.</b><br><b>3. fase: Faldende fødsels- og dødsrate. Voksende befolkningstal.</b><br><b>4. fase: Lav fødsels- og dødsrate. Stabilt befolkningstal.</b><br><b>5. fase: Dødsraten overstiger fødselsraten. Faldende befolkningstal.</b></p>"}
                         }
                     }, 
                     {
@@ -2481,7 +2474,7 @@
                                     "question":"Hvor meget regner det i den måned med den mindste gennemsnitlige nedbørsmængde i Tórshavn?",
                                     "type": "inputfield", 
                                     "inputfield": {
-                                        "placeholder": "Skriv temperatur...",
+                                        "placeholder": "Skriv mængde...",
                                         "value": ""
                                     },
                                     "answerType": "interval",
@@ -2664,7 +2657,7 @@
                                     "question":"Hvad var afvigelsen fra normalen i år 2011?",
                                     "type": "inputfield", 
                                     "inputfield": {
-                                        "placeholder": "Skriv måned...",
+                                        "placeholder": "Skriv afvigelsen...",
                                         "value": ""
                                     },
                                     "answerType": "strInterval",
@@ -2672,7 +2665,7 @@
                                     "strDataInterval": "months",
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Middeltemperaturen er en y-værdi. Du kan aflæse måneden ved at finde middeltemperaturen på y-aksen og gå vandret ud til du møder grafen. Her skal du så gå lodret ned og aflæse den tilhørende værdi på x-aksen."
+                                        "wrong": "Årstallet er en x-værdi. Du kan aflæse afvigelsen ved at finde årstallet på x-aksen og gå lodret op til du møder kurven. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."
                                     }
                                 }
                             }
@@ -2733,7 +2726,7 @@
                                         {"text":"2006, 2007 og 2008"},
                                         {"text":"2007, 2008 og 2009"}
                                     ],
-                                    "answer": 4,
+                                    "answer": 0,
                                     "feedback": {
                                         "correct": "",
                                         "wrong": "De år hvor afvigelsen fra antallet i 2015 er mere end 7000 kan findes ved at aflæse for hvilke årstal kurven ligger over y-værdien 7000."
@@ -3051,7 +3044,7 @@
                                     "answer":[0,1],
                                     "feedback": {
                                         "correct": "",
-                                        "wrong": "Nej, det anvendes til bygge og anlæg."
+                                        "wrong": "Nej, det anvendes til anlæggelse af veje og broer."
                                     }
                                 }
                             }
