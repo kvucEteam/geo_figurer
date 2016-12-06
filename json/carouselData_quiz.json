@@ -2933,7 +2933,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Råstofindvinding (1000 m<sup>3</sup>) efter område, råstof og tid", 
-                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000, da det er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
+                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000 m<sup>3</sup>, da dette er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
                                     "question":"Angiv enheden der anvendes?",
                                     "type": "radio", 
                                     "radio": [
@@ -2965,7 +2965,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Råstofindvinding (1000 m<sup>3</sup>) efter område, råstof og tid", 
-                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000, da det er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
+                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000 m<sup>3</sup>, da dette er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
                                     "question":"Hvad viser tabellen om granit indvindingens størrelse i Danmark?",
                                     "type": "radio", 
                                     "radio": [
@@ -2997,7 +2997,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Råstofindvinding (1000 m<sup>3</sup>) efter område, råstof og tid", 
-                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000, da det er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
+                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000 m<sup>3</sup>, da dette er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
                                     "question":"Hvilket råstof brydes der mindre af i 2015?",
                                     "type": "radio", 
                                     "radio": [
@@ -3031,7 +3031,7 @@
                                 "type": "quiz", 
                                 "quiz": {
                                     "header": "Råstofindvinding (1000 m<sup>3</sup>) efter område, råstof og tid", 
-                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000, da det er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
+                                    "caption": "<ul><li>I den angivne figur er der 2 variable: Årstal og råstoffer</li> <li>Der læses vandret fx: Ler; indvundet 308 x 1000 m<sup>3</sup> i 2014 og 378 x 1000 m<sup>3</sup> i 2015 i Danmark. Der ganges med 1000 m<sup>3</sup>, da dette er angivet i overskriften. Dette gøres for at få mere overskuelige tal at arbejde med.</li></ul>",
                                     "question":"Hvad anvendes disse råstoffer til?",
                                     "type": "checkbox", 
                                     "checkbox": [
