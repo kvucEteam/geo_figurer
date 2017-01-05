@@ -8,6 +8,8 @@ function returnLastStudentSession() {
     var TjsonData = osc.load('jsonData');
     console.log('returnLastStudentSession - TjsonData: ' + JSON.stringify(TjsonData));
 
+    randomizeJsonDataForCheckboxesAndRadioBtns();
+
     // // IMPORTANT: 
     // // In this exercise, the user has to download a word-document in the last step. This is not possible when using Safari - this is why this if-clause has been added.
     // if ((isUseragentSafari()) && (typeof(safariUserHasAgreed) === 'undefined')){
@@ -122,6 +124,7 @@ function setSliderContolHeight(){
 
 
 function template() {
+
     console.log('template - jsonData: ' + JSON.stringify(jsonData));
     var HTML = '';
     HTML += '<h1>'+jsonData.mainHeader+'</h1>';
@@ -999,6 +1002,52 @@ carouselClass = {
 
 
 
+function shuffelArray (ItemArray) {
+    var NumOfItems = ItemArray.length;
+    var NewArray = ItemArray.slice(); // Copy the array...
+    var Item2;
+    var TempItem1;
+    var TempItem2;
+    for (var Item1 = 0; Item1 < NumOfItems; Item1++) {
+        Item2 = Math.floor(Math.random() * NumOfItems);
+        TempItem1 = NewArray[Item1];
+        TempItem2 = NewArray[Item2];
+        NewArray[Item2] = TempItem1;
+        NewArray[Item1] = TempItem2;
+    }
+    return NewArray;
+}
+
+
+function randomizeJsonDataForCheckboxesAndRadioBtns(){
+    // console.log("randomizeJsonDataForCheckboxesAndRadioBtns - jsonData: " + JSON.stringify(jsonData));
+    for (var k in jsonData.slideData) {
+        for (var m in jsonData.slideData[k].carouselData.slides) {
+            if (jsonData.slideData[k].carouselData.slides[m].columnData_content.rightColumn.type == 'quiz'){
+                var quiz = jsonData.slideData[k].carouselData.slides[m].columnData_content.rightColumn.quiz;
+                if (quiz.type == 'radio'){
+                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 1: " + JSON.stringify(quiz));
+                    var qArr = [];
+                    for (var s in quiz.radio){
+                        qArr.push({index: s, text: quiz.radio[s].text});
+                    }
+                    var randArr = shuffelArray(qArr);
+                    for (var s in randArr){
+                        quiz.radio[s].text = randArr[s].text;
+                        if (parseInt(randArr[s].index) == quiz.answer) {
+                            quiz.answer = parseInt(s);
+                        }
+                    }
+                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 2: " + JSON.stringify(quiz));
+                }
+                if (quiz.type == 'checkbox'){
+
+                }
+            }
+        }
+    }
+}
+
 
 
 //=======================================================================================
@@ -1018,6 +1067,7 @@ detectBootstrapBreakpoints();
 
 $(document).ready(function() {
 
+
     // getAjaxData("GET", "json/carouselDataTest5.json", false, "json");        //  Commented out 22-11-2016
     getAjaxData("GET", "json/carouselData_quiz.json", false, "json");           //  Added 22-11-2016
     // getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
@@ -1034,6 +1084,7 @@ $(document).ready(function() {
     // $('#DataInput').html(cObj.init(jsonData));
 
     // osc.save('jsonData', jsonData);  // <---- OK
+
 
 });
 
