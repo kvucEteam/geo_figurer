@@ -1198,7 +1198,7 @@
                                     "radio": [
                                         {"text":"Den faldt"},
                                         {"text":"Den steg"},
-                                        {"text":"Den var konstant"}
+                                        {"text":"Den var nul"}
                                     ],
                                     "answer":0,
                                     "feedback": {
@@ -1327,7 +1327,7 @@
                                     "radio": [
                                         {"text":"Den er positiv"},
                                         {"text":"Den er negativ"},
-                                        {"text":"Den er konstant"}
+                                        {"text":"Den er nul"}
                                     ],
                                     "answer":0,
                                     "feedback": {
@@ -1458,7 +1458,7 @@
                                     "radio": [
                                         {"text":"Den er positiv"},
                                         {"text":"Den er negativ"},
-                                        {"text":"Den er konstant"}
+                                        {"text":"Den er nul"}
                                     ],
                                     "answer":0,
                                     "feedback": {
@@ -1589,7 +1589,7 @@
                                     "radio": [
                                         {"text":"Den faldt"},
                                         {"text":"Den steg"},
-                                        {"text":"Den var konstant"}
+                                        {"text":"Den var nul"}
                                     ],
                                     "answer":1,
                                     "feedback": {
@@ -2098,7 +2098,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/intro_hydrotermfigurer.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Hydrotermfigurer</h3><p>Hydrotermfiguren viser et koordinatsystem med tre akser. </p><p> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. </p><p> Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. </p><p> På x-aksen kan man se årets 12 måneder.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Hydrotermfigurer</h3><p>Hydrotermfiguren viser et koordinatsystem med tre akser. </p><p> Den gennemsnitlige nedbørsmængde vises som søjler. Enheden er mm og værdierne aflæses på y-aksen til venstre. </p><p> Middeltemperaturen vises som en graf. Enheden er °C og værdierne aflæses på y-aksen til højre. </p><p> På x-aksen ses årets 12 måneder.</p>"}
                         }
                     }, 
                     {
@@ -2120,9 +2120,9 @@
                                     "question":"På hvilken akse aflæser man temperaturen?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Den lodrette akse til højre"},
-                                        {"text":"Den lodrette akse til venstre"},
-                                        {"text":"Den vandrette akse"}
+                                        {"text":"På y-aksen til højre"},
+                                        {"text":"På y-aksen til venstre"},
+                                        {"text":"På x-aksen"}
                                     ],
                                     "answer":0,
                                     "feedback": {
@@ -2214,10 +2214,10 @@
                                 "quiz": {
                                     "header": "Hydrotermfigur for Nuuk, Grønland", 
                                     "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Nuuk, Grønland, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
-                                    "question":"Hvad er middeltemperaturen i Nuuk i juni?",
+                                    "question":"Hvad er middeltemperaturen (grader C) i Nuuk i juni?",
                                     "type": "inputfield", 
                                     "inputfield": {
-                                        "placeholder": "Skriv årstal...",
+                                        "placeholder": "Skriv temperatur...",
                                         "value": ""
                                     },
                                     "answerType": "interval",
@@ -2249,9 +2249,9 @@
                                     "question":"På hvilken akse aflæser man nedbørsmængden?",
                                     "type": "radio", 
                                     "radio": [
-                                        {"text":"Den lodrette akse til højre"},
-                                        {"text":"Den lodrette akse til venstre"},
-                                        {"text":"Den vandrette akse"}
+                                        {"text":"På y-aksen til højre"},
+                                        {"text":"På y-aksen til venstre"},
+                                        {"text":"På x-aksen"}
                                     ],
                                     "answer":1,
                                     "feedback": {
@@ -2407,7 +2407,7 @@
                                 "quiz": {
                                     "header": "Hydrotermfigur for Tórshavn, Færøerne", 
                                     "caption": "Figuren viser den gennemsnitlige temperatur og nedbørsmængde pr. måned i Tórshavn, Færøerne, for perioden 1961-1990. kilde: <a href='http://www.dmi.dk'>DMI</a>",
-                                    "question":"Hvad er middeltemperaturen i Tórshavn i april?",
+                                    "question":"Hvad er middeltemperaturen (grader C) i Tórshavn i april?",
                                     "type": "inputfield", 
                                     "inputfield": {
                                         "placeholder": "Skriv temperatur...",
@@ -2442,7 +2442,7 @@
                                     "question":"Hvad er forskellen mellem gennemsnitstemperaturen i den koldeste og den varmeste måned i Tórshavn?",
                                     "type": "inputfield", 
                                     "inputfield": {
-                                        "placeholder": "Skriv temperatur...",
+                                        "placeholder": "Skriv temperaturdif. ...",
                                         "value": ""
                                     },
                                     "answerType": "interval",
@@ -2507,7 +2507,7 @@
                         ],
                         "columnData_content": {
                             "leftColumn" : {"type": "img", "src": "img/intro_IG.jpg", "alt": "Eksternt billede..."},
-                            "rightColumn" : {"type": "info", "info": "<h3>Grafer med indeks</h3><p>Figuren viser en kurve i et koordinatsystem. Kurven viser afvigelsen fra et tal f.eks. i et bestemt årstal (eller et gennemsnit over en given periode).</p><p>Hvis afvigelsen er fra et bestemt årstal vil y-værdien være 0 i dette årstal.</p><p> På figuren kan man for hver x-værdiaflæse afvigelsen ved at starte ved den kendte værdi på x-aksen og gå lodret op i koordinatsystemet til man møder grafen og man kan så aflæse afvigelsen som punktets y-koordinat.</p>"}
+                            "rightColumn" : {"type": "info", "info": "<h3>Grafer med indeks</h3><p>Figuren viser en kurve i et koordinatsystem. Kurven viser afvigelsen fra et tal f.eks. i et bestemt årstal (eller et gennemsnit over en given periode).</p><p>Hvis afvigelsen er fra et bestemt årstal vil y-værdien være 0 i dette årstal.</p><p> På figuren kan man for hver x-værdi aflæse afvigelsen ved at starte ved den kendte værdi på x-aksen og gå lodret op i koordinatsystemet til man møder grafen og man kan så aflæse afvigelsen som punktets y-koordinat.</p>"}
                         }
                     }, 
                     {
@@ -2590,7 +2590,7 @@
                                 "quiz": {
                                     "header": "Årsmiddeltemperatur i Danmark, 2006-2015", 
                                     "caption": "<p>Figuren viser afvigelsen i årsmiddeltemperatur i Danmark 2006-2015 fra normalen (1961-1990). <br> Kilde: <a href='http://www.dmi.dk'>dmi.dk</a></p>",
-                                    "question":"I hvilket årstal i perioden 1955-2025 har dødsraten i Singapore været lavest?",
+                                    "question":"I hvilket år i perioden 2006-2015 var årsmiddeltemperaturen laveren end normalen (1961-1990)?",
                                     "type": "inputfield", 
                                     "inputfield": {
                                         "placeholder": "Skriv årstal...",
@@ -2660,9 +2660,8 @@
                                         "placeholder": "Skriv afvigelsen...",
                                         "value": ""
                                     },
-                                    "answerType": "strInterval",
-                                    "strInterval":{"min":3900, "max":4100},
-                                    "strDataInterval": "months",
+                                    "answerType": "interval",
+                                    "interval":{"min":3900, "max":4100},
                                     "feedback": {
                                         "correct": "",
                                         "wrong": "Årstallet er en x-værdi. Du kan aflæse afvigelsen ved at finde årstallet på x-aksen og gå lodret op til du møder kurven. Her skal du så gå til venstre og aflæse den tilhørende værdi på y-aksen."

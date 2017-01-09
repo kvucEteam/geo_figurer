@@ -99,13 +99,15 @@ function setSliderContolHeight(){
     // var slideNo = $('.item:visible').prop('id').replace('slide_','');
     var slideNo = $('.item:visible').prop('id');
 
+    console.log('setSliderContolHeight - detectBootstrapBreakpoints 1');
+
     if ((typeof(carouselNo)!=='undefined') && (typeof(slideNo)!=='undefined')) {
         carouselNo = carouselNo.replace('carouselId_','');
         slideNo = slideNo.replace('slide_','');
 
         var carouselNo = $('.carousel:visible').prop('id').replace('carouselId_','');
         var slideNo = $('.item:visible').prop('id').replace('slide_','');
-        console.log('setSliderContolHeight - carouselNo: ' + carouselNo + ', slideNo: ' + slideNo);
+        console.log('setSliderContolHeight - detectBootstrapBreakpoints 2 - carouselNo: ' + carouselNo + ', slideNo: ' + slideNo);
 
         if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
             // var h = $('.leftColumn').height();
@@ -114,11 +116,19 @@ function setSliderContolHeight(){
             // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
             $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
             $('.glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
+            // $('.carousel-indicators').css({'position': 'relative', 'top': String(parseInt(h-0))+'px'});
         } else {
             // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
             $('.glyphicon-chevron-left').css({'display': 'block', 'top': '50%'});
             $('.glyphicon-chevron-right').css({'display': 'block', 'top': '50%'});
+            var h = $('#carouselId_'+carouselNo+' .carousel-inner').height();
+            console.log('setSliderContolHeight - h: ' + h);
+            // $('.carousel-indicators').css({'position': 'relative', 'top': String(parseInt(h+10))+'px'});
         }
+    } else {  // This else-clause has been placed here to ensure that above condition runs when the DOM is loaded. Problem: the two perameters "carouselNo" and "slideNo" are not "present" before the DOM is fully loaded. 
+
+        // setTimeout(function(){ setSliderContolHeight(); }, 500);
+        
     }
 }
 
@@ -1061,11 +1071,13 @@ $(window).on('resize', function() {
     setSliderContolHeight();
 });
 
+
 detectBootstrapBreakpoints();
 
 
 
 $(document).ready(function() {
+    console.log("document.ready - detectBootstrapBreakpoints ");
 
 
     // getAjaxData("GET", "json/carouselDataTest5.json", false, "json");        //  Commented out 22-11-2016
@@ -1088,3 +1100,7 @@ $(document).ready(function() {
 
 });
 
+
+// $( window ).load(function() {
+//   setSliderContolHeight();
+// });
