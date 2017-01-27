@@ -2,7 +2,7 @@
 
 function returnLastStudentSession() {
     window.osc = Object.create(objectStorageClass);
-    osc.init('studentSession_6');
+    osc.init('studentSession_6_NEW');
     osc.exist('jsonData');
 
     var TjsonData = osc.load('jsonData');
@@ -1036,7 +1036,7 @@ function randomizeJsonDataForCheckboxesAndRadioBtns(){
             if (jsonData.slideData[k].carouselData.slides[m].columnData_content.rightColumn.type == 'quiz'){
                 var quiz = jsonData.slideData[k].carouselData.slides[m].columnData_content.rightColumn.quiz;
                 if (quiz.type == 'radio'){
-                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 1: " + JSON.stringify(quiz));
+                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 1 - question: " + quiz.question + ", quiz: " + JSON.stringify(quiz));
                     var qArr = [];
                     for (var s in quiz.radio){
                         qArr.push({index: s, text: quiz.radio[s].text});
@@ -1048,7 +1048,7 @@ function randomizeJsonDataForCheckboxesAndRadioBtns(){
                             quiz.answer = parseInt(s);
                         }
                     }
-                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 2: " + JSON.stringify(quiz));
+                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 2 - question: " + quiz.question + ", quiz: " + JSON.stringify(quiz));
                 }
                 if (quiz.type == 'checkbox'){
 
