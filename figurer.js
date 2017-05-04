@@ -1060,6 +1060,91 @@ function randomizeJsonDataForCheckboxesAndRadioBtns(){
 
 
 
+//=============================================================================================================================
+//      VERSIONERING: tilføjet d. 4/5-2017
+//      
+//      Opgave: "Beskær JSON data på baggrund af URL variable/kommandoer, således at Ida Maria Kloster
+//=============================================================================================================================
+
+
+function ReturnURLPerameters(UlrVarObj){
+    var UrlVarStr = window.location.search.substring(1);
+    console.log("ReturnURLPerameters - UrlVarStr: " + UrlVarStr);
+    var UrlVarPairArray = decodeURIComponent(UrlVarStr).split("&");  // decodeURIComponent handles %26" for the char "&" AND "%3D" for the char "=".
+    console.log("ReturnURLPerameters - UrlVarPairArray: " + UrlVarPairArray);
+    for (var i in UrlVarPairArray){
+        var UrlVarSubPairArray = UrlVarPairArray[i].split("=");  // & = %3D
+        if (UrlVarSubPairArray.length == 2){
+            UlrVarObj[UrlVarSubPairArray[0]] = UrlVarSubPairArray[1];
+        }
+    }
+    console.log("ReturnURLPerameters - UlrVarObj: " + JSON.stringify( UlrVarObj ));
+    return UlrVarObj;
+}
+
+
+var UlrVarObj = {};   // Define UlrVarObj
+UlrVarObj = ReturnURLPerameters(UlrVarObj);  // Get URL file perameter. 
+
+
+// DESCRIPTION:
+// ============
+// This function "acts" based on two INDEPENDANT URL-variables: "slides" and "startSlide" - e.g. "slides" and "startSlide" can be given in the URL either together or individually 
+//
+//      slides: The URL-variable "slides" defines an array that holds the indexes of the slides of the ORIGINAL JSON data. It determines which sides from the original JSON data that goes into 
+//      the e-learning object when it loades AND the order. E.g. slides=[0,1,2,3] takes the first 4 slides while slides=[3,0,1,2] takes the same 4 slides but also redefines the order of the slides.
+//
+//      startSlide: The URL-variable "startSlide" defines which slide will be the defalut loaded slide. If "startSlide" is not defined in the URL, then the first slide will be the first index in 
+//      the URL-variable "slides". E.g: 
+//              geo_figurer/figurer.html?slides=[3,2,4]&startSlide=2 
+//      loades slide 3,2 and 4 in that order and sets defalut loaded slide as silde 2. The following
+//              geo_figurer/figurer.html?startSlide=2 
+//      takes the entire original JSON data set at set slide 2 as the default load slide.
+function ajustNumOfSlidesByUrl(UlrVarObj) {
+    console.log("ajustNumOfSlidesByUrl - UlrVarObj: " + JSON.stringify( UlrVarObj ));
+
+    var urlSlideArr = [];
+    var urlSlideArr_defined = false;
+
+    if (UlrVarObj.hasOwnProperty('slides')) {
+        console.log("ajustNumOfSlidesByUrl - A0 ");
+        urlSlideArr = JSON.parse(UlrVarObj.slides);
+        if (Array.isArray(urlSlideArr)) {
+            console.log("ajustNumOfSlidesByUrl - A1 ");
+            var newSlideData = [];
+            // for (var n in jsonData.slideData) {
+            for (var n in urlSlideArr) {
+                console.log("ajustNumOfSlidesByUrl - n: " + n);
+                if ((0 <= urlSlideArr[n]) && (urlSlideArr[n] < jsonData.slideData.length)) {
+                    console.log("ajustNumOfSlidesByUrl - A2 ");
+                    newSlideData.push(jsonData.slideData[urlSlideArr[n]]);
+                }
+            }
+            jsonData.slideData = newSlideData;
+            urlSlideArr_defined = true;
+        }
+    }
+
+    if ((UlrVarObj.hasOwnProperty('startSlide')) ) {
+        console.log("ajustNumOfSlidesByUrl - A3 ");
+
+        if ((urlSlideArr_defined) && (elementInArray(urlSlideArr, UlrVarObj.startSlide))) {  // parseInt(UlrVarObj.startSlide)
+            // jsonData.slideData[Object.keys(urlSlideArr)[UlrVarObj.startSlide]].status.active = true;
+            console.log("ajustNumOfSlidesByUrl - A4 ");
+            for (var n in urlSlideArr) {
+                if (urlSlideArr[n] == UlrVarObj.startSlide) {
+                    console.log("ajustNumOfSlidesByUrl - A5 ");
+                    jsonData.slideData[n].status.active = true;
+                }
+            }
+        } else {
+            console.log("ajustNumOfSlidesByUrl - A6 ");
+            jsonData.slideData[UlrVarObj.startSlide].status.active = true;
+        }
+    }
+}
+
+
 //=======================================================================================
 //                  Run code
 //=======================================================================================
@@ -1084,6 +1169,8 @@ $(document).ready(function() {
     getAjaxData("GET", "json/carouselData_quiz.json", false, "json");           //  Added 22-11-2016
     // getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
+
+    ajustNumOfSlidesByUrl(UlrVarObj);
 
     returnLastStudentSession();
 
