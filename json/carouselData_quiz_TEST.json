@@ -1,0 +1,66 @@
+{
+    "mainHeader" : "Figurlæsning",
+    "instruction" : "Vælg en figurtype og læs om hvordan den er opbygget. Klik dig videre og øv dig i at aflæse på figuren.",
+    "explanation" : "Formålet med øvelsen er lære at aflæse forskellige figurtyper, sådan at de kan bruges som kilder til information.",
+    "strDataInterval":{
+        "months":["Januar", "Febuar", "Marts", "April", "Maj", "Juni", "Juli", "August", "September", "Oktober", "November", "December"]
+        },
+    "slideData": [
+        {   
+            "carouselNo" : 0,
+            "status" : {"active": false, "answered": null},
+            "ctrlBtn" : "Befolkningspyramider",
+            "carouselData": {
+                "subHeader": "Øvrige objekter for faget Dansk...",
+                "slides": [
+                    {
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",  
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/intro_befolkningspyramide.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {"type": "info", "info": "<h3>Befolkningspyramider</h3><p>Den første figur/befolkningspyramide viser med pile hvor du skal fokusere. Den efterfølgende tekst fortæller overordnet om befolkningspyramider og hjælper dig igang. Til sidst er der en lille quiz med forskellige eksempler, hvor du kan teste om du kan aflæse og anvende befolkningspyramiderne.</p><p>Årstallet er det øjebliksbillede der vises af befolkningens sammensætning (Man kan med fordel læse kort om landet historisk, for at forstå ændringer i befolkningssammensætningen fx krig, ændret befolkningspolitik, ændring i økonomi og/eller fødevaretilgang, naturkatastrofe, uddannelsesniveau, adgang til prævention, kultur). </p><p>Man anvender ofte befolkningspyramider sammen med den demografiske transition, for at få et mere nuanceret billede over tid.</p>"}
+                        }
+                    }, 
+                    {
+                        "NEW" : true,
+                        "status" : {"active": false, "answered": null},
+                        "slideLink": "https://www.vucdigital.dk/histB_kildeanalyse/kildeanalyse_2.html",
+                        "type" : "columnData",
+                        "columnData": [   
+                            {"column":"<div class='leftColumn'> leftColumn </div>"},
+                            {"column":"<div class='rightColumn'> rightColumn </div>"}
+                        ],
+                        "columnData_content": {
+                            "leftColumn" : {"type": "img", "src": "img/intro_befolkningspyramide.jpg", "alt": "Eksternt billede..."},
+                            "rightColumn" : {
+                                "type": "quiz", 
+                                "quiz": {
+                                    "header": "Befolkningspyramider", 
+                                    "caption": "<p>Befolkningspyramider viser befolkningssammensætningen i forhold til alder og køn på et givet tidspunkt. <br> Y-aksen er alderen. <br> Der er to x-aker, der hhv. viser hvor mange mænd og kvinder der er i tusinder eller millioner.<br> Formen er beskrevet med specifikke navne. En specifik befolkningspyramide holdes op mod disse former, og benævnes efter den der ligner mest.</p>",
+                                    "question":"I hvilken pyramideform bliver befolkningen ældst?",
+                                    "type": "radio", 
+                                    "radio": [
+                                        {"text":"Stationærbefolkningspyramide"},
+                                        {"text":"Progressiv pyramide"},
+                                        {"text":"Regressiv pyramide"},
+                                        {"text":"Tårnpyramide"}
+                                    ],
+                                    "answer": 3,
+                                    "feedback": {
+                                        "correct": "",
+                                        "wrong": "Se på figuren det er y-aksen, der er alderen. Dvs. tårnpyramide er det rigtige svar."
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

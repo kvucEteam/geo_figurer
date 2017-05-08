@@ -93,6 +93,8 @@ function returnLastStudentSession() {
 // in the center position of the picture (leftColumn) on all screen-sizes.
 function setSliderContolHeight(){
 
+    var heightVal = null;
+
     // var carouselNo = $('.carousel:visible').prop('id').replace('carouselId_','');
     var carouselNo = $('.carousel:visible').prop('id');
 
@@ -112,6 +114,7 @@ function setSliderContolHeight(){
         if (bootstrapcolObj[bootstrapBreakpointSize] < bootstrapcolObj['md']) {
             // var h = $('.leftColumn').height();
             var h = $('#carouselId_'+carouselNo+' #slide_'+slideNo+' .leftColumn').height();
+            heightVal = h;
             console.log('setSliderContolHeight - h: ' + h);
             // $('.glyphicon-chevron-left, .glyphicon-chevron-right').css({'display': 'block', 'top': Math.round(h/2)+'px'});
             $('.glyphicon-chevron-left').css({'display': 'block', 'top': Math.round(h/2)+'px'});
@@ -130,6 +133,8 @@ function setSliderContolHeight(){
         // setTimeout(function(){ setSliderContolHeight(); }, 500);
         
     }
+
+    return heightVal;
 }
 
 
@@ -815,7 +820,8 @@ function detectBootstrapBreakpoints(){
 
 function reduceInputWidth() {
     console.log('reduceInputWidth - CALLED');
-    if (bootstrapcolObj[bootstrapBreakpointSize] > bootstrapcolObj['sm']) {
+    // if (bootstrapcolObj[bootstrapBreakpointSize] > bootstrapcolObj['sm']) {
+    if (bootstrapcolObj[bootstrapBreakpointSize] >= bootstrapcolObj['xs']) {
         $('.diagramBtn, .generalInfo').addClass('diagramBtn_ekstra');
         console.log('reduceInputWidth - ON');
     } else {
@@ -1039,13 +1045,17 @@ function randomizeJsonDataForCheckboxesAndRadioBtns(){
                     console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 1 - question: " + quiz.question + ", quiz: " + JSON.stringify(quiz));
                     var qArr = [];
                     for (var s in quiz.radio){
-                        qArr.push({index: s, text: quiz.radio[s].text});
+                        qArr.push({index: parseInt(s), text: quiz.radio[s].text});
                     }
+                    console.log("randomizeJsonDataForCheckboxesAndRadioBtns - qArr: " + JSON.stringify(qArr));
                     var randArr = shuffelArray(qArr);
+                    var answerSet = false;
                     for (var s in randArr){
                         quiz.radio[s].text = randArr[s].text;
-                        if (parseInt(randArr[s].index) == quiz.answer) {
+                        if ((parseInt(randArr[s].index) == parseInt(quiz.answer)) && (answerSet == false)) {
                             quiz.answer = parseInt(s);
+                            // quiz.radio[parseInt(quiz.answer)].text += ' <span class="correctRadio">(KORREKT)</span>';   // IMPORTANT: This marks all correct answers!
+                            answerSet = true;
                         }
                     }
                     console.log("randomizeJsonDataForCheckboxesAndRadioBtns - quiz 2 - question: " + quiz.question + ", quiz: " + JSON.stringify(quiz));
@@ -1063,8 +1073,9 @@ function randomizeJsonDataForCheckboxesAndRadioBtns(){
 //=============================================================================================================================
 //      VERSIONERING: tilføjet d. 4/5-2017
 //      
-//      Opgave: "Beskær JSON data på baggrund af URL variable/kommandoer, således at Ida Maria Kloster
-//=============================================================================================================================
+//      Opgave: "Beskær JSON data på baggrund af URL variable/kommandoer, således at Ida Maria Kloster kan udvælge de slides 
+//      hun ønsker at bruge i hendes undervisning.
+//============================================================================================================================= 
 
 
 function ReturnURLPerameters(UlrVarObj){
@@ -1145,6 +1156,7 @@ function ajustNumOfSlidesByUrl(UlrVarObj) {
 }
 
 
+
 //=======================================================================================
 //                  Run code
 //=======================================================================================
@@ -1166,7 +1178,12 @@ $(document).ready(function() {
 
 
     // getAjaxData("GET", "json/carouselDataTest5.json", false, "json");        //  Commented out 22-11-2016
+    
+
     getAjaxData("GET", "json/carouselData_quiz.json", false, "json");           //  Added 22-11-2016
+    // getAjaxData("GET", "json/carouselData_quiz_TEST.json", false, "json");      //  Added 5/5-2016
+
+
     // getAjaxData("GET", "json/carouselDataTest_4_small.json", false, "json");
     console.log("jsonData: " + JSON.stringify(jsonData));
 
@@ -1176,7 +1193,17 @@ $(document).ready(function() {
 
     // $('.ctrlBtnContainer').before('<div class="generalInfo btn btn-info">Generel info XXX</div>');
 
-    setSliderContolHeight();
+
+    var Ttimer = setInterval(function(){  // This keep calling setSliderContolHeight until the height "h" has been found. This Bugfixes the problem when embedded in moodle 
+        console.log('document.ready - timer');
+        var h = setSliderContolHeight(); 
+        console.log('document.ready - h: ' + h + ', typeof(h): ' + typeof(h));
+        if ((h == null) || (parseFloat(h) > 0)){
+            console.log('document.ready - Ttimer - cleared');
+            clearInterval(Ttimer);
+        }
+    }, 500);
+    // setSliderContolHeight(); 
 
     // var cObj = Object.create(carouselClass);
     // cObj.carouselId = 'carouselId';

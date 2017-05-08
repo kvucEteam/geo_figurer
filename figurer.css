@@ -9,11 +9,22 @@
 	/*margin-bottom: 10px;*/
 }
 
-@media screen and (min-width: 750px) {  /*Compensation for the media query set in the general styles */
-    .diagramBtn {
-        margin-bottom: 10px;
-    }
+.diagramBtn {
+    margin-bottom: 10px;
 }
+
+
+.carousel-control .glyphicon-chevron-left { /* Justering af glyph ift indlejring i moodle 5/5-2017 */
+        left: 26px;
+    }
+
+.carousel-control .glyphicon-chevron-right { /* Justering af glyph ift indlejring i moodle 5/5-2017 */
+        right: 28px;
+}
+
+
+
+
 
 
 .CloseClass_new {
@@ -163,4 +174,21 @@
 
 .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -20px;
+}
+
+
+@media (max-width: 992px) {
+
+    /*h1{
+        color: #f00;
+    }*/
+/*
+    .carousel-control .glyphicon {
+        top: 25%;
+    }
+ */   
+}
+
+.correctRadio { 
+    color: #05a0a8;
 }
