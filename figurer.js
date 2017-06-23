@@ -771,12 +771,12 @@ function actions_answerWrong(carouselNo, slideNo){
                 }
             });
             
-            UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong[ansIndex]+'</p>');
+            microhint($(".checkAnswer"), '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong[ansIndex]+'</p>');
         } else {
-            UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');
+            microhint($(".checkAnswer"), '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+feedbackObj.wrong+'</p>');
         }
     } else { // ... else give the student the general answer. 
-        UserMsgBox("body", '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+jsonData.slideData[carouselNo].carouselData.feedback.wrong+'</p>');
+        microhint($(".checkAnswer"), '<h3>Du har svaret <span class="label label-danger">Forkert!</span></h3><p>'+jsonData.slideData[carouselNo].carouselData.feedback.wrong+'</p>');
     }
 }
 
