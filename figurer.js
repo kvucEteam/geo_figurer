@@ -5,7 +5,13 @@ function returnLastStudentSession() {
     osc.init('studentSession_6_NEW');
     osc.exist('jsonData');
 
+    // Disabled SaveData 3/1 2019::
+
     var TjsonData = osc.load('jsonData');
+
+    TjsonData = null;
+
+
     console.log('returnLastStudentSession - TjsonData: ' + JSON.stringify(TjsonData));
 
     randomizeJsonDataForCheckboxesAndRadioBtns();

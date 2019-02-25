@@ -1,4 +1,6 @@
-
+body {
+    height: 300px;
+}
 .carouselPage{
 	margin-top: 10px;
 }
@@ -165,7 +167,7 @@
 
 .carousel .carousel-control.right {
     left: auto;
-    right: -21px;
+    right: -16px;
 }
 
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
